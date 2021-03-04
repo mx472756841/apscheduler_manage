@@ -16,6 +16,8 @@ class Config:
 
     # apscheduler默认的jobstore
     SCHEDULER_JOBSTORES = {}
+    # flask_apscheduler是否对外提供接口
+    SCHEDULER_API_ENABLED = True
 
     @classmethod
     def init_app(cls, app):

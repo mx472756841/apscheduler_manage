@@ -11,11 +11,17 @@ APScheduler是一个非常好用的调度平台，不过目前所有Scheduler的
 
 # 部署
 ## virtualenv部署
-
-1. virtualenv -p python3.8 venv
+```buildoutcfg
+ubuntu 上要先安装python3.8
+具体可参考资料 https://www.jb51.net/article/182392.htm
+安装完成python3.8之后，配套安装python3.8需要的虚拟环境创建工具
+sudo apt install python3.8-venv
+python3.8 -m venv <准备创建虚拟环境的路径>
+```
+1. python3.8 venv venv
 2. . venv/bin/activate
 3. pip install -r requirements.txt
-4. gunicorn -c etc/gunicorn.py manage:app
+4. gunicorn -c etc/gunicorn.py manage:app [记得要配置好数据库]
 
 ## docker部署
 这里没有提供docker镜像，可直接使用Dockerfile从本地生成镜像即可

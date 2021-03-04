@@ -11,7 +11,7 @@ from config import config
 from .models import db
 
 
-# todo 此函数用于job生命周期监控测试，后续增加flask_apscheduler动态job变更
+# 此函数用于job生命周期监控测试，后续增加flask_apscheduler动态job变更
 def test_apscheduler_interval():
     LOGGER.info(f"test_apscheduler_interval >>>>> {datetime.datetime.now()}")
 
@@ -72,13 +72,6 @@ babel.init_app(app)
 flask_apscheduler = CustomAPScheduler(db.session, app=app)
 # 启动apscheduler
 flask_apscheduler.start()
-# 测试生命周期使用，无实际意义，实际使用时可删除或改为自己需要的函数
-if not flask_apscheduler.get_job('test_apscheduler_interval'):
-    job = flask_apscheduler.add_job("test_apscheduler_interval", test_apscheduler_interval,
-                                    name="测试interval触发器 30s执行一次",
-                                    trigger='interval',
-                                    seconds=30,
-                                    misfire_grace_time=10)
 # 注册蓝图
 # 增加中间件处理
 for middleware in init_middlewares():
