@@ -1,0 +1,12 @@
+Werkzeug==1.0.1
+SQLAlchemy==1.3.23
+WTForms==2.3.3
+jinja2==2.11.3
+pymysql==1.0.2
+Flask==1.1.2
+Flask-Admin==1.5.7
+Flask-SQLAlchemy==2.4.4
+Flask-Script==2.0.6
+Flask-Babelex==0.9.4
+apscheduler==3.7.0
+gunicorn

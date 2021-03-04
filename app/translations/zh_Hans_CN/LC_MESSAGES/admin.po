@@ -1,0 +1,5998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: flask-admin\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-02-07 00:17-0600\n"
+"PO-Revision-Date: 2017-02-13 09:18-0500\n"
+"Last-Translator: mrjoes <serge.koval@gmail.com>\n"
+"Language-Team: Chinese Simplified\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.1.1\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: flask-admin\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: admin.pot\n"
+"Language: zh_CN\n"
+
+#: ../flask_admin/base.py:440
+msgid "Home"
+msgstr "首页"
+
+#: ../flask_admin/contrib/rediscli.py:127
+msgid "Cli: Invalid command."
+msgstr "Cli：无效命令。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:352
+msgid "File to upload"
+msgstr "要上传的文件"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:360
+msgid "File required."
+msgstr "请上传有效的文件。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:365
+msgid "Invalid file type."
+msgstr "不允许的文件类型。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:376
+msgid "Content"
+msgstr "内容"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:390
+msgid "Invalid name"
+msgstr "无效的名称。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:398
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:106
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:112
+#: ../flask_admin/tests/sqla/test_translation.py:17
+msgid "Name"
+msgstr "名称"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:757
+#, python-format
+msgid "File \"%(name)s\" already exists."
+msgstr "文件 %(name)s 已经存在。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:802
+#: ../flask_admin/contrib/fileadmin/__init__.py:885
+#: ../flask_admin/contrib/fileadmin/__init__.py:947
+#: ../flask_admin/contrib/fileadmin/__init__.py:1000
+#: ../flask_admin/contrib/fileadmin/__init__.py:1047
+#: ../flask_admin/contrib/fileadmin/__init__.py:1099
+#: ../flask_admin/model/base.py:2168
+msgid "Permission denied."
+msgstr "权限被拒绝。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:881
+msgid "File uploading is disabled."
+msgstr "文件上传功能已被禁用。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:892
+#, python-format
+msgid "Successfully saved file: %(name)s"
+msgstr "已成功保存的文件: %(name)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:896
+#, python-format
+msgid "Failed to save file: %(error)s"
+msgstr "保存文件失败：%(error)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:904
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:148
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:150
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:148
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:150
+msgid "Upload File"
+msgstr "上传文件"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:943
+msgid "Directory creation is disabled."
+msgstr "文件夹创建功能已被禁用。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:956
+#, python-format
+msgid "Successfully created directory: %(directory)s"
+msgstr "成功创建的目录: %(directory)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:960
+#, python-format
+msgid "Failed to create directory: %(error)s"
+msgstr "创建文件夹失败：%(error)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:970
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:159
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:161
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:159
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:161
+msgid "Create Directory"
+msgstr "创建文件夹"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:996
+msgid "Deletion is disabled."
+msgstr "删除功能已被禁用。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1005
+msgid "Directory deletion is disabled."
+msgstr "删除文件夹功能已被禁用。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1011
+#, python-format
+msgid "Directory \"%(path)s\" was successfully deleted."
+msgstr "已成功删除目录\"%(path)s\"。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1013
+#, python-format
+msgid "Failed to delete directory: %(error)s"
+msgstr "删除文件夹失败：$(error)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1019
+#: ../flask_admin/contrib/fileadmin/__init__.py:1176
+#, python-format
+msgid "File \"%(name)s\" was successfully deleted."
+msgstr "删除文件 %(name)s 成功。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1021
+#: ../flask_admin/contrib/fileadmin/__init__.py:1178
+#, python-format
+msgid "Failed to delete file: %(name)s"
+msgstr "删除文件 %(name)s 失败"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1043
+msgid "Renaming is disabled."
+msgstr "重命名功能已被禁用。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1051
+msgid "Path does not exist."
+msgstr "路径不存在。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1061
+#, python-format
+msgid "Successfully renamed \"%(src)s\" to \"%(dst)s\""
+msgstr "重命名文件 %(src)s 为 %(dst)s 成功"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1064
+#, python-format
+msgid "Failed to rename: %(error)s"
+msgstr "重命名文件失败：%(error)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1078
+#, python-format
+msgid "Rename %(name)s"
+msgstr "重命名 %(name)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1115
+#, python-format
+msgid "Error saving changes to %(name)s."
+msgstr "保存修改到 %(name)s 出现错误。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1119
+#, python-format
+msgid "Changes to %(name)s saved successfully."
+msgstr "保存修改到 %(name)s 成功。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1128
+#, python-format
+msgid "Error reading %(name)s."
+msgstr "读取 %(name)s 错误。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1131
+#: ../flask_admin/contrib/fileadmin/__init__.py:1140
+#, python-format
+msgid "Unexpected error while reading from %(name)s"
+msgstr "读取文件文件 %(name)s 出现未知错误"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1137
+#, python-format
+msgid "Cannot edit %(name)s."
+msgstr "无法编辑 %(name)s。"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1155
+#, python-format
+msgid "Editing %(path)s"
+msgstr "编辑 %(path)s"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1163
+#: ../flask_admin/contrib/mongoengine/view.py:658
+#: ../flask_admin/contrib/peewee/view.py:487
+#: ../flask_admin/contrib/pymongo/view.py:384
+#: ../flask_admin/contrib/sqla/view.py:1149
+msgid "Delete"
+msgstr "删除"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1164
+msgid "Are you sure you want to delete these files?"
+msgstr "你打算要删除这些文件吗？"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1167
+msgid "File deletion is disabled."
+msgstr "删除文件功能已被禁用"
+
+#: ../flask_admin/contrib/fileadmin/__init__.py:1180
+#: ../flask_admin/templates/bootstrap2/admin/model/details.html:17
+#: ../flask_admin/templates/bootstrap2/admin/model/edit.html:22
+#: ../flask_admin/templates/bootstrap3/admin/model/details.html:17
+#: ../flask_admin/templates/bootstrap3/admin/model/edit.html:22
+msgid "Edit"
+msgstr "编辑"
+
+#: ../flask_admin/contrib/fileadmin/s3.py:153
+msgid "Cannot operate on non empty directories"
+msgstr "无法对非空的目录操作"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:39
+#: ../flask_admin/contrib/peewee/filters.py:35
+#: ../flask_admin/contrib/pymongo/filters.py:38
+#: ../flask_admin/contrib/sqla/filters.py:41
+msgid "equals"
+msgstr "等于"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:48
+#: ../flask_admin/contrib/peewee/filters.py:43
+#: ../flask_admin/contrib/pymongo/filters.py:47
+#: ../flask_admin/contrib/sqla/filters.py:49
+msgid "not equal"
+msgstr "不等于"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:58
+#: ../flask_admin/contrib/peewee/filters.py:52
+#: ../flask_admin/contrib/pymongo/filters.py:57
+#: ../flask_admin/contrib/sqla/filters.py:58
+msgid "contains"
+msgstr "包含"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:68
+#: ../flask_admin/contrib/peewee/filters.py:61
+#: ../flask_admin/contrib/pymongo/filters.py:67
+#: ../flask_admin/contrib/sqla/filters.py:67
+msgid "not contains"
+msgstr "不包含"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:77
+#: ../flask_admin/contrib/peewee/filters.py:69
+#: ../flask_admin/contrib/pymongo/filters.py:80
+#: ../flask_admin/contrib/sqla/filters.py:75
+msgid "greater than"
+msgstr "大于"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:86
+#: ../flask_admin/contrib/peewee/filters.py:77
+#: ../flask_admin/contrib/pymongo/filters.py:93
+#: ../flask_admin/contrib/sqla/filters.py:83
+msgid "smaller than"
+msgstr "小于"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:98
+#: ../flask_admin/contrib/peewee/filters.py:88
+#: ../flask_admin/contrib/sqla/filters.py:94
+msgid "empty"
+msgstr "空"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:113
+#: ../flask_admin/contrib/peewee/filters.py:102
+#: ../flask_admin/contrib/sqla/filters.py:108
+msgid "in list"
+msgstr "在列表中"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:122
+#: ../flask_admin/contrib/peewee/filters.py:111
+#: ../flask_admin/contrib/sqla/filters.py:118
+msgid "not in list"
+msgstr "不在列表中"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:222
+#: ../flask_admin/contrib/peewee/filters.py:207
+#: ../flask_admin/contrib/peewee/filters.py:244
+#: ../flask_admin/contrib/peewee/filters.py:281
+#: ../flask_admin/contrib/sqla/filters.py:213
+#: ../flask_admin/contrib/sqla/filters.py:250
+#: ../flask_admin/contrib/sqla/filters.py:287
+msgid "not between"
+msgstr "不是之间"
+
+#: ../flask_admin/contrib/mongoengine/filters.py:247
+msgid "ObjectId equals"
+msgstr "ObjectId 等于"
+
+#: ../flask_admin/contrib/mongoengine/view.py:551
+#, python-format
+msgid "Failed to get model. %(error)s"
+msgstr "获取 model 失败。%(error)s"
+
+#: ../flask_admin/contrib/mongoengine/view.py:570
+#: ../flask_admin/contrib/peewee/view.py:435
+#: ../flask_admin/contrib/pymongo/view.py:316
+#: ../flask_admin/contrib/sqla/view.py:1078
+#, python-format
+msgid "Failed to create record. %(error)s"
+msgstr "创建 model 失败。%(error)s"
+
+#: ../flask_admin/contrib/mongoengine/view.py:596
+#: ../flask_admin/contrib/peewee/view.py:454
+#: ../flask_admin/contrib/pymongo/view.py:341
+#: ../flask_admin/contrib/sqla/view.py:1104 ../flask_admin/model/base.py:2305
+#: ../flask_admin/model/base.py:2313 ../flask_admin/model/base.py:2315
+#, python-format
+msgid "Failed to update record. %(error)s"
+msgstr "更新记录失败。%(error)s"
+
+#: ../flask_admin/contrib/mongoengine/view.py:619
+#: ../flask_admin/contrib/peewee/view.py:469
+#: ../flask_admin/contrib/pymongo/view.py:366
+#: ../flask_admin/contrib/sqla/view.py:1129
+#, python-format
+msgid "Failed to delete record. %(error)s"
+msgstr "删除记录失败。%(error)s"
+
+#: ../flask_admin/contrib/mongoengine/view.py:659
+#: ../flask_admin/contrib/peewee/view.py:488
+#: ../flask_admin/contrib/pymongo/view.py:385
+#: ../flask_admin/contrib/sqla/view.py:1150
+msgid "Are you sure you want to delete selected records?"
+msgstr "你打算要删除这些选中的记录吗？"
+
+#: ../flask_admin/contrib/mongoengine/view.py:668
+#: ../flask_admin/contrib/peewee/view.py:505
+#: ../flask_admin/contrib/pymongo/view.py:395
+#: ../flask_admin/contrib/sqla/view.py:1166 ../flask_admin/model/base.py:2118
+#, python-format
+msgid "Record was successfully deleted."
+msgid_plural "%(count)s records were successfully deleted."
+msgstr[0] "%(count)s 记录被成功删除。"
+
+#: ../flask_admin/contrib/mongoengine/view.py:674
+#: ../flask_admin/contrib/peewee/view.py:511
+#: ../flask_admin/contrib/pymongo/view.py:400
+#: ../flask_admin/contrib/sqla/view.py:1174
+#, python-format
+msgid "Failed to delete records. %(error)s"
+msgstr "删除记录失败。%(error)s"
+
+#: ../flask_admin/contrib/sqla/fields.py:126
+#: ../flask_admin/contrib/sqla/fields.py:176
+#: ../flask_admin/contrib/sqla/fields.py:181 ../flask_admin/model/fields.py:173
+#: ../flask_admin/model/fields.py:222
+msgid "Not a valid choice"
+msgstr "选择的值无效"
+
+#: ../flask_admin/contrib/sqla/fields.py:186
+msgid "Key"
+msgstr "名称"
+
+#: ../flask_admin/contrib/sqla/fields.py:187
+msgid "Value"
+msgstr "值"
+
+#: ../flask_admin/contrib/sqla/validators.py:42
+msgid "Already exists."
+msgstr "已经存在。"
+
+#: ../flask_admin/contrib/sqla/validators.py:60
+#, python-format
+msgid "At least %(num)d item is required"
+msgid_plural "At least %(num)d items are required"
+msgstr[0] "至少需要 %(num)d 个选项"
+
+#: ../flask_admin/contrib/sqla/view.py:1057
+#, python-format
+msgid "Integrity error. %(message)s"
+msgstr "完整性错误。%(message)s"
+
+#: ../flask_admin/form/fields.py:98
+msgid "Invalid time format"
+msgstr "无效时间格式"
+
+#: ../flask_admin/form/fields.py:144
+msgid "Invalid Choice: could not coerce"
+msgstr "无效选择的值：强制格式转换失败"
+
+#: ../flask_admin/form/fields.py:208
+msgid "Invalid JSON"
+msgstr "无效的 JSON"
+
+#: ../flask_admin/form/upload.py:207
+msgid "Invalid file extension"
+msgstr "无效文件扩展名"
+
+#: ../flask_admin/form/upload.py:214 ../flask_admin/form/upload.py:281
+#, python-format
+msgid "File \"%s\" already exists."
+msgstr "文件 %s 已经存在。"
+
+#: ../flask_admin/model/base.py:1649
+msgid "There are no items in the table."
+msgstr "表中没有任何记录"
+
+#: ../flask_admin/model/base.py:1673
+#, python-format
+msgid "Invalid Filter Value: %(value)s"
+msgstr "无效的筛选器值： %(value)s"
+
+#: ../flask_admin/model/base.py:1984
+msgid "Record was successfully created."
+msgstr "创建记录成功。"
+
+#: ../flask_admin/model/base.py:2028 ../flask_admin/model/base.py:2080
+#: ../flask_admin/model/base.py:2113 ../flask_admin/model/base.py:2297
+msgid "Record does not exist."
+msgstr "记录不存在。"
+
+#: ../flask_admin/model/base.py:2037 ../flask_admin/model/base.py:2301
+msgid "Record was successfully saved."
+msgstr "保存记录成功"
+
+#: ../flask_admin/model/base.py:2222
+msgid "Tablib dependency not installed."
+msgstr "Tablib 依赖项未安装。"
+
+#: ../flask_admin/model/base.py:2249
+#, python-format
+msgid "Export type \"%(type)s not supported."
+msgstr "不支持导出类型 \"%(type)s 。"
+
+#: ../flask_admin/model/filters.py:103 ../flask_admin/model/widgets.py:111
+msgid "Yes"
+msgstr "是"
+
+#: ../flask_admin/model/filters.py:104 ../flask_admin/model/widgets.py:110
+msgid "No"
+msgstr "否"
+
+#: ../flask_admin/model/filters.py:172 ../flask_admin/model/filters.py:212
+#: ../flask_admin/model/filters.py:257
+msgid "between"
+msgstr "之间"
+
+#: ../flask_admin/model/template.py:81 ../flask_admin/model/template.py:88
+#: ../flask_admin/templates/bootstrap2/admin/model/modals/details.html:37
+#: ../flask_admin/templates/bootstrap3/admin/model/modals/details.html:8
+msgid "View Record"
+msgstr "查看记录"
+
+#: ../flask_admin/model/template.py:95 ../flask_admin/model/template.py:102
+#: ../flask_admin/model/template.py:109
+#: ../flask_admin/templates/bootstrap2/admin/model/modals/edit.html:22
+#: ../flask_admin/templates/bootstrap3/admin/model/modals/edit.html:11
+msgid "Edit Record"
+msgstr "编辑记录"
+
+#: ../flask_admin/model/widgets.py:61
+msgid "Please select model"
+msgstr "请选择模型"
+
+#: ../flask_admin/templates/bootstrap2/admin/actions.html:4
+#: ../flask_admin/templates/bootstrap3/admin/actions.html:4
+msgid "With selected"
+msgstr "选中的"
+
+#: ../flask_admin/templates/bootstrap2/admin/lib.html:200
+#: ../flask_admin/templates/bootstrap3/admin/lib.html:190
+msgid "Save"
+msgstr "保存"
+
+#: ../flask_admin/templates/bootstrap2/admin/lib.html:205
+#: ../flask_admin/templates/bootstrap3/admin/lib.html:195
+msgid "Cancel"
+msgstr "取消"
+
+#: ../flask_admin/templates/bootstrap2/admin/lib.html:256
+#: ../flask_admin/templates/bootstrap3/admin/lib.html:247
+msgid "Save and Add Another"
+msgstr "保存并添加另一个"
+
+#: ../flask_admin/templates/bootstrap2/admin/lib.html:259
+#: ../flask_admin/templates/bootstrap3/admin/lib.html:250
+msgid "Save and Continue Editing"
+msgstr "保存并继续编辑"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:9
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:9
+msgid "Root"
+msgstr "根"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:40
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:49
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:90
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:99
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:40
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:49
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:89
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:98
+#, python-format
+msgid "Sort by %(name)s"
+msgstr "按 %(name)s 进行排序"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:74
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:77
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:74
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:77
+msgid "Rename File"
+msgstr "重命名文件"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:88
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:88
+#, python-format
+msgid "Are you sure you want to delete \\'%(name)s\\' recursively?"
+msgstr "你打算递归地删除 %(name)s 吗？"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:97
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:97
+#, python-format
+msgid "Are you sure you want to delete \\'%(name)s\\'?"
+msgstr "你打算删除 %(name)s 吗？"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:125
+msgid "Size"
+msgstr "大小"
+
+#: ../flask_admin/templates/bootstrap2/admin/file/list.html:185
+#: ../flask_admin/templates/bootstrap3/admin/file/list.html:185
+msgid "Please select at least one file."
+msgstr "请至少选择一个文件。"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/create.html:14
+#: ../flask_admin/templates/bootstrap2/admin/model/details.html:8
+#: ../flask_admin/templates/bootstrap2/admin/model/edit.html:14
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:17
+#: ../flask_admin/templates/bootstrap3/admin/model/create.html:14
+#: ../flask_admin/templates/bootstrap3/admin/model/details.html:8
+#: ../flask_admin/templates/bootstrap3/admin/model/edit.html:14
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:17
+msgid "List"
+msgstr "列表"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/create.html:17
+#: ../flask_admin/templates/bootstrap2/admin/model/details.html:12
+#: ../flask_admin/templates/bootstrap2/admin/model/edit.html:18
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:23
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:25
+#: ../flask_admin/templates/bootstrap3/admin/model/create.html:17
+#: ../flask_admin/templates/bootstrap3/admin/model/details.html:12
+#: ../flask_admin/templates/bootstrap3/admin/model/edit.html:18
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:23
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:25
+msgid "Create"
+msgstr "创建"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/details.html:21
+#: ../flask_admin/templates/bootstrap2/admin/model/edit.html:26
+#: ../flask_admin/templates/bootstrap3/admin/model/details.html:21
+#: ../flask_admin/templates/bootstrap3/admin/model/edit.html:26
+msgid "Details"
+msgstr "详情"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/details.html:29
+#: ../flask_admin/templates/bootstrap2/admin/model/modals/details.html:8
+#: ../flask_admin/templates/bootstrap3/admin/model/details.html:28
+#: ../flask_admin/templates/bootstrap3/admin/model/modals/details.html:15
+msgid "Filter"
+msgstr "筛选器"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/inline_list_base.html:13
+#: ../flask_admin/templates/bootstrap3/admin/model/inline_list_base.html:14
+msgid "Delete?"
+msgstr "删除？"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/inline_list_base.html:30
+#: ../flask_admin/templates/bootstrap3/admin/model/inline_list_base.html:33
+msgid "New"
+msgstr "新增"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/inline_list_base.html:40
+#: ../flask_admin/templates/bootstrap3/admin/model/inline_list_base.html:43
+msgid "Add"
+msgstr "增加"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:3
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:3
+msgid "Add Filter"
+msgstr "新增筛选器"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:18
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:23
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:30
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:18
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:23
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:30
+msgid "Export"
+msgstr "导出"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:38
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:38
+msgid "Apply"
+msgstr "应用"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:40
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:40
+msgid "Reset Filters"
+msgstr "重置"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:59
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:66
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:59
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:64
+msgid "Search"
+msgstr "搜索"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:74
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:77
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:78
+#: ../flask_admin/templates/bootstrap2/admin/model/layout.html:79
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:72
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:75
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:76
+#: ../flask_admin/templates/bootstrap3/admin/model/layout.html:77
+msgid "items"
+msgstr "项目"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:23
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:25
+#: ../flask_admin/templates/bootstrap2/admin/model/modals/create.html:22
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:23
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:25
+#: ../flask_admin/templates/bootstrap3/admin/model/modals/create.html:10
+msgid "Create New Record"
+msgstr "创建新记录"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:77
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:76
+msgid "Select all records"
+msgstr "选择所有记录"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:120
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:119
+msgid "Select record"
+msgstr "选择记录"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/list.html:185
+#: ../flask_admin/templates/bootstrap3/admin/model/list.html:186
+msgid "Please select at least one record."
+msgstr "请至少选择一个 model。"
+
+#: ../flask_admin/templates/bootstrap2/admin/model/row_actions.html:34
+#: ../flask_admin/templates/bootstrap3/admin/model/row_actions.html:34
+msgid "Are you sure you want to delete this record?"
+msgstr "你打算删除这条记录？"
+
+
+#: app/templates/login.html:80
+msgid "Please sign in"
+msgstr "请登录"
+
+#: app/templates/login.html:81 app/templates/login.html:82
+msgid "Email address"
+msgstr "邮箱"
+
+#: app/templates/login.html:83 app/templates/login.html:84
+msgid "Password"
+msgstr "密码"
+
+#: app/templates/login.html:87
+msgid "Remember me"
+msgstr "记住密码"
+
+#: app/templates/login.html:90
+msgid "Sign in"
+msgstr "登录"
+
+#: ../../adding_a_new_model_backend.rst:4
+msgid "Adding A Model Backend"
+msgstr "添加一个模型后端"
+
+#: ../../adding_a_new_model_backend.rst:6
+msgid ""
+"Flask-Admin makes a few assumptions about the database models that it "
+"works with. If you want to implement your own database backend, and still"
+" have Flask-Admin's model views work as expected, then you should take "
+"note of the following:"
+msgstr ""
+"Flask-Admin 对它使用的数据库模型做了一些假设。如果你想实现你自己的数据库后端，"
+"并且保证 Flask-Admin 的模型视图按预期工作，那么应该注意以下几点:"
+
+#: ../../adding_a_new_model_backend.rst:9
+msgid ""
+"Each model must have one field which acts as a `primary key` to uniquely "
+"identify instances of that model. However, there are no restriction on "
+"the data type or the field name of the `primary key` field."
+msgstr ""
+"每个模型必须有一个字段作为主键，以唯一标识该模型的实例。对主键字段的数据类型或字段名没有限制。"
+
+#: ../../adding_a_new_model_backend.rst:11
+msgid "Models must make their data accessible as python properties."
+msgstr "模型的数据必须为可访问的 python 属性。"
+
+#: ../../adding_a_new_model_backend.rst:13
+msgid ""
+"If that is the case, then you can implement your own database backend by "
+"extending the `BaseModelView` class, and implementing the set of "
+"scaffolding methods listed below."
+msgstr ""
+"如果是这样，您可以通过扩展 `BaseModelView` 类并实现以下列出的一组方法"
+"来实现您自己的数据库后端。"
+
+#: ../../adding_a_new_model_backend.rst:17
+msgid "Extending BaseModelView"
+msgstr "扩展 BaseModelView"
+
+#: ../../adding_a_new_model_backend.rst:19
+msgid ""
+"Start off by defining a new class, which derives from from "
+":class:`~flask_admin.model.BaseModelView`::"
+msgstr ""
+"定义一个新类，继承自 :class:`~flask_admin.model.BaseModelView`::"
+
+#: ../../adding_a_new_model_backend.rst:24
+msgid ""
+"This class inherits BaseModelView's `__init__` method, which accepts a "
+"model class as first argument. The model class is stored as the attribute"
+" ``self.model`` so that other methods may access it."
+msgstr ""
+"这个类继承了 BaseModelView 的 `__init__` 方法，它接受一个模型类作为第一个参数。"
+"模型类被存储为属性 ``self.model``，以便其他方法可以访问它。"
+
+#: ../../adding_a_new_model_backend.rst:27
+msgid "Now, implement the following scaffolding methods for the new class:"
+msgstr "现在，为新类实现以下脚手架方法:"
+
+#: ../../adding_a_new_model_backend.rst:29
+msgid ":meth:`~flask_admin.model.BaseModelView.get_pk_value`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.get_pk_value`"
+
+#: ../../adding_a_new_model_backend.rst:31
+msgid ""
+"This method returns a primary key value from the model instance. In the "
+"SQLAlchemy backend, it gets the primary key from the model using "
+":meth:`~flask_admin.contrib.sqla.ModelView.scaffold_pk`, caches it and "
+"then returns the value from the model whenever requested."
+msgstr ""
+"此方法从模型实例返回主键值。在 SQLAlchemy 后端，它使用 "
+":meth:`~flask_admin.contrib.sqla.ModelView.scaffold_pk` 从模型中获取主键，"
+"将其缓存，然后在请求时从模型返回值。"
+
+#: ../../adding_a_new_model_backend.rst:36
+#: ../../adding_a_new_model_backend.rst:85
+#: ../../adding_a_new_model_backend.rst:155
+#: ../../adding_a_new_model_backend.rst:191
+msgid "For example::"
+msgstr "例如::"
+
+#: ../../adding_a_new_model_backend.rst:42
+msgid ":meth:`~flask_admin.model.BaseModelView.scaffold_list_columns`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.scaffold_list_columns`"
+
+#: ../../adding_a_new_model_backend.rst:44
+msgid "Returns a list of columns to be displayed in a list view. For example::"
+msgstr "返回 list 视图需要显示的字段列表。例如::"
+
+#: ../../adding_a_new_model_backend.rst:57
+msgid ":meth:`~flask_admin.model.BaseModelView.scaffold_sortable_columns`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.scaffold_sortable_columns`"
+
+#: ../../adding_a_new_model_backend.rst:59
+msgid ""
+"Returns a dictionary of sortable columns. The keys in the dictionary "
+"should correspond to the model's field names. The values should be those "
+"variables that will be used for sorting."
+msgstr ""
+"返回可排序字典。字典的键对应模型的字段名称。这些值将用于排序。"
+
+#: ../../adding_a_new_model_backend.rst:62
+msgid ""
+"For example, in the SQLAlchemy backend it is possible to sort by a "
+"foreign key field. So, if there is a field named `user`, which is a "
+"foreign key for the `Users` table, and the `Users` table also has a name "
+"field, then the key will be `user` and value will be `Users.name`."
+msgstr ""
+"例如，在 SQLAlchemy 后端，可以按外键字段排序。因此，如果有一个名为 `user` 的字段，"
+"它是 `Users` 表的外键，并且 `Users` 表也有一个 name 字段，那么键将是 `user`，"
+"值将是 `Users.name`。"
+
+#: ../../adding_a_new_model_backend.rst:66
+msgid ""
+"If your backend does not support sorting, return `None` or an empty "
+"dictionary."
+msgstr ""
+"如果您的后端不支持排序，则返回 `None` 或空字典。"
+
+#: ../../adding_a_new_model_backend.rst:69
+msgid ":meth:`~flask_admin.model.BaseModelView.init_search`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.init_search`"
+
+#: ../../adding_a_new_model_backend.rst:71
+msgid ""
+"Initialize search functionality. If your backend supports full-text "
+"search, do initializations and return `True`. If your backend does not "
+"support full-text search, return `False`."
+msgstr ""
+"初始化搜索功能。如果您的后端支持全文搜索，请进行初始化并返回 `True`。"
+"如果您的后端不支持全文搜索，请返回 `False`。"
+
+#: ../../adding_a_new_model_backend.rst:76
+msgid ""
+"For example, SQLAlchemy backend reads value of the "
+"`self.searchable_columns` and verifies if all fields are of text type, if"
+" they're local to the current model (if not, it will add a join, etc) and"
+" caches this information for future use."
+msgstr ""
+"例如，SQLAlchemy 后端读取 `self.searchable_columns` 的值，并验证所有字段是否为"
+"文本类型，是否为当前模块的本地字段 (如果不是，则添加 join 等)，并缓存此信息以供将来使用。"
+
+#: ../../adding_a_new_model_backend.rst:81
+msgid ":meth:`~flask_admin.model.BaseModelView.scaffold_form`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.scaffold_form`"
+
+#: ../../adding_a_new_model_backend.rst:83
+msgid "Generate `WTForms` form class from the model."
+msgstr "从模型生成 `WTForms` 表单类。"
+
+#: ../../adding_a_new_model_backend.rst:95
+msgid ":meth:`~flask_admin.model.BaseModelView.get_list`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.get_list`"
+
+#: ../../adding_a_new_model_backend.rst:97
+msgid ""
+"This method should return list of model instances with paging, sorting, "
+"etc applied."
+msgstr ""
+"此方法应返回用于分页，排序等操作的模型实例的列表。"
+
+#: ../../adding_a_new_model_backend.rst:100
+msgid "For SQLAlchemy backend it looks like:"
+msgstr "对于 SQLAlchemy 后端的示例如下:"
+
+#: ../../adding_a_new_model_backend.rst:102
+msgid ""
+"If search was enabled and provided search value is not empty, generate "
+"LIKE statements for each field from `self.searchable_columns`"
+msgstr ""
+"如果启用搜索并且提供的搜索值不为空，请从 `self.searchable_columns` 中"
+"为每个字段生成 LIKE 语句。"
+
+#: ../../adding_a_new_model_backend.rst:105
+msgid "If filter values were passed, call `apply` method with values::"
+msgstr "如果已向过滤器传值，请调用具有该值的 `apply` 方法::"
+
+#: ../../adding_a_new_model_backend.rst:111
+msgid "Execute query to get total number of rows in the database (count)"
+msgstr "执行查询以获取数据库中的总行数 (count)"
+
+#: ../../adding_a_new_model_backend.rst:114
+msgid ""
+"If `sort_column` was passed, will do something like (with some extra FK "
+"logic which is omitted in this example)::"
+msgstr ""
+"如果 `sort_column` 被传递，将做类似的事情 (在这个例子中省略一些额外的 FK 逻辑)::"
+
+#: ../../adding_a_new_model_backend.rst:121
+msgid "Apply paging"
+msgstr "应用分页"
+
+#: ../../adding_a_new_model_backend.rst:123
+msgid "Return count, list as a tuple"
+msgstr "返回 count, list 作为一个元组"
+
+#: ../../adding_a_new_model_backend.rst:125
+msgid ":meth:`~flask_admin.model.BaseModelView.get_one`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.get_one`"
+
+#: ../../adding_a_new_model_backend.rst:127
+msgid "Return a model instance by its primary key."
+msgstr "通过其主键返回模型实例。"
+
+#: ../../adding_a_new_model_backend.rst:129
+msgid ":meth:`~flask_admin.model.BaseModelView.create_model`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.create_model`"
+
+#: ../../adding_a_new_model_backend.rst:131
+msgid "Create a new instance of the model from the `Form` object."
+msgstr "从 `Form` 对象创建新的模型实例。"
+
+#: ../../adding_a_new_model_backend.rst:133
+msgid ":meth:`~flask_admin.model.BaseModelView.update_model`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.update_model`"
+
+#: ../../adding_a_new_model_backend.rst:135
+msgid "Update the model instance with data from the form."
+msgstr "用表单数据更新模型实例。"
+
+#: ../../adding_a_new_model_backend.rst:137
+msgid ":meth:`~flask_admin.model.BaseModelView.delete_model`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.delete_model`"
+
+#: ../../adding_a_new_model_backend.rst:139
+msgid "Delete the specified model instance from the data store."
+msgstr "从数据存储中删除指定的模型实例。"
+
+#: ../../adding_a_new_model_backend.rst:141
+msgid ":meth:`~flask_admin.model.BaseModelView.is_valid_filter`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.is_valid_filter`"
+
+#: ../../adding_a_new_model_backend.rst:143
+msgid "Verify whether the given object is a valid filter."
+msgstr "验证给定对象是否是有效的过滤器。"
+
+#: ../../adding_a_new_model_backend.rst:145
+msgid ":meth:`~flask_admin.model.BaseModelView.scaffold_filters`"
+msgstr ":meth:`~flask_admin.model.BaseModelView.scaffold_filters`"
+
+#: ../../adding_a_new_model_backend.rst:147
+msgid "Return a list of filter objects for one model field."
+msgstr "返回一个模型字段的过滤器对象列表。"
+
+#: ../../adding_a_new_model_backend.rst:149
+msgid ""
+"This method will be called once for each entry in the "
+"`self.column_filters` setting."
+msgstr ""
+"对于 `self.column_filters` 设置中的每个条目，都将调用一次该方法。"
+
+#: ../../adding_a_new_model_backend.rst:152
+msgid ""
+"If your backend does not know how to generate filters for the provided "
+"field, it should return `None`."
+msgstr ""
+"如果您的后端不知道如何为提供的字段生成过滤器，则它应该返回 `None`。"
+
+#: ../../adding_a_new_model_backend.rst:165
+msgid "Implementing filters"
+msgstr "实现过滤器"
+
+#: ../../adding_a_new_model_backend.rst:167
+msgid ""
+"Each model backend should have its own set of filter implementations. It "
+"is not possible to use the filters from SQLAlchemy models in a non-"
+"SQLAlchemy backend. This also means that different backends might have "
+"different set of available filters."
+msgstr ""
+"每个模型后端应该有自己的一组过滤器实现。不能在非 SQLAlchemy 后端中使用 SQLAlchemy "
+"模型的过滤器。这意味着不同的后端可能具有不同的可用过滤器集。"
+
+#: ../../adding_a_new_model_backend.rst:171
+msgid ""
+"The filter is a class derived from "
+":class:`~flask_admin.model.filters.BaseFilter` which implements at least "
+"two methods:"
+msgstr ""
+"过滤器继承 :class:`~flask_admin.model.filters.BaseFilter` 类，"
+"至少需要实现以下两个方法:"
+
+#: ../../adding_a_new_model_backend.rst:173
+msgid ":meth:`~flask_admin.model.filters.BaseFilter.apply`"
+msgstr ":meth:`~flask_admin.model.filters.BaseFilter.apply`"
+
+#: ../../adding_a_new_model_backend.rst:174
+msgid ":meth:`~flask_admin.model.filters.BaseFilter.operation`"
+msgstr ":meth:`~flask_admin.model.filters.BaseFilter.operation`"
+
+#: ../../adding_a_new_model_backend.rst:176
+msgid ""
+"`apply` method accepts two parameters: `query` object and a value from "
+"the client. Here you can add filtering logic for the filter type."
+msgstr ""
+"`apply` 方法允许两个参数：`query` 对象和来自客户端的值。"
+"在这里，您可以为该过滤器类型添加过滤逻辑。"
+
+#: ../../adding_a_new_model_backend.rst:179
+msgid "Lets take SQLAlchemy model backend as an example:"
+msgstr "让我们以 SQLAlchemy 模型后端为例:"
+
+#: ../../adding_a_new_model_backend.rst:181
+msgid ""
+"All SQLAlchemy filters derive from "
+":class:`~flask_admin.contrib.sqla.filters.BaseSQLAFilter` class."
+msgstr ""
+"所有 SQLAlchemy 过滤器都继承自 "
+":class:`~flask_admin.contrib.sqla.filters.BaseSQLAFilter` 类。"
+
+#: ../../adding_a_new_model_backend.rst:183
+msgid ""
+"Each filter implements one simple filter SQL operation (like, not like, "
+"greater, etc) and accepts a column as input parameter."
+msgstr ""
+"每个过滤器实现一个简单的 SQL 过滤器操作 (like, not like, greater 等)，"
+"并接受列作为输入参数。"
+
+#: ../../adding_a_new_model_backend.rst:186
+msgid ""
+"Whenever model view wants to apply a filter to a query object, it will "
+"call `apply` method in a filter class with a query and value. Filter will"
+" then apply real filter operation."
+msgstr ""
+"每当模型视图想要对 query 对象应用过滤器时，它将调用已传入 query 和值的过滤器类的 `apply` "
+"方法。然后过滤器将进行实际的 SQL 过滤器操作。"
+
+#: ../../adding_a_new_model_backend.rst:217
+msgid ""
+"Feel free ask questions if you have problems adding a new model backend. "
+"Also, if you get stuck, try taking a look at the SQLAlchemy model backend"
+" and use it as a reference."
+msgstr ""
+"如果您在添加新模型后端时遇到问题，请随时提出问题。此外，如果您遇到困难，"
+"建议将 SQLAlchemy 模型后端的实现作为参考。"
+
+#: ../../doc/advanced.rst:4
+msgid "Advanced Functionality"
+msgstr "高级功能"
+
+#: ../../doc/advanced.rst:7
+msgid "Enabling CSRF Protection"
+msgstr "启用 CSRF 保护"
+
+#: ../../doc/advanced.rst:9
+msgid ""
+"To add CSRF protection to the forms that are generated by *ModelView* "
+"instances, use the SecureForm class in your *ModelView* subclass by "
+"specifying the *form_base_class* parameter::"
+msgstr ""
+"要向 *ModelView* 实例生成的表单添加 CSRF 保护，请在 *ModelView* 子类中将 *form_base_class* "
+"参数值设为 SecureForm 类::"
+
+#: ../../doc/advanced.rst:18
+msgid ""
+"SecureForm requires WTForms 2 or greater. It uses the WTForms SessionCSRF"
+" class to generate and validate the tokens for you when the forms are "
+"submitted."
+msgstr "SecureForm 需要 WTForms 2+。当表单提交时，它使用 WTForms SessionCSRF 类来生成和验证令牌。"
+
+#: ../../doc/advanced.rst:22
+msgid "Localization With Flask-Babelex"
+msgstr "使用 Flask-Babelex 本地化"
+
+#: ../../doc/advanced.rst:26
+msgid ""
+"Flask-Admin comes with translations for several languages. Enabling "
+"localization is simple:"
+msgstr "Flask-Admin 提供多种语言的翻译。启用本地化非常简单:"
+
+#: ../../doc/advanced.rst:29
+msgid ""
+"Install `Flask-BabelEx <http://github.com/mrjoes/flask-babelex/>`_ to do "
+"the heavy lifting. It's a fork of the `Flask-Babel "
+"<http://github.com/mitshuhiko/flask-babel/>`_ package::"
+msgstr ""
+"安装 `Flask-BabelEx <http://github.com/mrjoes/flask-babelex/>`_ 扩展，它是 "
+"`Flask-Babel <http://github.com/mitshuhiko/flask-babel/>`_ 的分支::"
+
+#: ../../doc/advanced.rst:35
+msgid "Initialize Flask-BabelEx by creating instance of `Babel` class::"
+msgstr "通过创建 `Babel` 类实例，初始化 Flask-BabelEx 扩展::"
+
+#: ../../doc/advanced.rst:43
+msgid "Create a locale selector function::"
+msgstr "创建区域选择器函数::"
+
+#: ../../doc/advanced.rst:51
+msgid ""
+"Now, you could try a French version of the application at: "
+"`http://localhost:5000/admin/?lang=fr "
+"<http://localhost:5000/admin/?lang=fr>`_."
+msgstr ""
+"现在，您能够访问法语版本的管理界面: `http://localhost:5000/admin/?lang=fr "
+"<http://localhost:5000/admin/?lang=fr>`_。"
+
+#: ../../doc/advanced.rst:53
+msgid ""
+"Go ahead and add your own logic to the locale selector function. The "
+"application can store locale in a user profile, cookie, session, etc. It "
+"can also use the `Accept-Language` header to make the selection "
+"automatically."
+msgstr ""
+"继续，添加您的区域设置到语言选择器函数。应用程序可以将区域设置存储在用户 profile, cookie, session 中。它还可以使用 "
+"`Accept-Language` 头来自动选择语言。"
+
+#: ../../doc/advanced.rst:57
+msgid ""
+"If the built-in translations are not enough, look at the `Flask-BabelEx "
+"documentation <https://pythonhosted.org/Flask-BabelEx/>`_ to see how you "
+"can add your own."
+msgstr ""
+"如果内置的翻译不够，请查看 `Flask-BabelEx 文档 <https://pythonhosted.org/Flask-"
+"BabelEx/>`_ 了解如何添加翻译。"
+
+#: ../../doc/advanced.rst:63
+msgid "Managing Files & Folders"
+msgstr "管理文件 & 目录"
+
+#: ../../doc/advanced.rst:67
+msgid ""
+"To manage static files instead of database records, Flask-Admin comes "
+"with the FileAdmin plug-in. It gives you the ability to upload, delete, "
+"rename, etc. You can use it by adding a FileAdmin view to your app::"
+msgstr ""
+"为了管理静态文件而不是数据库记录，Flask-Admin 附带了 FileAdmin "
+"插件。它使您能够上传，删除，重命名文件。您可以通过向应用程序添加 FileAdmin 视图来使用该功能::"
+
+#: ../../doc/advanced.rst:83
+msgid ""
+"FileAdmin also has out-of-the-box support for managing files located on a"
+" Amazon Simple Storage Service bucket. To add it to your app::"
+msgstr "FileAdmin 还具有管理 Amazon Simple Storage 服务的文件的开箱支持。将该功能添加到应用程序::"
+
+#: ../../doc/advanced.rst:93
+msgid ""
+"You can disable uploads, disable file deletion, restrict file uploads to "
+"certain types, etc. Check :mod:`flask_admin.contrib.fileadmin` in the API"
+" documentation for more details."
+msgstr ""
+"您可以配置禁用上传，禁用文件删除，限制上传文件的类型等功能。详细信息，请参阅 "
+":mod:`flask_admin.contrib.fileadmin` API 文档。"
+
+#: ../../doc/advanced.rst:97
+msgid "Adding new file backends"
+msgstr "添加新文件后端"
+
+#: ../../doc/advanced.rst:99
+msgid ""
+"You can also implement your own storage backend by creating a class that "
+"implements the same methods defined in the `LocalFileStorage` class. "
+"Check :mod:`flask_admin.contrib.fileadmin` in the API documentation for "
+"details on the methods."
+msgstr ""
+"您还可以通过继承 `LocalFileStorage` 类并重写其中的方法来实现自己的存储后端。有关方法的详细信息，请参阅 "
+":mod:`flask_admin.contrib.fileadmin` API 文档。"
+
+#: ../../doc/advanced.rst:104
+msgid "Adding A Redis Console"
+msgstr "添加 Redis 控制台"
+
+#: ../../doc/advanced.rst:108
+msgid ""
+"Another plug-in that's available is the Redis Console. If you have a "
+"Redis instance running on the same machine as your app, you can::"
+msgstr "另一个可用的插件是 Redis 控制台。如果您的 Redis 实例与应用程序在同一个节点上运行，您可以::"
+
+#: ../../doc/advanced.rst:122
+msgid "Replacing Individual Form Fields"
+msgstr "替换单个表单域"
+
+#: ../../doc/advanced.rst:126
+msgid ""
+"The `form_overrides` attribute allows you to replace individual fields "
+"within a form. A common use-case for this would be to add a *What-You-"
+"See-Is-What-You-Get* (WYSIWIG) editor, or to handle file / image uploads "
+"that need to be tied to a field in your model."
+msgstr ""
+"`form_overrides` 属性允许您替换表单中的单个字段。一个常见的用例是添加一个 What-You-See-Is-What-You-"
+"Get (WYSIWIG, 所见即所得) 编辑器，或处理需要绑定到模型中的文件/图像上传字段。"
+
+#: ../../doc/advanced.rst:131
+msgid "WYSIWIG Text Fields"
+msgstr "WYSIWIG 文本字段"
+
+#: ../../doc/advanced.rst:132
+msgid ""
+"To handle complicated text content, you can use `CKEditor "
+"<http://ckeditor.com/>`_ by subclassing some of the built-in WTForms "
+"classes as follows::"
+msgstr ""
+"要处理复杂的文本内容，可以通过子类化一些内置的 WTForms 类来集成 `CKEditor <http://ckeditor.com/>`_ "
+"编辑器，示例如下::"
+
+#: ../../doc/advanced.rst:158
+msgid "File & Image Fields"
+msgstr "文件 & 图片字段"
+
+#: ../../doc/advanced.rst:160
+msgid ""
+"Flask-Admin comes with a built-in "
+":meth:`~flask_admin.form.upload.FileUploadField` and "
+":meth:`~flask_admin.form.upload.ImageUploadField`. To make use of them, "
+"you'll need to specify an upload directory and add them to the forms in "
+"question. Image handling also requires you to have `Pillow "
+"<https://pypi.python.org/pypi/Pillow/2.8.2>`_ installed if you need to do"
+" any processing on the image files."
+msgstr ""
+"Flask-Admin 内置有 :meth:`~flask_admin.form.upload.FileUploadField` 和 "
+":meth:`~flask_admin.form.upload.ImageUploadField`。要使用它们，您需要指定一个上传目录，并将它们添加到表单中。如果您需要对图像文件进行处理，则需要安装"
+" `Pillow <https://pypi.python.org/pypi/Pillow/>`_。"
+
+#: ../../doc/advanced.rst:166
+msgid ""
+"Have a look at the example at https://github.com/flask-admin/Flask-"
+"Admin/tree/master/examples/forms."
+msgstr ""
+"请查看 https://github.com/flask-admin/Flask-Admin/tree/master/examples/forms"
+" 示例。"
+
+#: ../../doc/advanced.rst:169
+msgid ""
+"If you are using the MongoEngine backend, Flask-Admin supports GridFS-"
+"backed image and file uploads through WTForms fields. Documentation can "
+"be found at :mod:`flask_admin.contrib.mongoengine.fields`."
+msgstr ""
+"如果您使用 MongoEngine 后端，Flask-Admin 支持通过 WTForms 字段上传的文件/图片，保存在 GridFS "
+"后端中。详细信息，请参阅 :mod:`flask_admin.contrib.mongoengine.fields` 文档。"
+
+#: ../../doc/advanced.rst:171
+msgid ""
+"If you just want to manage static files in a directory, without tying "
+"them to a database model, then use the :ref:`File-Admin<file-admin>` "
+"plug-in."
+msgstr "如果您只想管理目录中的静态文件，而不是将其绑定到数据库模型，则使用 :ref:`File-Admin<file-admin>` 插件。"
+
+#: ../../doc/advanced.rst:175
+msgid "Managing Geographical Models"
+msgstr "管理地理模型"
+
+#: ../../doc/advanced.rst:179
+msgid ""
+"If you want to store spatial information in a GIS database, Flask-Admin "
+"has you covered. The GeoAlchemy backend extends the SQLAlchemy backend "
+"(just as `GeoAlchemy <https://geoalchemy-2.readthedocs.io/>`_  extends "
+"SQLAlchemy) to give you a pretty and functional map-based editor for your"
+" admin pages."
+msgstr ""
+"如果你想在 GIS 数据库中存储空间信息，Flask-Admin 同样支持。GeoAlchemy 后端扩展了 SQLAlchemy 后端 (类似 "
+"`GeoAlchemy <https://geoalchemy-2.readthedocs.io/>`_ 扩展了 SQLAlchemy "
+")，为您的管理页面提供一个漂亮且功能强大的基于地图的编辑器。"
+
+#: ../../doc/advanced.rst:184
+msgid "Some notable features include:"
+msgstr "一些显著的功能包括:"
+
+#: ../../doc/advanced.rst:186
+msgid ""
+"Maps are displayed using the amazing `Leaflet <http://leafletjs.com/>`_ "
+"Javascript library, with map data from `Mapbox "
+"<https://www.mapbox.com/>`_."
+msgstr ""
+"使用惊人的 `Leaflet <http://leafletjs.com/>`_ Javascript 库显示地图，地图数据来自 `Mapbox "
+"<https://www.mapbox.com/>`_。"
+
+#: ../../doc/advanced.rst:188
+msgid ""
+"Geographic information, including points, lines and polygons, can be "
+"edited interactively using `Leaflet.Draw "
+"<https://github.com/Leaflet/Leaflet.draw>`_."
+msgstr ""
+"地理信息，包括点，线和多边形，可以使用 `Leaflet.Draw "
+"<https://github.com/Leaflet/Leaflet.draw>`_ 交互式编辑。"
+
+#: ../../doc/advanced.rst:190
+msgid ""
+"Graceful fallback: `GeoJSON <http://geojson.org/>`_ data can be edited in"
+" a ``<textarea>``, if the user has turned off Javascript."
+msgstr ""
+"后备支持：如果用户已关闭 Javascript，则可以在 ``<textarea>`` 中编辑 `GeoJSON "
+"<http://geojson.org/>`_ 数据。"
+
+#: ../../doc/advanced.rst:192
+msgid ""
+"Works with a `Geometry "
+"<https://geoalchemy-2.readthedocs.io/en/latest/types.html#geoalchemy2.types.Geometry>`_"
+" SQL field that is integrated with `Shapely "
+"<http://toblerity.org/shapely/>`_ objects."
+msgstr ""
+"使用与 `Shapely <http://toblerity.org/shapely/>`_ 对象集成的 `Geometry "
+"<https://geoalchemy-2.readthedocs.io/en/latest/types.html#geoalchemy2.types.Geometry>`_"
+" SQL 字段。"
+
+#: ../../doc/advanced.rst:194
+msgid ""
+"To get started, define some fields on your model using GeoAlchemy's "
+"*Geometry* field. Next, add model views to your interface using the "
+"ModelView class from the GeoAlchemy backend, rather than the usual "
+"SQLAlchemy backend::"
+msgstr ""
+"要开始使用，请使用 GeoAlchemy 的 *Geometry* 字段在模型上定义一些字段。接下来，使用来自 GeoAlchemy 后端的 "
+"ModelView 类，而不是通常的 SQLAlchemy 后端，将模型视图添加到您的接口::"
+
+#: ../../doc/advanced.rst:209
+msgid ""
+"Some of the Geometry field types that are available include: \"POINT\", "
+"\"MULTIPOINT\", \"POLYGON\", \"MULTIPOLYGON\", \"LINESTRING\" and "
+"\"MULTILINESTRING\"."
+msgstr ""
+"可用的 Geometry 字段类型包括: \"POINT\", \"MULTIPOINT\", \"POLYGON\", "
+"\"MULTIPOLYGON\", \"LINESTRING\" 和 \"MULTILINESTRING\"。"
+
+#: ../../doc/advanced.rst:212
+msgid ""
+"Have a look at https://github.com/flask-admin/flask-"
+"admin/tree/master/examples/geo_alchemy to get started."
+msgstr ""
+"请查看 https://github.com/flask-admin/flask-"
+"admin/tree/master/examples/geo_alchemy 示例以开始使用。"
+
+#: ../../doc/advanced.rst:216
+msgid "Loading Tiles From Mapbox"
+msgstr "从 Mapbox 加载地图"
+
+#: ../../doc/advanced.rst:218
+msgid ""
+"To have map data display correctly, you'll have to sign up for an account"
+" at https://www.mapbox.com/ and include some credentials in your "
+"application's config::"
+msgstr "要正确显示地图数据，您必须在 https://www.mapbox.com/ 注册帐户，并在应用程序的配置中包含一些凭据::"
+
+#: ../../doc/advanced.rst:226
+msgid ""
+"Leaflet supports loading map tiles from any arbitrary map tile provider, "
+"but at the moment, Flask-Admin only supports Mapbox. If you want to use "
+"other providers, make a pull request!"
+msgstr ""
+"Leaflet 支持从任意地图图块 provider 程序加载地图图块，但目前 Flask-Admin 仅支持 "
+"Mapbox。如果你想使用其他地图源，请提交 pull request！"
+
+#: ../../doc/advanced.rst:231
+msgid "Limitations"
+msgstr "限制"
+
+#: ../../doc/advanced.rst:233
+msgid ""
+"There's currently no way to sort, filter, or search on geometric fields "
+"in the admin. It's not clear that there's a good way to do so. If you "
+"have any ideas or suggestions, make a pull request!"
+msgstr ""
+"目前没有办法对 admin 中的 geometric 字段进行排序，过滤或搜索。不知道有没有好方法解决该问题。如果您有任何想法或建议，请提出 "
+"pull request！"
+
+#: ../../doc/advanced.rst:238
+msgid "Customising Builtin Forms Via Rendering Rules"
+msgstr "通过渲染规则定制内置表单"
+
+#: ../../doc/advanced.rst:242
+msgid ""
+"Before version 1.0.7, all model backends were rendering the *create* and "
+"*edit* forms using a special Jinja2 macro, which was looping over the "
+"fields of a WTForms form object and displaying them one by one. This "
+"works well, but it is difficult to customize."
+msgstr ""
+"在 1.0.7 版本前，所有模型后端都使用特殊的 Jinja2 宏来渲染 `create` 和 `edit` 表单，该宏在 WTForms "
+"表单对象的字段上循环，并逐个显示它们。这很好，但是很难定制。"
+
+#: ../../doc/advanced.rst:246
+msgid ""
+"Starting from version 1.0.7, Flask-Admin supports form rendering rules, "
+"to give you fine grained control of how the forms for your modules should"
+" be displayed."
+msgstr "从 1.0.7 版本开始，Flask-Admin 支持表单渲染规则，以便您对模块中的表单如何显示进行细粒度的控制。"
+
+#: ../../doc/advanced.rst:249
+msgid ""
+"The basic idea is pretty simple: the customizable rendering rules replace"
+" a static macro, so you can tell Flask-Admin how each form should be "
+"rendered. As an extension, however, the rendering rules also let you do a"
+" bit more: You can use them to output HTML, call Jinja2 macros, render "
+"fields, and so on."
+msgstr ""
+"基本思想很简单：可自定义的渲染规则替换了静态宏，所以你可以告诉 Flask-Admin "
+"如何渲染每个表单。作为一个扩展，渲染规则还可以做更多事：你可以使用它们来输出 HTML，调用 Jinja2 宏，渲染字段等。"
+
+#: ../../doc/advanced.rst:253
+msgid ""
+"Essentially, form rendering rules separate the form rendering from the "
+"form definition. For example, it no longer matters in which sequence your"
+" form fields are defined."
+msgstr "基本上，表单渲染规则将表单渲染与表单定义分开。明显的改善是，您的表单字段定义的顺序不再重要。"
+
+#: ../../doc/advanced.rst:256
+msgid ""
+"To start using the form rendering rules, put a list of form field names "
+"into the `form_create_rules` property one of your admin views::"
+msgstr "要开始使用表单渲染规则，请在管理视图中，将表单字段名列表放入 `form_create_rules` 属性中::"
+
+#: ../../doc/advanced.rst:262
+msgid ""
+"In this example, only three fields will be rendered and `email` field "
+"will be above other two fields."
+msgstr "在此示例中，将仅渲染三个字段，并且 `email` 字段将高于其他两个字段。"
+
+#: ../../doc/advanced.rst:264
+msgid ""
+"Whenever Flask-Admin sees a string value in `form_create_rules`, it "
+"automatically assumes that it is a form field reference and creates a "
+":class:`flask_admin.form.rules.Field` class instance for that field."
+msgstr ""
+"每当 Flask-Admin 在 `form_create_rules` 中查看字符串值时，它会假定值是一个表单字段引用，并为该字段创建一个 "
+":class:`flask_admin.form.rules.Field` 类实例。"
+
+#: ../../doc/advanced.rst:267
+msgid ""
+"Let's say we want to display some text between the `email` and "
+"`first_name` fields. This can be accomplished by using the "
+":class:`flask_admin.form.rules.Text` class::"
+msgstr ""
+"假设我们要在 `email` 和 `first_name` 字段之间显示一些文本。可以通过使用 "
+":class:`flask_admin.form.rules.Text` 类来实现::"
+
+#: ../../doc/advanced.rst:276
+msgid "Built-in Rules"
+msgstr "内置规则"
+
+#: ../../doc/advanced.rst:278
+msgid ""
+"Flask-Admin comes with few built-in rules that can be found in the "
+":mod:`flask_admin.form.rules` module:"
+msgstr "Flask-Admin 有一些内置规则，可以在 :mod:`flask_admin.form.rules` 模块中找到:"
+
+#: ../../doc/advanced.rst:281
+msgid "Form Rendering Rule"
+msgstr "表单渲染规则"
+
+#: ../../doc/advanced.rst:281
+msgid "Description"
+msgstr "描述"
+
+#: ../../doc/advanced.rst:283
+msgid ":class:`flask_admin.form.rules.BaseRule`"
+msgstr ":class:`flask_admin.form.rules.BaseRule`"
+
+#: ../../doc/advanced.rst:283
+msgid "All rules derive from this class"
+msgstr "所有规则都派生自该类"
+
+#: ../../doc/advanced.rst:284
+msgid ":class:`flask_admin.form.rules.NestedRule`"
+msgstr ":class:`flask_admin.form.rules.NestedRule`"
+
+#: ../../doc/advanced.rst:284
+msgid "Allows rule nesting, useful for HTML containers"
+msgstr "允许规则嵌套，适用于 HTML 容器"
+
+#: ../../doc/advanced.rst:285
+msgid ":class:`flask_admin.form.rules.Text`"
+msgstr ":class:`flask_admin.form.rules.Text`"
+
+#: ../../doc/advanced.rst:285
+msgid "Simple text rendering rule"
+msgstr "简单的文本渲染规则"
+
+#: ../../doc/advanced.rst:286
+msgid ":class:`flask_admin.form.rules.HTML`"
+msgstr ":class:`flask_admin.form.rules.HTML`"
+
+#: ../../doc/advanced.rst:286
+msgid "Same as `Text` rule, but does not escape the text"
+msgstr "与 `Text` 规则相同，但不转义文本"
+
+#: ../../doc/advanced.rst:287
+msgid ":class:`flask_admin.form.rules.Macro`"
+msgstr ":class:`flask_admin.form.rules.Macro`"
+
+#: ../../doc/advanced.rst:287
+msgid "Calls macro from current Jinja2 context"
+msgstr "从当前 Jinja2 上下文调用宏"
+
+#: ../../doc/advanced.rst:288
+msgid ":class:`flask_admin.form.rules.Container`"
+msgstr ":class:`flask_admin.form.rules.Container`"
+
+#: ../../doc/advanced.rst:288
+msgid "Wraps child rules into container rendered by macro"
+msgstr "将子规则包含到由宏渲染的容器中"
+
+#: ../../doc/advanced.rst:289
+msgid ":class:`flask_admin.form.rules.Field`"
+msgstr ":class:`flask_admin.form.rules.Field`"
+
+#: ../../doc/advanced.rst:289
+msgid "Renders single form field"
+msgstr "渲染单个表单字段"
+
+#: ../../doc/advanced.rst:290
+msgid ":class:`flask_admin.form.rules.Header`"
+msgstr ":class:`flask_admin.form.rules.Header`"
+
+#: ../../doc/advanced.rst:290
+msgid "Renders form header"
+msgstr "渲染表单标头"
+
+#: ../../doc/advanced.rst:291
+msgid ":class:`flask_admin.form.rules.FieldSet`"
+msgstr ":class:`flask_admin.form.rules.FieldSet`"
+
+#: ../../doc/advanced.rst:291
+msgid "Renders form header and child rules"
+msgstr "渲染表单标头和主体规则"
+
+#: ../../doc/advanced.rst:297
+msgid "Using Different Database Backends"
+msgstr "使用不同的数据库后端"
+
+#: ../../doc/advanced.rst:301
+msgid ""
+"Other than SQLAlchemy... There are five different backends for you to "
+"choose from, depending on which database you would like to use for your "
+"application. If, however, you need to implement your own database "
+"backend, have a look at :ref:`adding-model-backend`."
+msgstr ""
+"除了 SQLAlchemy... 有五个不同的后端供您选择，具体取决于您的应用程序使用的数据库。如果您需要实现自己的数据库后端，请查看 :ref"
+":`adding-model-backend`。"
+
+#: ../../doc/advanced.rst:305
+msgid ""
+"If you don't know where to start, but you're familiar with relational "
+"databases, then you should probably look at using `SQLAlchemy`_. It is a "
+"full-featured toolkit, with support for SQLite, PostgreSQL, MySQL, Oracle"
+" and MS-SQL amongst others. It really comes into its own once you have "
+"lots of data, and a fair amount of relations between your data models. If"
+" you want to track spatial data like latitude/longitude points, you "
+"should look into `GeoAlchemy`_, as well."
+msgstr ""
+"如果您熟悉关系型数据库，那么应该使用 `SQLAlchemy`_。它是一个全功能的工具包，支持 SQLite, PostgreSQL, "
+"MySQL, Oracle 和 MS-SQL 等数据库。如果您有很多数据，并且数据模型之间有很多关系，应该使用 "
+"SQLAlchemy。如果要跟踪空间数据 (如纬度/经度点)，则应使用 `GeoAlchemy`_。"
+
+#: ../../doc/advanced.rst:312
+msgid "SQLAlchemy"
+msgstr "SQLAlchemy"
+
+#: ../../doc/advanced.rst:314
+msgid "Notable features:"
+msgstr "特点:"
+
+#: ../../doc/advanced.rst:316
+msgid "SQLAlchemy 0.6+ support"
+msgstr "SQLAlchemy 0.6+ 支持"
+
+#: ../../doc/advanced.rst:317
+msgid "Paging, sorting, filters"
+msgstr "分页, 排序, 过滤"
+
+#: ../../doc/advanced.rst:318
+msgid "Proper model relationship handling"
+msgstr "正确的模型关系处理"
+
+#: ../../doc/advanced.rst:319
+msgid "Inline editing of related models"
+msgstr "相关模型的行内编辑"
+
+#: ../../doc/advanced.rst:321
+msgid "**Multiple Primary Keys**"
+msgstr "**多主键**"
+
+#: ../../doc/advanced.rst:323
+msgid ""
+"Flask-Admin has limited support for models with multiple primary keys. It"
+" only covers specific case when all but one primary keys are foreign keys"
+" to another model. For example, model inheritance following this "
+"convention."
+msgstr "Flask-Admin 对多主键模型的支持有限。它只支持一个主键是另一个模型的外键的特殊情况。例如，遵循此惯例的模型继承。"
+
+#: ../../doc/advanced.rst:327
+msgid "Let's Model a car with its tyres::"
+msgstr "让我们看看汽车及其轮胎的模型::"
+
+#: ../../doc/advanced.rst:344
+msgid ""
+"A specific tyre is identified by using the two primary key columns of the"
+" ``Tyre`` class, of which the ``car_id`` key is itself a foreign key to "
+"the class ``Car``."
+msgstr "通过使用 ``Tire`` 类的两个主键列来识别特定轮胎，其中 ``car_id`` 键本身是 ``Car`` 类的外键。"
+
+#: ../../doc/advanced.rst:347
+msgid ""
+"To be able to CRUD the ``Tyre`` class, you need to enumerate columns when"
+" defining the AdminView::"
+msgstr "为了能够对 ``Tire`` 类执行 CRUD，你需要在定义 AdminView 时枚举列::"
+
+#: ../../doc/advanced.rst:352
+msgid ""
+"The ``form_columns`` needs to be explicit, as per default only one "
+"primary key is displayed."
+msgstr "``form_columns`` 需要显式指定，默认情况下只显示一个主键。"
+
+#: ../../doc/advanced.rst:354
+msgid ""
+"When having multiple primary keys, **no** validation for uniqueness "
+"*prior* to saving of the object will be done. Saving a model that "
+"violates a unique-constraint leads to an Sqlalchemy-Integrity-Error. In "
+"this case, ``Flask-Admin`` displays a proper error message and you can "
+"change the data in the form. When the application has been started with "
+"``debug=True`` the ``werkzeug`` debugger will catch the exception and "
+"will display the stacktrace."
+msgstr ""
+"当有多个主键时，在保存对象之前 **不会** 进行唯一性验证。保存违反唯一约束的模型会导致 Sqlalchemy-Integrity-"
+"Error。在这种情况下，``Flask-Admin`` 显示正确的错误消息，您可以更改表单中的数据。当应用程序以 ``debug=True`` "
+"启动时， ``werkzeug`` 调试器将捕获异常并显示栈跟踪信息。"
+
+#: ../../doc/advanced.rst:360
+msgid "MongoEngine"
+msgstr "MongoEngine"
+
+#: ../../doc/advanced.rst:362
+msgid ""
+"If you're looking for something simpler than SQLAlchemy, and your data "
+"models are reasonably self-contained, then `MongoDB "
+"<https://www.mongodb.org/>`_, a popular *NoSQL* database, could be a "
+"better option."
+msgstr ""
+"如果你需要比 SQLAlchemy 更简单的东西，你的数据模型是合理的自包含类型，那么 `MongoDB "
+"<https://www.mongodb.org/>`_ 这个流行的 *NoSQL* 数据库，或许是一个更好的选择。"
+
+#: ../../doc/advanced.rst:366
+msgid ""
+"`MongoEngine <http://mongoengine.org/>`_ is a python wrapper for MongoDB."
+" For an example of using MongoEngine with Flask-Admin, see "
+"https://github.com/flask-admin/flask-"
+"admin/tree/master/examples/mongoengine."
+msgstr ""
+"`MongoEngine <http://mongoengine.org/>`_ 是 MongoDB 的 Python 封装。在 Flask-"
+"Admin 中使用 MongoEngine 的示例，请参阅 https://github.com/flask-admin/flask-"
+"admin/tree/master/examples/mongoengine。"
+
+#: ../../doc/advanced.rst:371 ../../doc/advanced.rst:392
+msgid "Features:"
+msgstr "特性:"
+
+#: ../../doc/advanced.rst:373
+msgid "MongoEngine 0.7+ support"
+msgstr "MongoEngine 0.7+ 支持"
+
+#: ../../doc/advanced.rst:374
+msgid "Paging, sorting, filters, etc"
+msgstr "分页，排序，过滤等"
+
+#: ../../doc/advanced.rst:375
+msgid "Supports complex document structure (lists, subdocuments and so on)"
+msgstr "支持复杂的文档结构 (列表，子文档等等)"
+
+#: ../../doc/advanced.rst:376
+msgid "GridFS support for file and image uploads"
+msgstr "GridFS 支持存储上传的文件/图片"
+
+#: ../../doc/advanced.rst:378
+msgid ""
+"In order to use MongoEngine integration, install the `Flask-MongoEngine "
+"<https://flask-mongoengine.readthedocs.io>`_ package. Flask-Admin uses "
+"form scaffolding from it."
+msgstr ""
+"为了集成 MongoEngine，需要安装 `Flask-MongoEngine <https://flask-"
+"mongoengine.readthedocs.io>`_ 包。Flask-Admin 使用其中的表单脚手架。"
+
+#: ../../doc/advanced.rst:382 ../../doc/advanced.rst:401
+msgid "Known issues:"
+msgstr "已知问题:"
+
+#: ../../doc/advanced.rst:384
+msgid ""
+"Search functionality can't split query into multiple terms due to "
+"MongoEngine query language limitations"
+msgstr "由于 MongoEngine 查询语言的限制，搜索功能不能将查询拆分为多个条件"
+
+#: ../../doc/advanced.rst:387
+msgid ""
+"For more, check the :class:`~flask_admin.contrib.mongoengine` API "
+"documentation."
+msgstr "更多信息，请参阅 :class:`~flask_admin.contrib.mongoengine` API 文档。"
+
+#: ../../doc/advanced.rst:390
+msgid "Peewee"
+msgstr "Peewee"
+
+#: ../../doc/advanced.rst:394
+msgid "Peewee 2.x+ support;"
+msgstr "Peewee 2.x+ 支持"
+
+#: ../../doc/advanced.rst:395
+msgid "Paging, sorting, filters, etc;"
+msgstr "分页，排序，过滤等"
+
+#: ../../doc/advanced.rst:396
+msgid "Inline editing of related models;"
+msgstr "相关模型的行内编辑"
+
+#: ../../doc/advanced.rst:398
+msgid ""
+"In order to use peewee integration, you need to install two additional "
+"Python packages: `peewee <http://docs.peewee-orm.com/>`_ and `wtf-peewee "
+"<https://github.com/coleifer/wtf-peewee/>`_."
+msgstr ""
+"为了使用 peewee，您需要安装 2 个 Python 包：`peewee <http://docs.peewee-orm.com/>`_ 和 "
+"`wtf-peewee <https://github.com/coleifer/wtf-peewee/>`_。"
+
+#: ../../doc/advanced.rst:403
+msgid ""
+"Many-to-Many model relations are not supported: there's no built-in way "
+"to express M2M relation in Peewee"
+msgstr "不支持多对多模型关系：在 Peewee 中没有内置的方式来表达 M2M 关系"
+
+#: ../../doc/advanced.rst:405
+msgid ""
+"For more, check the :class:`~flask_admin.contrib.peewee` API "
+"documentation. Or look at the Peewee example at https://github.com/flask-"
+"admin/flask-admin/tree/master/examples/peewee."
+msgstr ""
+"更多信息，请参阅 :class:`~flask_admin.contrib.peewee` API 文档。或查看 Peewee 使用示例 "
+"https://github.com/flask-admin/flask-admin/tree/master/examples/peewee。"
+
+#: ../../doc/advanced.rst:409
+msgid "PyMongo"
+msgstr "PyMongo"
+
+#: ../../doc/advanced.rst:411
+msgid "The bare minimum you have to provide for Flask-Admin to work with PyMongo:"
+msgstr "Flask-Admin 使用 PyMongo 的最小要求:"
+
+#: ../../doc/advanced.rst:413
+msgid "A list of columns by setting `column_list` property"
+msgstr "设置 `column_list` 属性，值为字段列表"
+
+#: ../../doc/advanced.rst:414
+msgid "Provide form to use by setting `form` property"
+msgstr "设置 `form` 属性，值为要使用的表单"
+
+#: ../../doc/advanced.rst:415
+msgid ""
+"When instantiating :class:`flask_admin.contrib.pymongo.ModelView` class, "
+"you have to provide PyMongo collection object"
+msgstr "当实例化 :class:`flask_admin.contrib.pymongo.ModelView` 类时，你必须提供 PyMongo 集合对象"
+
+#: ../../doc/advanced.rst:417
+msgid "This is minimal PyMongo view::"
+msgstr "最简单的 PyMongo 视图:"
+
+#: ../../doc/advanced.rst:433
+msgid "On top of that you can add sortable columns, filters, text search, etc."
+msgstr "除此之外，您还可以添加可排序的列，过滤器，文本搜索等。"
+
+#: ../../doc/advanced.rst:435
+msgid ""
+"For more, check the :class:`~flask_admin.contrib.pymongoe` API "
+"documentation. Or look at the Peewee example at https://github.com/flask-"
+"admin/flask-admin/tree/master/examples/pymongo."
+msgstr ""
+"更多信息，请参阅 :class:`~flask_admin.contrib.pymongoe` API 文档。或查看 PyMongo 使用示例 "
+"https://github.com/flask-admin/flask-admin/tree/master/examples/pymongo。"
+
+#: ../../doc/advanced.rst:439
+msgid "Migrating From Django"
+msgstr "从 Django 迁移"
+
+#: ../../doc/advanced.rst:443
+msgid ""
+"If you are used to `Django <https://www.djangoproject.com/>`_ and the "
+"*django-admin* package, you will find Flask-Admin to work slightly "
+"different from what you would expect."
+msgstr ""
+"如果你习惯了 `Django <https://www.djangoproject.com/>`_ 和 *django-admin* 包，你会发现"
+" Flask-Admin 的工作方式与你期望的略有不同。"
+
+#: ../../doc/advanced.rst:447
+msgid "Design Philosophy"
+msgstr "设计哲学"
+
+#: ../../doc/advanced.rst:449
+msgid ""
+"In general, Django and *django-admin* strives to make life easier by "
+"implementing sensible defaults. So a developer will be able to get an "
+"application up in no time, but it will have to conform to most of the "
+"defaults. Of course it is possible to customize things, but this often "
+"requires a good understanding of what's going on behind the scenes, and "
+"it can be rather tricky and time-consuming."
+msgstr ""
+"一般来说，Django 和 *django-admin* "
+"有合理的默认值。因此，开发人员能够立即获得应用程序，但它必须符合大多数默认值。如果需要定制，需要深刻的理解后端的处理逻辑，这会相当耗时。"
+
+#: ../../doc/advanced.rst:454
+msgid ""
+"The design philosophy behind Flask is slightly different. It embraces the"
+" diversity that one tends to find in web applications by not forcing "
+"design decisions onto the developer. Rather than making it very easy to "
+"build an application that *almost* solves your whole problem, and then "
+"letting you figure out the last bit, Flask aims to make it possible for "
+"you to build the *whole* application. It might take a little more effort "
+"to get started, but once you've got the hang of it, the sky is the "
+"limit... Even when your application is a little different from most other"
+" applications out there on the web."
+msgstr ""
+"Flask 背后的设计理念略有不同。它倾向于使 web 应用程序更灵活，而不是强制设计所有方面。Django "
+"使您可以很容易构建应用程序，几乎替您解决了所有问题；Flask 旨在使您控制构建整个应用程序。它需要学习更多内容，一旦您了解了 "
+"Flask，您就可以开发任何类型的 Web 应用程序。"
+
+#: ../../doc/advanced.rst:461
+msgid ""
+"Flask-Admin follows this same design philosophy. So even though it "
+"provides you with several tools for getting up & running quickly, it will"
+" be up to you, as a developer, to tell Flask-Admin what should be "
+"displayed and how. Even though it is easy to get started with a simple "
+"`CRUD <http://en.wikipedia.org/wiki/Create,_read,_update_and_delete>`_ "
+"interface for each model in your application, Flask-Admin doesn't fix you"
+" to this approach, and you are free to define other ways of interacting "
+"with some, or all, of your models."
+msgstr ""
+"Flask-Admin 遵循同样的设计理念。因此，即使它为您提供了几种快速启动和运行的工具，作为开发人员，还是应该由您告诉 Flask-Admin"
+" 应该显示什么以及如何显示。即使可以很容易的为应用程序的每个模型构建一个简单的 `CRUD "
+"<http://en.wikipedia.org/wiki/Create,_read,_update_and_delete>`_ 接口"
+"，Flask-Admin 也不能完全解决所有问题，您可以灵活的定义与模块的交互方法，来实现所有功能。"
+
+#: ../../doc/advanced.rst:467
+msgid ""
+"Due to Flask-Admin supporting more than one ORM (SQLAlchemy, MongoEngine,"
+" Peewee, raw pymongo), the developer is even free to mix different model "
+"types into one application by instantiating appropriate CRUD classes."
+msgstr ""
+"由于 Flask-Admin 支持多种 ORM (SQLAlchemy, MongoEngine, Peewee, raw "
+"pymongo)，开发人员甚至可以通过实例化相应的 CRUD 类，将不同的模型类型混合到一个应用程序中。"
+
+#: ../../doc/advanced.rst:470
+msgid ""
+"Here is a list of some of the configuration properties that are made "
+"available by Flask-Admin and the SQLAlchemy backend. You can also see "
+"which *django-admin* properties they correspond to:"
+msgstr "以下是 Flask-Admin 和 SQLAlchemy 后端提供的一些配置属性的列表。您还可以查看它们对应的 *django-admin* 属性:"
+
+#: ../../doc/advanced.rst:474
+msgid "Django"
+msgstr "Django"
+
+#: ../../doc/advanced.rst:474
+msgid "Flask-Admin"
+msgstr "Flask-Admin"
+
+#: ../../doc/advanced.rst:476
+msgid "actions"
+msgstr "actions"
+
+#: ../../doc/advanced.rst:476
+msgid ":attr:`~flask_admin.actions`"
+msgstr ":attr:`~flask_admin.actions`"
+
+#: ../../doc/advanced.rst:477
+msgid "exclude"
+msgstr "exclude"
+
+#: ../../doc/advanced.rst:477
+msgid ":attr:`~flask_admin.model.BaseModelView.form_excluded_columns`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.form_excluded_columns`"
+
+#: ../../doc/advanced.rst:478
+msgid "fields"
+msgstr "fields"
+
+#: ../../doc/advanced.rst:478
+msgid ":attr:`~flask_admin.model.BaseModelView.form_columns`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.form_columns`"
+
+#: ../../doc/advanced.rst:479
+msgid "form"
+msgstr "form"
+
+#: ../../doc/advanced.rst:479
+msgid ":attr:`~flask_admin.model.BaseModelView.form`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.form`"
+
+#: ../../doc/advanced.rst:480
+msgid "formfield_overrides"
+msgstr "formfield_overrides"
+
+#: ../../doc/advanced.rst:480
+msgid ":attr:`~flask_admin.model.BaseModelView.form_args`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.form_args`"
+
+#: ../../doc/advanced.rst:481
+msgid "inlines"
+msgstr "inlines"
+
+#: ../../doc/advanced.rst:481
+msgid ":attr:`~flask_admin.contrib.sqla.ModelView.inline_models`"
+msgstr ":attr:`~flask_admin.contrib.sqla.ModelView.inline_models`"
+
+#: ../../doc/advanced.rst:482
+msgid "list_display"
+msgstr "list_display"
+
+#: ../../doc/advanced.rst:482
+msgid ":attr:`~flask_admin.model.BaseModelView.column_list`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.column_list`"
+
+#: ../../doc/advanced.rst:483
+msgid "list_filter"
+msgstr "list_filter"
+
+#: ../../doc/advanced.rst:483
+msgid ":attr:`~flask_admin.contrib.sqla.ModelView.column_filters`"
+msgstr ":attr:`~flask_admin.contrib.sqla.ModelView.column_filters`"
+
+#: ../../doc/advanced.rst:484
+msgid "list_per_page"
+msgstr "list_per_page"
+
+#: ../../doc/advanced.rst:484
+msgid ":attr:`~flask_admin.model.BaseModelView.page_size`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.page_size`"
+
+#: ../../doc/advanced.rst:485
+msgid "search_fields"
+msgstr "search_fields"
+
+#: ../../doc/advanced.rst:485
+msgid ":attr:`~flask_admin.model.BaseModelView.column_searchable_list`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.column_searchable_list`"
+
+#: ../../doc/advanced.rst:486
+msgid "add_form_template"
+msgstr "add_form_template"
+
+#: ../../doc/advanced.rst:486
+msgid ":attr:`~flask_admin.model.BaseModelView.create_template`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.create_template`"
+
+#: ../../doc/advanced.rst:487
+msgid "change_form_template"
+msgstr "change_form_template"
+
+#: ../../doc/advanced.rst:487
+msgid ":attr:`~flask_admin.model.BaseModelView.change_form_template`"
+msgstr ":attr:`~flask_admin.model.BaseModelView.change_form_template`"
+
+#: ../../doc/advanced.rst:490
+msgid ""
+"You might want to check :class:`~flask_admin.model.BaseModelView` for "
+"basic model configuration options (reused by all model backends) and "
+"specific backend documentation, for example "
+":class:`~flask_admin.contrib.sqla.ModelView`. There's much more than what"
+" is displayed in this table."
+msgstr ""
+"您可能需要查看 :class:`~flask_admin.model.BaseModelView` 的基本模型配置选项 (由所有模型后端重用) "
+"和特定的后端文档，例如 :class:`~flask_admin.contrib.sqla.ModelView`。了解更多的模型配置选项。"
+
+#: ../../doc/advanced.rst:496
+msgid "Overriding the Form Scaffolding"
+msgstr "覆盖表单脚手架"
+
+#: ../../doc/advanced.rst:500
+msgid ""
+"If you don't want to the use the built-in Flask-Admin form scaffolding "
+"logic, you are free to roll your own by simply overriding "
+":meth:`~flask_admin.model.base.scaffold_form`. For example, if you use "
+"`WTForms-Alchemy <https://github.com/kvesteri/wtforms-alchemy>`_, you "
+"could put your form generation code into a `scaffold_form` method in your"
+" `ModelView` class."
+msgstr ""
+"如果你不想使用 Flask-Admin 内置的表单框架逻辑，你可以通过简单覆盖 "
+":meth:`~flask_admin.model.base.scaffold_form` 来自由滚动。例如，如果使用 `WTForms-"
+"Alchemy <https://github.com/kvesteri/wtforms-alchemy>`_，您可以将您的表单生成代码放入您的 "
+"`ModelView` 类中的 `scaffold_form` 方法。"
+
+#: ../../doc/advanced.rst:505
+msgid ""
+"For SQLAlchemy, if the `synonym_property` does not return a SQLAlchemy "
+"field, then Flask-Admin won't be able to figure out what to do with it, "
+"so it won't generate a form field. In this case, you would need to "
+"manually contribute your own field::"
+msgstr ""
+"对于 SQLAlchemy，如果 `synonym_property` 不返回 SQLAlchemy 字段，那么 Flask-Admin "
+"将不知道该如何生成表单字段。在这种情况下，您需要手动提供自己的字段::"
+
+#: ../../doc/advanced.rst:515
+msgid "Customizing Batch Actions"
+msgstr "自定义批处理操作"
+
+#: ../../doc/advanced.rst:519
+msgid ""
+"If you want to add other batch actions to the list view, besides the "
+"default delete action, then you can define a function that implements the"
+" desired logic and wrap it with the `@action` decorator."
+msgstr "如果要向列表视图添加其他批处理操作，除了默认的删除操作，您可以定义一个实现所需逻辑的函数，并使用 `@action` 装饰器将其包装。"
+
+#: ../../doc/advanced.rst:522
+msgid ""
+"The `action` decorator takes three parameters: `name`, `text` and "
+"`confirmation`. While the wrapped function should accept only one "
+"parameter - `ids`::"
+msgstr ""
+"`action` 装饰器需要三个参数: `name`, `text` 和 `confirmation`。而被包装的函数只接受一个 `ids` "
+"参数::"
+
+#~ msgid ""
+#~ "For this to work, you would also"
+#~ " need to create a template that "
+#~ "extends the default functionality by "
+#~ "including the necessary CKEditor javascript"
+#~ " on the `create` and `edit` pages."
+#~ " Save this in `templates/ckeditor.html`::"
+#~ msgstr ""
+#~ "为了使其工作，还需要创建一个模板，通过在 `create` 和 `edit` 页面包含必要的"
+#~ " CKEditor javascript 来扩展默认功能。将其保存在 "
+#~ "`templates/ckeditor.html` 中::"
+
+
+#: ../../doc/api/index.rst:2
+msgid "API"
+msgstr ""
+
+#: ../../doc/api/mod_actions.rst:2
+msgid "``flask_admin.actions``"
+msgstr ""
+
+#: flask_admin.actions.action:1
+msgid ""
+"Use this decorator to expose actions that span more than one entity "
+"(model, file, etc)"
+msgstr ""
+
+#: flask_admin.actions.action:0
+#: flask_admin.actions.ActionsMixin.handle_action:0
+#: flask_admin.actions.ActionsMixin.is_action_allowed:0
+#: flask_admin.base.expose:0 flask_admin.base.expose_plugview:0
+#: flask_admin.base.BaseView.get_url:0 flask_admin.base.BaseView.render:0
+#: flask_admin.base.Admin.add_link:0 flask_admin.base.Admin.add_links:0
+#: flask_admin.base.Admin.add_menu_item:0 flask_admin.base.Admin.add_view:0
+#: flask_admin.base.Admin.add_views:0 flask_admin.base.Admin.init_app:0
+#: flask_admin.contrib.fileadmin.FileAdmin:0
+#: flask_admin.contrib.fileadmin.FileAdmin.download:0
+#: flask_admin.contrib.fileadmin.FileAdmin.index:0
+#: flask_admin.contrib.fileadmin.FileAdmin.is_accessible_path:0
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_allowed:0
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_editable:0
+#: flask_admin.contrib.fileadmin.FileAdmin.is_in_folder:0
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir:0
+#: flask_admin.contrib.fileadmin.FileAdmin.save_file:0
+#: flask_admin.contrib.fileadmin.FileAdmin.upload:0
+#: flask_admin.contrib.fileadmin.FileAdmin.validate_form:0
+#: flask_admin.contrib.sqla.ModelView.after_model_change:0
+#: flask_admin.contrib.sqla.ModelView.after_model_delete:0
+#: flask_admin.contrib.sqla.ModelView.create_model:0
+#: flask_admin.contrib.sqla.ModelView.delete_model:0
+#: flask_admin.contrib.sqla.ModelView.get_column_name:0
+#: flask_admin.contrib.sqla.ModelView.get_export_value:0
+#: flask_admin.contrib.sqla.ModelView.get_filter_arg:0
+#: flask_admin.contrib.sqla.ModelView.get_list:0
+#: flask_admin.contrib.sqla.ModelView.get_list_value:0
+#: flask_admin.contrib.sqla.ModelView.get_one:0
+#: flask_admin.contrib.sqla.ModelView.get_save_return_url:0
+#: flask_admin.contrib.sqla.ModelView.get_url:0
+#: flask_admin.contrib.sqla.ModelView.handle_action:0
+#: flask_admin.contrib.sqla.ModelView.is_editable:0
+#: flask_admin.contrib.sqla.ModelView.is_sortable:0
+#: flask_admin.contrib.sqla.ModelView.is_valid_filter:0
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:0
+#: flask_admin.contrib.sqla.ModelView.on_model_change:0
+#: flask_admin.contrib.sqla.ModelView.render:0
+#: flask_admin.contrib.sqla.ModelView.scaffold_inline_form_models:0
+#: flask_admin.contrib.sqla.ModelView.scaffold_list_form:0
+#: flask_admin.contrib.sqla.ModelView.update_model:0
+#: flask_admin.contrib.sqla.ModelView.validate_form:0
+#: flask_admin.form.rules.NestedRule.__init__:0
+#: flask_admin.form.rules.Text.__init__:0
+#: flask_admin.form.rules.Macro.__init__:0
+#: flask_admin.form.rules.Container.__init__:0
+#: flask_admin.form.rules.Field.__init__:0
+#: flask_admin.form.rules.Header.__init__:0
+#: flask_admin.form.rules.FieldSet.__init__:0
+#: flask_admin.form.upload.FileUploadField.__init__:0
+#: flask_admin.form.upload.ImageUploadField.__init__:0
+#: flask_admin.helpers.is_required_form_field:0
+#: flask_admin.helpers.is_field_error:0
+#: flask_admin.model.BaseModelView.after_model_change:0
+#: flask_admin.model.BaseModelView.after_model_delete:0
+#: flask_admin.model.BaseModelView.create_model:0
+#: flask_admin.model.BaseModelView.delete_model:0
+#: flask_admin.model.BaseModelView.get_column_name:0
+#: flask_admin.model.BaseModelView.get_export_value:0
+#: flask_admin.model.BaseModelView.get_filter_arg:0
+#: flask_admin.model.BaseModelView.get_list:0
+#: flask_admin.model.BaseModelView.get_list_value:0
+#: flask_admin.model.BaseModelView.get_one:0
+#: flask_admin.model.BaseModelView.get_save_return_url:0
+#: flask_admin.model.BaseModelView.handle_filter:0
+#: flask_admin.model.BaseModelView.is_editable:0
+#: flask_admin.model.BaseModelView.is_sortable:0
+#: flask_admin.model.BaseModelView.is_valid_filter:0
+#: flask_admin.model.BaseModelView.on_form_prefill:0
+#: flask_admin.model.BaseModelView.on_model_change:0
+#: flask_admin.model.BaseModelView.scaffold_filters:0
+#: flask_admin.model.BaseModelView.scaffold_list_form:0
+#: flask_admin.model.BaseModelView.update_model:0
+#: flask_admin.model.BaseModelView.validate_form:0
+#: flask_admin.model.template.macro:0 flask_admin.tools.import_module:0
+#: flask_admin.tools.import_attribute:0 flask_admin.tools.module_not_found:0
+#: flask_admin.tools.rec_getattr:0
+msgid "Parameters"
+msgstr ""
+
+#: flask_admin.actions.action:4
+#: flask_admin.actions.ActionsMixin.is_action_allowed:3
+msgid "Action name"
+msgstr ""
+
+#: flask_admin.actions.action:6
+msgid "Action text."
+msgstr ""
+
+#: flask_admin.actions.action:8
+msgid ""
+"Confirmation text. If not provided, action will be executed "
+"unconditionally."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin:1
+msgid "Actions mixin."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin:3
+msgid ""
+"In some cases, you might work with more than one \"entity\" (model, file,"
+" etc) in your admin view and will want to perform actions on a group of "
+"entities simultaneously."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin:6
+msgid ""
+"In this case, you can add this functionality by doing this: 1. Add this "
+"mixin to your administrative view class 2. Call `init_actions` in your "
+"class constructor 3. Expose actions view 4. Import `actions.html` library"
+" and add call library macros in your template"
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin.get_actions_list:1
+#: flask_admin.contrib.sqla.ModelView.get_actions_list:1
+msgid "Return a list and a dictionary of allowed actions."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin.handle_action:1
+#: flask_admin.contrib.sqla.ModelView.handle_action:1
+msgid "Handle action request."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin.handle_action:3
+#: flask_admin.contrib.sqla.ModelView.handle_action:3
+msgid ""
+"Name of the view to return to after the request. If not provided, will "
+"return user to the return url in the form or the list view."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin.init_actions:1
+#: flask_admin.contrib.sqla.ModelView.init_actions:1
+msgid "Initialize list of actions for the current administrative view."
+msgstr ""
+
+#: flask_admin.actions.ActionsMixin.is_action_allowed:1
+msgid "Verify if action with `name` is allowed."
+msgstr ""
+
+#: ../../doc/api/mod_base.rst:2
+msgid "``flask_admin.base``"
+msgstr ""
+
+#: ../../doc/api/mod_base.rst:7
+msgid "Base View"
+msgstr ""
+
+#: flask_admin.base.expose:1
+msgid "Use this decorator to expose views in your view classes."
+msgstr ""
+
+#: flask_admin.base.expose:3 flask_admin.base.expose_plugview:4
+msgid "Relative URL for the view"
+msgstr ""
+
+#: flask_admin.base.expose:5
+msgid "Allowed HTTP methods. By default only GET is allowed."
+msgstr ""
+
+#: flask_admin.base.expose_plugview:1
+msgid ""
+"Decorator to expose Flask's pluggable view classes (``flask.views.View`` "
+"or ``flask.views.MethodView``)."
+msgstr ""
+
+#: flask_admin.base.BaseView:1
+msgid "Base administrative view."
+msgstr ""
+
+#: flask_admin.base.BaseView:3
+msgid ""
+"Derive from this class to implement your administrative interface piece. "
+"For example::"
+msgstr ""
+
+#: flask_admin.base.BaseView:11
+msgid ""
+"Icons can be added to the menu by using `menu_icon_type` and "
+"`menu_icon_value`. For example::"
+msgstr ""
+
+#: flask_admin.base.BaseView.create_blueprint:1
+#: flask_admin.contrib.sqla.ModelView.create_blueprint:1
+msgid "Create Flask blueprint."
+msgstr ""
+
+#: flask_admin.base.BaseView.get_url:1
+#: flask_admin.contrib.sqla.ModelView.get_url:1
+msgid ""
+"Generate URL for the endpoint. If you want to customize URL generation "
+"logic (persist some query string argument, for example), this is right "
+"place to do it."
+msgstr ""
+
+#: flask_admin.base.BaseView.get_url:5
+#: flask_admin.contrib.sqla.ModelView.get_url:5
+msgid "Flask endpoint name"
+msgstr ""
+
+#: flask_admin.base.BaseView.get_url:7
+#: flask_admin.contrib.sqla.ModelView.get_url:7
+msgid "Arguments for `url_for`"
+msgstr ""
+
+#: flask_admin.base.BaseView.inaccessible_callback:1
+#: flask_admin.contrib.sqla.ModelView.inaccessible_callback:1
+msgid "Handle the response to inaccessible views."
+msgstr ""
+
+#: flask_admin.base.BaseView.inaccessible_callback:3
+#: flask_admin.contrib.sqla.ModelView.inaccessible_callback:3
+msgid ""
+"By default, it throw HTTP 403 error. Override this method to customize "
+"the behaviour."
+msgstr ""
+
+#: flask_admin.base.BaseView.is_accessible:1
+#: flask_admin.contrib.sqla.ModelView.is_accessible:1
+msgid "Override this method to add permission checks."
+msgstr ""
+
+#: flask_admin.base.BaseView.is_accessible:3
+#: flask_admin.contrib.sqla.ModelView.is_accessible:3
+msgid ""
+"Flask-Admin does not make any assumptions about the authentication system"
+" used in your application, so it is up to you to implement it."
+msgstr ""
+
+#: flask_admin.base.BaseView.is_accessible:6
+#: flask_admin.contrib.sqla.ModelView.is_accessible:6
+msgid "By default, it will allow access for everyone."
+msgstr ""
+
+#: flask_admin.base.BaseView.is_visible:1
+#: flask_admin.contrib.sqla.ModelView.is_visible:1
+msgid ""
+"Override this method if you want dynamically hide or show administrative "
+"views from Flask-Admin menu structure"
+msgstr ""
+
+#: flask_admin.base.BaseView.is_visible:4
+#: flask_admin.contrib.sqla.ModelView.is_visible:4
+msgid "By default, item is visible in menu."
+msgstr ""
+
+#: flask_admin.base.BaseView.is_visible:6
+#: flask_admin.contrib.sqla.ModelView.is_visible:6
+msgid ""
+"Please note that item should be both visible and accessible to be "
+"displayed in menu."
+msgstr ""
+
+#: flask_admin.base.BaseView.render:1
+#: flask_admin.contrib.sqla.ModelView.render:1
+msgid "Render template"
+msgstr ""
+
+#: flask_admin.base.BaseView.render:3
+#: flask_admin.contrib.sqla.ModelView.render:3
+msgid "Template path to render"
+msgstr ""
+
+#: flask_admin.base.BaseView.render:5
+#: flask_admin.contrib.sqla.ModelView.render:5
+msgid "Template arguments"
+msgstr ""
+
+#: ../../doc/api/mod_base.rst:16
+msgid "Default view"
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:1
+msgid ""
+"Default administrative interface index page when visiting the ``/admin/``"
+" URL."
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:3
+msgid ""
+"It can be overridden by passing your own view class to the ``Admin`` "
+"constructor::"
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:14
+msgid "Also, you can change the root url from /admin to / with the following::"
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:25
+msgid "Default values for the index page are:"
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:27
+msgid "If a name is not provided, 'Home' will be used."
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:28
+msgid "If an endpoint is not provided, will default to ``admin``"
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:29
+msgid "Default URL route is ``/admin``."
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:30
+msgid "Automatically associates with static folder."
+msgstr ""
+
+#: flask_admin.base.AdminIndexView:31
+msgid "Default template is ``admin/index.html``"
+msgstr ""
+
+#: ../../doc/api/mod_base.rst:22
+msgid "Admin"
+msgstr ""
+
+#: flask_admin.base.Admin:1
+msgid "Collection of the admin views. Also manages menu structure."
+msgstr ""
+
+#: flask_admin.base.Admin.add_link:1
+msgid "Add link to menu links collection."
+msgstr ""
+
+#: flask_admin.base.Admin.add_link:3
+msgid "Link to add."
+msgstr ""
+
+#: flask_admin.base.Admin.add_links:1
+msgid "Add one or more links to the menu links collection."
+msgstr ""
+
+#: flask_admin.base.Admin.add_links:3 flask_admin.base.Admin.add_views:3
+msgid "Examples::"
+msgstr ""
+
+#: flask_admin.base.Admin.add_links:9
+msgid "Argument list including the links to add."
+msgstr ""
+
+#: flask_admin.base.Admin.add_menu_item:1
+msgid "Add menu item to menu tree hierarchy."
+msgstr ""
+
+#: flask_admin.base.Admin.add_menu_item:3
+msgid "MenuItem class instance"
+msgstr ""
+
+#: flask_admin.base.Admin.add_menu_item:5
+msgid "Target category name"
+msgstr ""
+
+#: flask_admin.base.Admin.add_view:1
+msgid "Add a view to the collection."
+msgstr ""
+
+#: flask_admin.base.Admin.add_view:3
+msgid "View to add."
+msgstr ""
+
+#: flask_admin.base.Admin.add_views:1
+msgid "Add one or more views to the collection."
+msgstr ""
+
+#: flask_admin.base.Admin.add_views:9
+msgid "Argument list including the views to add."
+msgstr ""
+
+#: flask_admin.base.Admin.init_app:1
+msgid "Register all views with the Flask application."
+msgstr ""
+
+#: flask_admin.base.Admin.init_app:3
+msgid "Flask application instance"
+msgstr ""
+
+#: flask_admin.base.Admin.menu:1
+msgid "Return the menu hierarchy."
+msgstr ""
+
+#: flask_admin.base.Admin.menu_links:1
+msgid "Return menu links."
+msgstr ""
+
+#: ../../doc/api/mod_contrib_fileadmin.rst:2
+msgid "``flask_admin.contrib.fileadmin``"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin:1
+msgid "Simple file-management interface."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin:3
+msgid "Path to the directory which will be managed"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin:5
+msgid ""
+"Optional base URL for the directory. Will be used to generate static "
+"links to the files. If not defined, a route will be created to serve "
+"uploaded files."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin:10
+msgid "Sample usage::"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_upload:1
+msgid "Is file upload allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_delete:1
+msgid "Is file deletion allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_delete_dirs:1
+msgid "Is recursive directory deletion is allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_mkdir:1
+msgid "Is directory creation allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_rename:1
+msgid "Is file and directory renaming allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.allowed_extensions:1
+msgid "List of allowed extensions for uploads, in lower case."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.allowed_extensions:3
+#: flask_admin.contrib.fileadmin.FileAdmin.editable_extensions:3
+#: flask_admin.contrib.fileadmin.FileAdmin.form_base_class:6
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:3
+#: flask_admin.contrib.sqla.ModelView.form_choices:3
+#: flask_admin.contrib.sqla.ModelView.form_optional_types:3
+#: flask_admin.contrib.sqla.ModelView.get_query:7
+#: flask_admin.model.BaseModelView.column_searchable_list:5
+#: flask_admin.model.BaseModelView.column_default_sort:3
+#: flask_admin.model.BaseModelView.column_choices:3
+#: flask_admin.model.BaseModelView.column_filters:5
+#: flask_admin.model.BaseModelView.form_base_class:5
+#: flask_admin.model.BaseModelView.form_columns:4
+#: flask_admin.model.BaseModelView.form_args:4
+#: flask_admin.model.BaseModelView.form_overrides:3
+#: flask_admin.model.BaseModelView.form_widget_args:4
+#: flask_admin.model.BaseModelView.form_widget_args:16
+#: flask_admin.model.BaseModelView.form_extra_fields:3
+#: flask_admin.tools.import_attribute:8 flask_admin.tools.rec_getattr:8
+msgid "Example::"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.editable_extensions:1
+msgid "List of editable extensions, in lower case."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.list_template:1
+msgid "File list template"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.upload_template:1
+msgid "File upload template"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir_template:1
+msgid "Directory creation (mkdir) template"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.rename_template:1
+msgid "Rename template"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.edit_template:1
+msgid "Edit template"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.before_directory_delete:1
+msgid "Perform some actions before a directory has successfully been deleted."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.before_directory_delete:3
+#: flask_admin.contrib.fileadmin.FileAdmin.before_file_delete:3
+#: flask_admin.contrib.fileadmin.FileAdmin.on_directory_delete:3
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_delete:3
+msgid "Called from delete method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.before_directory_delete:5
+#: flask_admin.contrib.fileadmin.FileAdmin.before_file_delete:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_directory_delete:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_edit_file:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_delete:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_upload:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_mkdir:5
+#: flask_admin.contrib.fileadmin.FileAdmin.on_rename:5
+#: flask_admin.contrib.sqla.ModelView.on_model_delete:6
+#: flask_admin.model.BaseModelView.on_model_delete:6
+msgid "By default do nothing."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.before_file_delete:1
+msgid "Perform some actions before a file has successfully been deleted."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.can_download:1
+msgid "Is file download allowed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.delete:1
+msgid "Delete view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.delete_form:1
+msgid "Instantiate file delete form and return it."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.delete_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.edit_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.name_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.upload_form:3
+#: flask_admin.contrib.sqla.ModelView.create_form:3
+#: flask_admin.contrib.sqla.ModelView.delete_form:3
+#: flask_admin.contrib.sqla.ModelView.edit_form:3
+#: flask_admin.contrib.sqla.ModelView.list_form:3
+#: flask_admin.model.BaseModelView.create_form:3
+#: flask_admin.model.BaseModelView.delete_form:3
+#: flask_admin.model.BaseModelView.edit_form:3
+#: flask_admin.model.BaseModelView.list_form:3
+msgid "Override to implement custom behavior."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.download:1
+msgid "Download view method."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.download:3
+msgid "File path."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.edit:1
+msgid "Edit view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.edit_form:1
+msgid "Instantiate file editing form and return it."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.edit_modal:1
+msgid "Setting this to true will display the edit view as a modals dialog."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.edit_modal_template:1
+msgid "Edit template for modals dialog"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.form_base_class:1
+msgid ""
+"Base form class. Will be used to create the upload, rename, edit, and "
+"delete form."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.form_base_class:3
+msgid ""
+"Allows enabling CSRF validation and useful if you want to have custom "
+"contructor or override some fields."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_base_path:1
+msgid ""
+"Return base path. Override to customize behavior (per-user directories, "
+"etc)"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_base_url:1
+msgid ""
+"Return base URL. Override to customize behavior (per-user directories, "
+"etc)"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_delete_form:1
+#: flask_admin.contrib.sqla.ModelView.get_delete_form:1
+#: flask_admin.model.BaseModelView.get_delete_form:1
+msgid "Create form class for model delete view."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_delete_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.get_edit_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.get_name_form:3
+#: flask_admin.contrib.fileadmin.FileAdmin.get_upload_form:3
+#: flask_admin.contrib.sqla.ModelView.get_create_form:3
+#: flask_admin.contrib.sqla.ModelView.get_delete_form:3
+#: flask_admin.contrib.sqla.ModelView.get_edit_form:3
+#: flask_admin.contrib.sqla.ModelView.get_form:6
+#: flask_admin.model.BaseModelView.get_create_form:3
+#: flask_admin.model.BaseModelView.get_delete_form:3
+#: flask_admin.model.BaseModelView.get_edit_form:3
+#: flask_admin.model.BaseModelView.get_form:6
+msgid "Override to implement customized behavior."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_edit_form:1
+msgid "Create form class for file editing view."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_name_form:1
+msgid "Create form class for renaming and mkdir views."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.get_upload_form:1
+msgid "Upload form class for file upload view."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.index:1
+msgid "Index view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.index:3
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir:3
+#: flask_admin.contrib.fileadmin.FileAdmin.upload:3
+msgid "Optional directory path. If not provided, will use the base directory"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_accessible_path:1
+msgid "Verify if the provided path is accessible for the current user."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_accessible_path:3
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_allowed:3
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_editable:3
+msgid "Override to customize behavior."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_accessible_path:5
+msgid "Relative path to the root"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_allowed:1
+msgid "Verify if file can be uploaded."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_allowed:5
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_editable:5
+msgid "Source file name"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_file_editable:1
+msgid "Determine if the file can be edited."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_in_folder:1
+msgid "Verify that `directory` is in `base_path` folder"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_in_folder:3
+msgid "Base directory path"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.is_in_folder:5
+msgid "Directory path to check"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir:1
+msgid "Directory creation view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir_modal:1
+msgid "Setting this to true will display the mkdir view as a modals dialog."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.mkdir_modal_template:1
+msgid "Directory creation (mkdir) template for modals dialog"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.name_form:1
+msgid "Instantiate form used in rename and mkdir then return it."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_directory_delete:1
+msgid "Perform some actions after a directory has successfully been deleted."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_edit_file:1
+msgid "Perform some actions after a file has been successfully changed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_edit_file:3
+msgid "Called from edit method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_delete:1
+msgid "Perform some actions after a file has successfully been deleted."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_upload:1
+msgid "Perform some actions after a file has been successfully uploaded."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_file_upload:3
+msgid "Called from upload method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_mkdir:1
+msgid "Perform some actions after a directory has successfully been created."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_mkdir:3
+msgid "Called from mkdir method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_rename:1
+msgid "Perform some actions after a file or directory has been renamed."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.on_rename:3
+msgid "Called from rename method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.rename:1
+msgid "Rename view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.rename_modal:1
+msgid "Setting this to true will display the rename view as a modals dialog."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.rename_modal_template:1
+msgid "Rename template for modals dialog"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.save_file:1
+msgid "Save uploaded file to the disk"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.save_file:3
+msgid "Path to save to"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.save_file:5
+msgid "Werkzeug `FileStorage` object"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.upload:1
+msgid "Upload view method"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.upload_form:1
+msgid "Instantiate file upload form and return it."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.upload_modal:1
+msgid "Setting this to true will display the upload view as a modals dialog."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.upload_modal_template:1
+msgid "File upload template for modals dialog"
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.validate_form:1
+#: flask_admin.contrib.sqla.ModelView.validate_form:1
+#: flask_admin.model.BaseModelView.validate_form:1
+msgid "Validate the form on submit."
+msgstr ""
+
+#: flask_admin.contrib.fileadmin.FileAdmin.validate_form:3
+#: flask_admin.contrib.sqla.ModelView.validate_form:3
+#: flask_admin.model.BaseModelView.validate_form:3
+msgid "Form to validate"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_mongoengine.rst:2
+msgid "``flask_admin.contrib.mongoengine``"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_mongoengine.rst:4
+msgid "MongoEngine model backend implementation."
+msgstr ""
+
+#: ../../doc/api/mod_contrib_mongoengine_fields.rst:2
+msgid "``flask_admin.contrib.mongoengine.fields``"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_peewee.rst:2
+msgid "``flask_admin.contrib.peewee``"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_peewee.rst:4
+msgid "Peewee model backend implementation."
+msgstr ""
+
+#: ../../doc/api/mod_contrib_pymongo.rst:2
+msgid "``flask_admin.contrib.pymongo``"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_pymongo.rst:4
+msgid "PyMongo model backend implementation."
+msgstr ""
+
+#: ../../doc/api/mod_contrib_sqla.rst:2
+msgid "``flask_admin.contrib.sqla``"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_sqla.rst:4
+msgid "SQLAlchemy model backend implementation."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView:1
+msgid "SQLAlchemy model view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView:3
+msgid "Usage sample::"
+msgstr ""
+
+#: ../../doc/api/mod_contrib_sqla.rst:18
+msgid ""
+"Class inherits configuration options from "
+":class:`~flask_admin.model.BaseModelView` and they're not displayed here."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_auto_select_related:1
+msgid ""
+"Enable automatic detection of displayed foreign keys in this view and "
+"perform automatic joined loading for related models to improve query "
+"performance."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_auto_select_related:5
+msgid ""
+"Please note that detection is not recursive: if `__unicode__` method of "
+"related model uses another model to generate string representation, it "
+"will still make separate database call."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_select_related_list:1
+msgid ""
+"List of parameters for SQLAlchemy `subqueryload`. Overrides "
+"`column_auto_select_related` property."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_select_related_list:4
+#: flask_admin.contrib.sqla.ModelView.column_filters:5
+#: flask_admin.contrib.sqla.ModelView.model_form_converter:3
+#: flask_admin.form.upload.FileUploadField.__init__:17
+#: flask_admin.form.upload.ImageUploadField.__init__:17
+#: flask_admin.form.upload.ImageUploadField.__init__:40
+#: flask_admin.model.BaseModelView.column_list:4
+#: flask_admin.model.BaseModelView.column_exclude_list:3
+#: flask_admin.model.BaseModelView.column_labels:3
+#: flask_admin.model.BaseModelView.column_descriptions:4
+#: flask_admin.model.BaseModelView.column_sortable_list:4
+#: flask_admin.model.BaseModelView.form:4
+#: flask_admin.model.BaseModelView.form_excluded_columns:3
+#: flask_admin.model.BaseModelView.column_editable_list:3
+msgid "For example::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_select_related_list:9
+msgid "You can also use properties::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_select_related_list:14
+msgid "Please refer to the `subqueryload` on list of possible values."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:1
+msgid "Collection of the searchable columns."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:8
+msgid "You can also pass columns::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:13
+msgid "The following search rules apply:"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:15
+msgid ""
+"If you enter ``ZZZ`` in the UI search field, it will generate ``ILIKE "
+"'%ZZZ%'`` statement against searchable columns."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:18
+msgid ""
+"If you enter multiple words, each word will be searched separately, but "
+"only rows that contain all words will be displayed. For example, "
+"searching for ``abc def`` will find all rows that contain ``abc`` and "
+"``def`` in one or more columns."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:23
+msgid ""
+"If you prefix your search term with ``^``, it will find all rows that "
+"start with ``^``. So, if you entered ``^ZZZ`` then ``ILIKE 'ZZZ%'`` will "
+"be used."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_searchable_list:26
+msgid ""
+"If you prefix your search term with ``=``, it will perform an exact "
+"match. For example, if you entered ``=ZZZ``, the statement ``ILIKE "
+"'ZZZ'`` will be used."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_filters:1
+#: flask_admin.model.BaseModelView.column_filters:1
+msgid "Collection of the column filters."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_filters:3
+msgid ""
+"Can contain either field names or instances of "
+":class:`flask_admin.contrib.sqla.filters.BaseFilter` classes."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_filters:10
+msgid "or::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.filter_converter:1
+msgid "Field to filter converter."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.filter_converter:3
+msgid "Override this attribute to use non-default converter."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.model_form_converter:1
+msgid ""
+"Model form conversion class. Use this to implement custom field "
+"conversion logic."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_model_form_converter:1
+msgid ""
+"Inline model conversion class. If you need some kind of post-processing "
+"for inline forms, you can customize behavior by doing something like "
+"this::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.fast_mass_delete:1
+msgid ""
+"If set to `False` and user deletes more than one model using built in "
+"action, all models will be read from the database and then deleted one by"
+" one giving SQLAlchemy a chance to manually cleanup any dependencies "
+"(many-to-many relationships, etc)."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.fast_mass_delete:6
+msgid ""
+"If set to `True`, will run a ``DELETE`` statement which is somewhat "
+"faster, but may leave corrupted data if you forget to configure ``DELETE "
+"CASCADE`` for your model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:1
+msgid "Inline related-model editing for models with parent-child relations."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:3
+msgid "Accepts enumerable with one of the following possible values:"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:5
+msgid "Child model class::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:10
+msgid "Child model class and additional options::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:15
+msgid "Django-like ``InlineFormAdmin`` class instance::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:23
+msgid "You can customize the generated field name by:"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:25
+msgid "Using the `form_name` property as a key to the options dictionary::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.inline_models:30
+msgid "Using forward relation name and `column_labels` property::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.form_choices:1
+msgid "Map choices to form fields"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.form_optional_types:1
+msgid "List of field types that should be optional if column is not nullable."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.action_view:1
+#: flask_admin.model.BaseModelView.action_view:1
+msgid "Mass-model action view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:1
+#: flask_admin.model.BaseModelView.after_model_change:1
+msgid ""
+"Perform some actions after a model was created or updated and committed "
+"to the database."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:4
+#: flask_admin.model.BaseModelView.after_model_change:4
+msgid "Called from create_model after successful database commit."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:6
+#: flask_admin.contrib.sqla.ModelView.after_model_delete:7
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:7
+#: flask_admin.contrib.sqla.ModelView.on_model_change:6
+#: flask_admin.model.BaseModelView.after_model_change:6
+#: flask_admin.model.BaseModelView.after_model_delete:7
+#: flask_admin.model.BaseModelView.on_form_prefill:7
+#: flask_admin.model.BaseModelView.on_model_change:6
+msgid "By default does nothing."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:8
+#: flask_admin.contrib.sqla.ModelView.on_model_change:8
+#: flask_admin.model.BaseModelView.after_model_change:8
+#: flask_admin.model.BaseModelView.on_model_change:8
+msgid "Form used to create/update model"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:10
+#: flask_admin.model.BaseModelView.after_model_change:10
+msgid "Model that was created/updated"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_change:12
+#: flask_admin.model.BaseModelView.after_model_change:12
+msgid "True if model was created, False if model was updated"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_delete:1
+#: flask_admin.model.BaseModelView.after_model_delete:1
+msgid ""
+"Perform some actions after a model was deleted and committed to the "
+"database."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_delete:4
+#: flask_admin.model.BaseModelView.after_model_delete:4
+msgid ""
+"Called from delete_model after successful database commit (if it has any "
+"meaning for a store backend)."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.after_model_delete:9
+#: flask_admin.model.BaseModelView.after_model_delete:9
+msgid "Model that was deleted"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.ajax_update:1
+#: flask_admin.model.BaseModelView.ajax_update:1
+msgid "Edits a single column of a record in list view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.column_display_all_relations:1
+msgid "Controls if list view should display all relations, not only many-to-one."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.create_form:1
+#: flask_admin.model.BaseModelView.create_form:1
+msgid "Instantiate model creation form and return it."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.create_model:1
+msgid "Create model from form."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.create_model:3
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:15
+#: flask_admin.contrib.sqla.ModelView.update_model:3
+#: flask_admin.model.BaseModelView.create_model:7
+#: flask_admin.model.BaseModelView.on_form_prefill:15
+#: flask_admin.model.BaseModelView.update_model:7
+msgid "Form instance"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.create_view:1
+#: flask_admin.model.BaseModelView.create_view:1
+msgid "Create model view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.delete_form:1
+#: flask_admin.model.BaseModelView.delete_form:1
+msgid "Instantiate model delete form and return it."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.delete_form:5
+#: flask_admin.model.BaseModelView.delete_form:5
+msgid ""
+"The delete form originally used a GET request, so delete_form accepts "
+"both GET and POST request for backwards compatibility."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.delete_model:1
+#: flask_admin.model.BaseModelView.delete_model:1
+msgid "Delete model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.delete_model:3
+msgid "Model to delete"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.delete_view:1
+#: flask_admin.model.BaseModelView.delete_view:1
+msgid "Delete model view. Only POST method is allowed."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.details_view:1
+#: flask_admin.model.BaseModelView.details_view:1
+msgid "Details model view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.edit_form:1
+#: flask_admin.model.BaseModelView.edit_form:1
+msgid "Instantiate model editing form and return it."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.edit_view:1
+#: flask_admin.model.BaseModelView.edit_view:1
+msgid "Edit model view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.export_csv:1
+#: flask_admin.model.BaseModelView.export_csv:1
+msgid "Export a CSV of records."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_column_name:1
+#: flask_admin.model.BaseModelView.get_column_name:1
+msgid "Return a human-readable column name."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_column_name:3
+#: flask_admin.model.BaseModelView.get_column_name:3
+msgid "Model field name."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_count_query:1
+msgid "Return a the count query for the model type"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_count_query:3
+msgid ""
+"A ``query(self.model).count()`` approach produces an excessive subquery, "
+"so ``query(func.count('*'))`` should be used instead."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_count_query:6
+msgid "See commit ``#45a2723`` for details."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_create_form:1
+#: flask_admin.model.BaseModelView.get_create_form:1
+msgid "Create form class for model creation view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_details_columns:1
+#: flask_admin.model.BaseModelView.get_details_columns:1
+msgid ""
+"Returns a list of the model field names in the details view. If "
+"`column_details_list` was set, returns it. Otherwise calls "
+"`scaffold_list_columns` to generate the list from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_edit_form:1
+#: flask_admin.model.BaseModelView.get_edit_form:1
+msgid "Create form class for model editing view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_export_columns:1
+#: flask_admin.model.BaseModelView.get_export_columns:1
+msgid ""
+"Returns a list of the model field names in the export view. If "
+"`column_export_list` was set, returns it. Otherwise, if `column_list` was"
+" set, returns it. Otherwise calls `scaffold_list_columns` to generate the"
+" list from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_export_value:1
+#: flask_admin.model.BaseModelView.get_export_value:1
+msgid ""
+"Returns the value to be displayed in export. Allows export to use "
+"different (non HTML) formatters."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_export_value:4
+#: flask_admin.contrib.sqla.ModelView.get_list_value:5
+#: flask_admin.contrib.sqla.ModelView.update_model:5
+#: flask_admin.model.BaseModelView.delete_model:7
+#: flask_admin.model.BaseModelView.get_export_value:4
+#: flask_admin.model.BaseModelView.get_list_value:5
+#: flask_admin.model.BaseModelView.update_model:9
+msgid "Model instance"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_export_value:6
+#: flask_admin.contrib.sqla.ModelView.get_list_value:7
+#: flask_admin.model.BaseModelView.get_export_value:6
+#: flask_admin.model.BaseModelView.get_list_value:7
+msgid "Field name"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filter_arg:1
+#: flask_admin.model.BaseModelView.get_filter_arg:1
+msgid "Given a filter `flt`, return a unique name for that filter in this view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filter_arg:4
+#: flask_admin.model.BaseModelView.get_filter_arg:4
+msgid "Does not include the `flt[n]_` portion of the filter name."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filter_arg:6
+#: flask_admin.model.BaseModelView.get_filter_arg:6
+msgid "Filter index in _filters array"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filter_arg:8
+#: flask_admin.model.BaseModelView.get_filter_arg:8
+msgid "Filter instance"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filters:1
+#: flask_admin.model.BaseModelView.get_filters:1
+msgid "Return a list of filter objects."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_filters:3
+#: flask_admin.model.BaseModelView.get_filters:3
+msgid ""
+"If your model backend implementation does not support filters, override "
+"this method and return `None`."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_form:1
+#: flask_admin.model.BaseModelView.get_form:1
+msgid "Get form class."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_form:3
+#: flask_admin.model.BaseModelView.get_form:3
+msgid ""
+"If ``self.form`` is set, will return it and will call "
+"``self.scaffold_form`` otherwise."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:1
+msgid "Return records from the database."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:3
+msgid "Page number"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:5
+msgid "Sort column name"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:7
+msgid "Descending or ascending sort"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:9
+#: flask_admin.model.BaseModelView.get_list:11
+msgid "Search query"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:11
+msgid "Execute query immediately? Default is `True`"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:13
+msgid "List of filter tuples"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list:15
+#: flask_admin.model.BaseModelView.get_list:16
+msgid ""
+"Number of results. Defaults to ModelView's page_size. Can be overriden to"
+" change the page_size limit. Removing the page_size limit requires "
+"setting page_size to 0 or False."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_columns:1
+#: flask_admin.model.BaseModelView.get_list_columns:1
+msgid ""
+"Returns a list of the model field names. If `column_list` was set, "
+"returns it. Otherwise calls `scaffold_list_columns` to generate the list "
+"from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_form:1
+#: flask_admin.model.BaseModelView.get_list_form:1
+msgid "Get form class for the editable list view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_form:3
+#: flask_admin.model.BaseModelView.get_list_form:3
+msgid "Uses only validators from `form_args` to build the form class."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_form:5
+#: flask_admin.model.BaseModelView.get_list_form:5
+msgid "Allows overriding the editable list view field/widget. For example::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_value:1
+#: flask_admin.model.BaseModelView.get_list_value:1
+msgid "Returns the value to be displayed in the list view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_list_value:3
+#: flask_admin.model.BaseModelView.get_list_value:3
+msgid ":py:class:`jinja2.runtime.Context`"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_one:1
+msgid "Return a single model by its id."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_one:3
+#: flask_admin.model.BaseModelView.get_one:5
+msgid "Model id"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_pk_value:1
+msgid ""
+"Return the primary key value from a model object. If there are multiple "
+"primary keys, they're encoded into string representation."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_query:1
+msgid "Return a query for the model type."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_query:3
+msgid ""
+"If you override this method, don't forget to override `get_count_query` "
+"as well."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_query:5
+msgid "This method can be used to set a \"persistent filter\" on an index_view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_save_return_url:1
+#: flask_admin.model.BaseModelView.get_save_return_url:1
+msgid "Return url where user is redirected after successful form save."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_save_return_url:3
+#: flask_admin.model.BaseModelView.get_save_return_url:3
+msgid "Saved object"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_save_return_url:5
+#: flask_admin.model.BaseModelView.get_save_return_url:5
+msgid "Whether new object was created or existing one was updated"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_save_return_url:8
+#: flask_admin.model.BaseModelView.get_save_return_url:8
+msgid "For example, redirect use to object details view after form save::"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_sortable_columns:1
+#: flask_admin.model.BaseModelView.get_sortable_columns:1
+msgid ""
+"Returns a dictionary of the sortable columns. Key is a model field name "
+"and value is sort column (for example - attribute)."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.get_sortable_columns:4
+#: flask_admin.model.BaseModelView.get_sortable_columns:4
+msgid ""
+"If `column_sortable_list` is set, will use it. Otherwise, will call "
+"`scaffold_sortable_columns` to get them from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.index_view:1
+#: flask_admin.model.BaseModelView.index_view:1
+msgid "List view"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.init_search:1
+msgid "Initialize search. Returns `True` if search is supported for this view."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.init_search:4
+msgid ""
+"For SQLAlchemy, this will initialize internal fields: list of column "
+"objects used for filtering, etc."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_editable:1
+#: flask_admin.model.BaseModelView.is_editable:1
+msgid "Verify if column is editable."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_editable:3
+#: flask_admin.contrib.sqla.ModelView.is_sortable:5
+#: flask_admin.model.BaseModelView.is_editable:3
+#: flask_admin.model.BaseModelView.is_sortable:5
+msgid "Column name."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_sortable:1
+#: flask_admin.model.BaseModelView.is_sortable:1
+msgid "Verify if column is sortable."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_sortable:3
+#: flask_admin.model.BaseModelView.is_sortable:3
+msgid "Not case-sensitive."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_valid_filter:1
+#: flask_admin.model.BaseModelView.is_valid_filter:1
+msgid "Verify that the provided filter object is valid."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_valid_filter:3
+#: flask_admin.model.BaseModelView.is_valid_filter:3
+msgid ""
+"Override in model backend implementation to verify if the provided filter"
+" type is allowed."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.is_valid_filter:6
+#: flask_admin.model.BaseModelView.is_valid_filter:6
+msgid "Filter object to verify."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.list_form:1
+#: flask_admin.model.BaseModelView.list_form:1
+msgid "Instantiate model editing form for list view and return it."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:1
+#: flask_admin.model.BaseModelView.on_form_prefill:1
+msgid "Perform additional actions to pre-fill the edit form."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:3
+#: flask_admin.model.BaseModelView.on_form_prefill:3
+msgid ""
+"Called from edit_view, if the current action is rendering the form rather"
+" than receiving client side input, after default pre-filling has been "
+"performed."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:9
+#: flask_admin.model.BaseModelView.on_form_prefill:9
+msgid ""
+"You only need to override this if you have added custom fields that "
+"depend on the database contents in a way that Flask-admin can't figure "
+"out by itself. Fields that were added by name of a normal column or "
+"relationship should work out of the box."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_form_prefill:17
+#: flask_admin.model.BaseModelView.on_form_prefill:17
+msgid "id of the object that is going to be edited"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_change:1
+#: flask_admin.model.BaseModelView.on_model_change:1
+msgid "Perform some actions before a model is created or updated."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_change:3
+#: flask_admin.model.BaseModelView.on_model_change:3
+msgid ""
+"Called from create_model and update_model in the same transaction (if it "
+"has any meaning for a store backend)."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_change:10
+#: flask_admin.model.BaseModelView.on_model_change:10
+msgid "Model that will be created/updated"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_change:12
+#: flask_admin.model.BaseModelView.on_model_change:12
+msgid "Will be set to True if model was created and to False if edited"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_delete:1
+#: flask_admin.model.BaseModelView.on_model_delete:1
+msgid "Perform some actions before a model is deleted."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.on_model_delete:3
+#: flask_admin.model.BaseModelView.on_model_delete:3
+msgid ""
+"Called from delete_model in the same transaction (if it has any meaning "
+"for a store backend)."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_auto_joins:1
+msgid "Return a list of joined tables by going through the displayed columns."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_filters:1
+msgid "Return list of enabled filters"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_form:1
+msgid "Create form from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_inline_form_models:1
+msgid "Contribute inline models to the form"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_inline_form_models:3
+msgid "Form class"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_list_columns:1
+msgid "Return a list of columns from the model."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_list_form:1
+#: flask_admin.model.BaseModelView.scaffold_list_form:1
+msgid ""
+"Create form for the `index_view` using only the columns from "
+"`self.column_editable_list`."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_list_form:4
+#: flask_admin.model.BaseModelView.scaffold_list_form:4
+msgid ""
+"`form_args` dict with only validators {'name': {'validators': "
+"[required()]}}"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_list_form:7
+#: flask_admin.model.BaseModelView.scaffold_list_form:7
+msgid "A WTForm FieldList class. By default, `ListEditableFieldList`."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_pk:1
+msgid ""
+"Return the primary key name(s) from a model If model has single primary "
+"key, will return a string and tuple otherwise"
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.scaffold_sortable_columns:1
+msgid ""
+"Return a dictionary of sortable columns. Key is column name, value is "
+"sort column/field."
+msgstr ""
+
+#: flask_admin.contrib.sqla.ModelView.update_model:1
+msgid "Update model from form."
+msgstr ""
+
+#: ../../doc/api/mod_form.rst:2
+msgid "``flask_admin.form``"
+msgstr ""
+
+#: ../../doc/api/mod_form_fields.rst:2
+msgid "``flask_admin.form.fields``"
+msgstr ""
+
+#: flask_admin.form.fields.TimeField:1
+msgid ""
+"A text field which stores a `datetime.time` object. Accepts time string "
+"in multiple formats: 20:10, 20:10:00, 10:00 am, 9:30pm, etc."
+msgstr ""
+
+#: flask_admin.form.fields.Select2Field:1
+msgid "`Select2 <https://github.com/ivaynberg/select2>`_ styled select widget."
+msgstr ""
+
+#: flask_admin.form.fields.Select2Field:3
+msgid ""
+"You must include select2.js, form-x.x.x.js and select2 stylesheet for it "
+"to work."
+msgstr ""
+
+#: flask_admin.form.fields.Select2TagsField:1
+msgid ""
+"`Select2 <http://ivaynberg.github.com/select2/#tags>`_ styled text field."
+" You must include select2.js, form-x.x.x.js and select2 stylesheet for it"
+" to work."
+msgstr ""
+
+#: ../../doc/api/mod_form_rules.rst:2
+msgid "``flask_admin.form.rules``"
+msgstr ""
+
+#: flask_admin.form.rules.BaseRule:1
+msgid "Base form rule. All form formatting rules should derive from `BaseRule`."
+msgstr ""
+
+#: flask_admin.form.rules.NestedRule:1
+msgid "Nested rule. Can contain child rules and render them."
+msgstr ""
+
+#: flask_admin.form.rules.NestedRule.__init__:1
+#: flask_admin.form.rules.Text.__init__:1
+#: flask_admin.form.rules.Macro.__init__:1
+#: flask_admin.form.rules.Container.__init__:1
+#: flask_admin.form.rules.Field.__init__:1
+#: flask_admin.form.rules.Header.__init__:1
+#: flask_admin.form.rules.FieldSet.__init__:1
+#: flask_admin.form.upload.FileUploadField.__init__:1
+#: flask_admin.form.upload.ImageUploadField.__init__:1
+msgid "Constructor."
+msgstr ""
+
+#: flask_admin.form.rules.NestedRule.__init__:3
+msgid "Child rule list"
+msgstr ""
+
+#: flask_admin.form.rules.NestedRule.__init__:5
+msgid "Default separator between rules when rendering them."
+msgstr ""
+
+#: flask_admin.form.rules.Text:1
+msgid "Render text (or HTML snippet) from string."
+msgstr ""
+
+#: flask_admin.form.rules.Text.__init__:3
+#: flask_admin.form.rules.Header.__init__:3
+msgid "Text to render"
+msgstr ""
+
+#: flask_admin.form.rules.Text.__init__:5
+msgid "Should text be escaped or not. Default is `True`."
+msgstr ""
+
+#: flask_admin.form.rules.HTML:1
+msgid "Shortcut for `Text` rule with `escape` set to `False`."
+msgstr ""
+
+#: flask_admin.form.rules.Macro:1
+msgid "Render macro by its name from current Jinja2 context."
+msgstr ""
+
+#: flask_admin.form.rules.Macro.__init__:3
+msgid "Macro name"
+msgstr ""
+
+#: flask_admin.form.rules.Macro.__init__:5
+msgid "Default macro parameters"
+msgstr ""
+
+#: flask_admin.form.rules.Container:1
+msgid "Render container around child rule."
+msgstr ""
+
+#: flask_admin.form.rules.Container.__init__:3
+msgid "Macro name that will be used as a container"
+msgstr ""
+
+#: flask_admin.form.rules.Container.__init__:5
+msgid "Child rule to be rendered inside of container"
+msgstr ""
+
+#: flask_admin.form.rules.Container.__init__:7
+msgid "Container macro arguments"
+msgstr ""
+
+#: flask_admin.form.rules.Field:1
+msgid "Form field rule."
+msgstr ""
+
+#: flask_admin.form.rules.Field.__init__:3
+msgid "Field name to render"
+msgstr ""
+
+#: flask_admin.form.rules.Field.__init__:5
+msgid "Macro that will be used to render the field."
+msgstr ""
+
+#: flask_admin.form.rules.Header:1
+msgid "Render header text."
+msgstr ""
+
+#: flask_admin.form.rules.Header.__init__:5
+msgid "Header rendering macro"
+msgstr ""
+
+#: flask_admin.form.rules.FieldSet:1
+msgid "Field set with header."
+msgstr ""
+
+#: flask_admin.form.rules.FieldSet.__init__:3
+msgid "Child rules"
+msgstr ""
+
+#: flask_admin.form.rules.FieldSet.__init__:5
+msgid "Header text"
+msgstr ""
+
+#: flask_admin.form.rules.FieldSet.__init__:7
+msgid "Child rule separator"
+msgstr ""
+
+#: ../../doc/api/mod_form_upload.rst:2
+msgid "``flask_admin.form.upload``"
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField:1
+msgid "Customizable file-upload field."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField:3
+msgid ""
+"Saves file to configured path, handles updates and deletions. Inherits "
+"from `StringField`, resulting filename will be stored as string."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:3
+#: flask_admin.form.upload.ImageUploadField.__init__:3
+msgid "Display label"
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:5
+#: flask_admin.form.upload.ImageUploadField.__init__:5
+msgid "Validators"
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:7
+#: flask_admin.form.upload.ImageUploadField.__init__:7
+msgid "Absolute path to the directory which will store files"
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:9
+#: flask_admin.form.upload.ImageUploadField.__init__:9
+msgid ""
+"Relative path from the directory. Will be prepended to the file name for "
+"uploaded files. Flask-Admin uses `urlparse.urljoin` to generate resulting"
+" filename, so make sure you have trailing slash."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:13
+#: flask_admin.form.upload.ImageUploadField.__init__:13
+#, python-format
+msgid ""
+"Function that will generate filename from the model and uploaded file "
+"object. Please note, that model is \"dirty\" model object, before it was "
+"committed to database.  For example::      import os.path as op      def "
+"prefix_name(obj, file_data):         parts = "
+"op.splitext(file_data.filename)         return "
+"secure_filename('file-%s%s' % parts)      class MyForm(BaseForm):"
+"         upload = FileUploadField('File', namegen=prefix_name)"
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:14
+#: flask_admin.form.upload.ImageUploadField.__init__:14
+msgid ""
+"Function that will generate filename from the model and uploaded file "
+"object. Please note, that model is \"dirty\" model object, before it was "
+"committed to database."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:28
+msgid "List of allowed extensions. If not provided, will allow any file."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:30
+msgid ""
+"Whether to overwrite existing files in upload directory. Defaults to "
+"`True`."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadField.__init__:33
+msgid "The `allow_overwrite` parameter was added."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField:1
+msgid "Image upload field."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField:3
+msgid "Does image validation, thumbnail generation, updating and deleting images."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField:5
+msgid "Requires PIL (or Pillow) to be installed."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:28
+msgid ""
+"List of allowed extensions. If not provided, then gif, jpg, jpeg, png and"
+" tiff will be allowed."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:30
+msgid ""
+"Tuple of (width, height, force) or None. If provided, Flask-Admin will "
+"resize image to the desired size.  Width and height is in pixels. If "
+"`force` is set to `True`, will try to fit image into dimensions and keep "
+"aspect ratio, otherwise will just resize to target size."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:31
+msgid ""
+"Tuple of (width, height, force) or None. If provided, Flask-Admin will "
+"resize image to the desired size."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:34
+#: flask_admin.form.upload.ImageUploadField.__init__:54
+msgid ""
+"Width and height is in pixels. If `force` is set to `True`, will try to "
+"fit image into dimensions and keep aspect ratio, otherwise will just "
+"resize to target size."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:36
+#, python-format
+msgid ""
+"Thumbnail filename generation function. All thumbnails will be saved as "
+"JPEG files, so there's no need to keep original file extension.  For "
+"example::      import os.path as op      def thumb_name(filename):"
+"         name, _ = op.splitext(filename)         return "
+"secure_filename('%s-thumb.jpg' % name)      class MyForm(BaseForm):"
+"         upload = ImageUploadField('File', thumbgen=prefix_name)"
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:37
+msgid ""
+"Thumbnail filename generation function. All thumbnails will be saved as "
+"JPEG files, so there's no need to keep original file extension."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:51
+msgid ""
+"Tuple or (width, height, force) values. If not provided, thumbnail won't "
+"be created.  Width and height is in pixels. If `force` is set to `True`, "
+"will try to fit image into dimensions and keep aspect ratio, otherwise "
+"will just resize to target size."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:52
+msgid ""
+"Tuple or (width, height, force) values. If not provided, thumbnail won't "
+"be created."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:56
+msgid ""
+"Relative path from the root of the static directory URL. Only gets used "
+"when generating preview image URLs.  For example, your model might store "
+"just file names (`relative_path` set to `None`), but `base_path` is "
+"pointing to subdirectory."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:57
+msgid ""
+"Relative path from the root of the static directory URL. Only gets used "
+"when generating preview image URLs."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:60
+msgid ""
+"For example, your model might store just file names (`relative_path` set "
+"to `None`), but `base_path` is pointing to subdirectory."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadField.__init__:62
+msgid ""
+"Static endpoint for images. Used by widget to display previews. Defaults "
+"to 'static'."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadInput:1
+msgid "Renders a file input chooser field."
+msgstr ""
+
+#: flask_admin.form.upload.FileUploadInput:3
+#: flask_admin.form.upload.ImageUploadInput:3
+msgid ""
+"You can customize `empty_template` and `data_template` members to "
+"customize look and feel."
+msgstr ""
+
+#: flask_admin.form.upload.ImageUploadInput:1
+msgid "Renders a image input chooser field."
+msgstr ""
+
+#: ../../doc/api/mod_helpers.rst:2
+msgid "``flask_admin.helpers``"
+msgstr ""
+
+#: flask_admin.helpers.get_current_view:1
+msgid "Get current administrative view."
+msgstr ""
+
+#: ../../doc/api/mod_helpers.rst:8
+msgid "Forms"
+msgstr ""
+
+#: flask_admin.helpers.is_required_form_field:1
+msgid "Check if form field has `DataRequired` or `InputRequired` validators."
+msgstr ""
+
+#: flask_admin.helpers.is_required_form_field:3
+msgid "WTForms field to check"
+msgstr ""
+
+#: flask_admin.helpers.is_form_submitted:1
+msgid "Check if current method is PUT or POST"
+msgstr ""
+
+#: flask_admin.helpers.validate_form_on_submit:1
+msgid ""
+"If current method is PUT or POST, validate form and return validation "
+"status."
+msgstr ""
+
+#: flask_admin.helpers.get_form_data:1
+msgid ""
+"If current method is PUT or POST, return concatenated `request.form` with"
+" `request.files` or `None` otherwise."
+msgstr ""
+
+#: flask_admin.helpers.is_field_error:1
+msgid "Check if wtforms field has error without checking its children."
+msgstr ""
+
+#: flask_admin.helpers.is_field_error:3
+msgid "Errors list."
+msgstr ""
+
+#: ../../doc/api/mod_helpers.rst:16
+msgid "Jinja2 helpers"
+msgstr ""
+
+#: flask_admin.helpers.resolve_ctx:1
+msgid "Resolve current Jinja2 context and store it for general consumption."
+msgstr ""
+
+#: flask_admin.helpers.get_render_ctx:1
+msgid "Get view template context."
+msgstr ""
+
+#: ../../doc/api/mod_model.rst:2
+msgid "``flask_admin.model``"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:1
+msgid "Base model view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView:3
+msgid ""
+"This view does not make any assumptions on how models are stored or "
+"managed, but expects the following:"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:5
+msgid "The provided model is an object"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:6
+msgid "The model contains properties"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:7
+msgid ""
+"Each model contains an attribute which uniquely identifies it (i.e. a "
+"primary key for a database model)"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:8
+msgid ""
+"It is possible to retrieve a list of sorted models with pagination "
+"applied from a data source"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:9
+msgid "You can get one model by its identifier from the data source"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:11
+msgid ""
+"Essentially, if you want to support a new data store, all you have to do "
+"is:"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:13
+msgid "Derive from the `BaseModelView` class"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:14
+msgid ""
+"Implement various data-related methods (`get_list`, `get_one`, "
+"`create_model`, etc)"
+msgstr ""
+
+#: flask_admin.model.BaseModelView:15
+msgid ""
+"Implement automatic form generation from the model representation "
+"(`scaffold_form`)"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.can_create:1
+msgid "Is model creation allowed"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.can_edit:1
+msgid "Is model editing allowed"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.can_delete:1
+msgid "Is model deletion allowed"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.list_template:1
+msgid "Default list view template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.edit_template:1
+msgid "Default edit template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_template:1
+msgid "Default create template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_list:1
+msgid ""
+"Collection of the model field names for the list view. If set to `None`, "
+"will get them from the model."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_exclude_list:1
+msgid "Collection of excluded list column names."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_labels:1
+msgid "Dictionary where key is column name and value is string to display."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_descriptions:1
+msgid ""
+"Dictionary where key is column name and value is description for `list "
+"view` column or add/edit form field."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters:1
+msgid "Dictionary of list view column formatters."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters:3
+msgid ""
+"For example, if you want to show price multiplied by two, you can do "
+"something like this::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters:9
+msgid "or using Jinja2 `macro` in template::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters:21
+msgid "The Callback function has the prototype::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:1
+msgid "Dictionary of value type formatters to be used in the list view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:3
+msgid "By default, three types are formatted:"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:5
+#: flask_admin.model.BaseModelView.column_type_formatters_export:5
+msgid "``None`` will be displayed as an empty string"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:6
+msgid "``bool`` will be displayed as a checkmark if it is ``True``"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:7
+#: flask_admin.model.BaseModelView.column_type_formatters_export:6
+msgid "``list`` will be joined using ', '"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:9
+msgid ""
+"If you don't like the default behavior and don't want any type formatters"
+" applied, just override this property with an empty dictionary::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:15
+msgid ""
+"If you want to display `NULL` instead of an empty string, you can do "
+"something like this. Also comes with bonus `date` formatter::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:33
+msgid "Type formatters have lower priority than list column formatters."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters:35
+msgid "The callback function has following prototype::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_display_pk:1
+msgid "Controls if the primary key should be displayed in the list view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_sortable_list:1
+msgid ""
+"Collection of the sortable columns for the list view. If set to `None`, "
+"will get them from the model."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_sortable_list:9
+msgid ""
+"If you want to explicitly specify field/column to be used while sorting, "
+"you can use a tuple::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_sortable_list:15
+msgid ""
+"When using SQLAlchemy models, model attributes can be used instead of "
+"strings::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_searchable_list:1
+msgid ""
+"A collection of the searchable columns. It is assumed that only text-only"
+" fields are searchable, but it is up to the model implementation to "
+"decide."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_default_sort:1
+msgid "Default sort column if no sorting is applied."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_default_sort:8
+msgid ""
+"You can use tuple to control ascending descending order. In following "
+"example, items will be sorted in descending order::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_choices:1
+msgid "Map choices to columns in list view"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_filters:3
+msgid ""
+"Can contain either field names or instances of "
+":class:`~flask_admin.model.filters.BaseFilter` classes."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form:1
+msgid ""
+"Form class. Override if you want to use custom form for your model. Will "
+"completely disable form scaffolding functionality."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_base_class:1
+msgid ""
+"Base form class. Will be used by form scaffolding function when creating "
+"model form."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_base_class:3
+msgid "Useful if you want to have custom contructor or override some fields."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_columns:1
+msgid ""
+"Collection of the model field names for the form. If set to `None` will "
+"get them from the model."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_excluded_columns:1
+msgid "Collection of excluded form field names."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_args:1
+msgid ""
+"Dictionary of form field arguments. Refer to WTForms documentation for "
+"list of possible options."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_overrides:1
+msgid "Dictionary of form column overrides."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_widget_args:1
+msgid ""
+"Dictionary of form widget rendering arguments. Use this to customize how "
+"widget is rendered without using custom template."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_widget_args:14
+msgid ""
+"Changing the format of a DateTimeField will require changes to both "
+"form_widget_args and form_args."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_extra_fields:1
+msgid "Dictionary of additional fields."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_extra_fields:10
+msgid ""
+"You can control order of form fields using ``form_columns`` property. For"
+" example::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_extra_fields:19
+msgid ""
+"In this case, password field will be put between email and secret fields "
+"that are autogenerated."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_ajax_refs:1
+msgid "Use AJAX for foreign key model loading."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_ajax_refs:3
+msgid ""
+"Should contain dictionary, where key is field name and value is either a "
+"dictionary which configures AJAX lookups or backend-specific "
+"`AjaxModelLoader` class instance."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_ajax_refs:6
+msgid "For example, it can look like::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_ajax_refs:16
+msgid "Or with SQLAlchemy backend like this::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_ajax_refs:23
+msgid ""
+"If you need custom loading functionality, you can implement your custom "
+"loading behavior in your `AjaxModelLoader` class."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_create_rules:1
+msgid "Customized rules for the create form. Override `form_rules` if present."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_edit_rules:1
+msgid "Customized rules for the edit form. Override `form_rules` if present."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.action_disallowed_list:1
+msgid ""
+"Set of disallowed action names. For example, if you want to disable mass "
+"model deletion, do something like this:"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.action_disallowed_list:4
+msgid "class MyModelView(BaseModelView):"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.action_disallowed_list:5
+msgid "action_disallowed_list = ['delete']"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.page_size:1
+msgid "Default page size for pagination."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.can_export:1
+msgid "Is model list export allowed"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.can_view_details:1
+msgid ""
+"Setting this to true will enable the details view. This is recommended "
+"when there are too many columns to display in the list_view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_details_exclude_list:1
+msgid "Collection of fields excluded from the details view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_details_list:1
+msgid ""
+"Collection of the field names included in the details view. If set to "
+"`None`, will get them from the model."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_editable_list:1
+msgid "Collection of the columns which can be edited from the list view."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_export_exclude_list:1
+msgid "Collection of fields excluded from the export."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_export_list:1
+msgid ""
+"Collection of the field names included in the export. If set to `None`, "
+"will get them from the model."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters_export:1
+msgid "Dictionary of list view column formatters to be used for export."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters_export:3
+msgid "Defaults to column_formatters when set to None."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_formatters_export:5
+msgid ""
+"Functions the same way as column_formatters except that macros are not "
+"supported."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters_export:1
+msgid "Dictionary of value type formatters to be used in the export."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters_export:3
+msgid "By default, two types are formatted:"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.column_type_formatters_export:8
+msgid "Functions the same way as column_type_formatters."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_modal:1
+msgid "Setting this to true will display the create_view as a modals dialog."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_modal_template:1
+msgid "Default create modals template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_model:1
+msgid "Create model from the form."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_model:3
+msgid "Returns the model instance if operation succeeded."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.create_model:5
+#: flask_admin.model.BaseModelView.delete_model:5
+#: flask_admin.model.BaseModelView.get_list:3
+#: flask_admin.model.BaseModelView.get_one:3
+#: flask_admin.model.BaseModelView.scaffold_list_form:10
+#: flask_admin.model.BaseModelView.update_model:5
+msgid "Must be implemented in the child class."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.delete_model:3
+#: flask_admin.model.BaseModelView.update_model:3
+msgid "Returns `True` if operation succeeded."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.details_modal:1
+msgid "Setting this to true will display the details_view as a modals dialog."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.details_modal_template:1
+msgid "Default details modals view template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.details_template:1
+msgid "Default details view template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.edit_modal:1
+msgid "Setting this to true will display the edit_view as a modals dialog."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.edit_modal_template:1
+msgid "Default edit modals template"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.export_max_rows:1
+msgid "Maximum number of rows allowed for export."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.export_max_rows:3
+msgid "Unlimited by default. Uses `page_size` if set to `None`."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_rules:1
+msgid "List of rendering rules for model creation form."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_rules:3
+msgid ""
+"This property changed default form rendering behavior and makes possible "
+"to rearrange order of rendered fields, add some text between fields, "
+"group them, etc. If not set, will use default Flask-Admin form rendering "
+"logic."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.form_rules:7
+msgid "Here's simple example which illustrates how to use::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_list:1
+msgid "Return a paginated and sorted list of models from the data source."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_list:5
+msgid "Page number, 0 based. Can be set to None if it is first page."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_list:7
+msgid "Sort column name or None."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_list:9
+msgid "If set to True, sorting is in descending order."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_list:13
+msgid ""
+"List of filter tuples. First value in a tuple is a search index, second "
+"value is a search value."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_one:1
+msgid "Return one model by its id."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.get_pk_value:1
+msgid "Return PK value from a model object."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.handle_filter:1
+msgid "Postprocess (add joins, etc) for a filter."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.handle_filter:3
+msgid "Filter object to postprocess"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.init_search:1
+msgid ""
+"Initialize search. If data provider does not support search, "
+"`init_search` will return `False`."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.is_action_allowed:1
+msgid "Override this method to allow or disallow actions based on some condition."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.is_action_allowed:4
+msgid ""
+"The default implementation only checks if the particular action is not in"
+" `action_disallowed_list`."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.named_filter_urls:1
+msgid "Set to True to use human-readable names for filters in URL parameters."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.named_filter_urls:3
+msgid "False by default so as to be robust across translations."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.named_filter_urls:5
+msgid "Changing this parameter will break any existing URLs that have filters."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_filters:1
+msgid "Generate filter object for the given name"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_filters:3
+msgid "Name of the field"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_form:1
+msgid ""
+"Create `form.BaseForm` inherited class from the model. Must be "
+"implemented in the child class."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_list_columns:1
+msgid ""
+"Return list of the model field names. Must be implemented in the child "
+"class."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_list_columns:4
+msgid ""
+"Expected return format is list of tuples with field name and display "
+"text. For example::"
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_sortable_columns:1
+msgid ""
+"Returns dictionary of sortable columns. Must be implemented in the child "
+"class."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.scaffold_sortable_columns:4
+msgid ""
+"Expected return format is a dictionary, where keys are field names and "
+"values are property names."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.simple_list_pager:1
+msgid ""
+"Enable or disable simple list pager. If enabled, model interface would "
+"not run count query and will only show prev/next pager buttons."
+msgstr ""
+
+#: flask_admin.model.BaseModelView.update_model:1
+msgid "Update model from the form."
+msgstr ""
+
+#: ../../doc/api/mod_model_template.rst:2
+msgid "``flask_admin.model.template``"
+msgstr ""
+
+#: flask_admin.model.template.macro:1
+msgid "Jinja2 macro list column formatter."
+msgstr ""
+
+#: flask_admin.model.template.macro:3
+msgid "Macro name in the current template"
+msgstr ""
+
+#: ../../doc/api/mod_tools.rst:2
+msgid "``flask_admin.tools``"
+msgstr ""
+
+#: flask_admin.tools.import_module:1
+msgid "Import module by name"
+msgstr ""
+
+#: flask_admin.tools.import_module:3
+msgid "Module name"
+msgstr ""
+
+#: flask_admin.tools.import_module:5
+msgid ""
+"If set to `True` and module was not found - will throw exception. If set "
+"to `False` and module was not found - will return None. Default is "
+"`True`."
+msgstr ""
+
+#: flask_admin.tools.import_attribute:1
+msgid "Import attribute using string reference."
+msgstr ""
+
+#: flask_admin.tools.import_attribute:3
+msgid "String reference."
+msgstr ""
+
+#: flask_admin.tools.import_attribute:6
+msgid "Raises ImportError or AttributeError if module or attribute do not exist."
+msgstr ""
+
+#: flask_admin.tools.module_not_found:1
+msgid ""
+"Checks if ImportError was raised because module does not exist or "
+"something inside it raised ImportError"
+msgstr ""
+
+#: flask_admin.tools.module_not_found:4
+msgid ""
+"supply int of depth of your call if you're not doing import on the same "
+"level of code - f.e., if you call function, which is doing import, you "
+"should pass 1 for single additional level of depth"
+msgstr ""
+
+#: flask_admin.tools.rec_getattr:1
+msgid "Recursive getattr."
+msgstr ""
+
+#: flask_admin.tools.rec_getattr:3
+msgid "Dot delimited attribute name"
+msgstr ""
+
+#: flask_admin.tools.rec_getattr:5
+msgid "Default value"
+msgstr ""
+
+#~ msgid "MongoEngine model scaffolding."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can contain either field names or "
+#~ "instances of "
+#~ ":class:`flask_admin.contrib.mongoengine.filters.BaseMongoEngineFilter`"
+#~ " classes."
+#~ msgstr ""
+
+#~ msgid "Filters will be grouped by name when displayed in the drop-down."
+#~ msgstr ""
+
+#~ msgid "Customized type formatters for MongoEngine backend"
+#~ msgstr ""
+
+#~ msgid "Override this attribute to use a non-default converter."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Custom class should be derived from "
+#~ "the `flask_admin.contrib.mongoengine.form.CustomModelConverter`."
+#~ msgstr ""
+
+#~ msgid "List of allowed search field types."
+#~ msgstr ""
+
+#~ msgid "Subdocument configuration options."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This field accepts dictionary, where key"
+#~ " is field name and value is "
+#~ "either dictionary or instance of the "
+#~ "`flask_admin.contrib.mongoengine.EmbeddedForm`."
+#~ msgstr ""
+
+#~ msgid "Consider following example::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this example, `Post` model has "
+#~ "child `Comment` subdocument. When generating"
+#~ " form for `Comment` embedded document, "
+#~ "Flask-Admin will only create `name` "
+#~ "field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It is also possible to use "
+#~ "class-based embedded document configuration::"
+#~ msgstr ""
+
+#~ msgid "Arbitrary depth nesting is supported::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There's also support for forms embedded"
+#~ " into `ListField`. All you have to"
+#~ " do is to create nested rule "
+#~ "with `None` as a name. Even though"
+#~ " it is slightly confusing, but that's"
+#~ " how Flask-MongoEngine creates form "
+#~ "fields embedded into ListField::"
+#~ msgstr ""
+
+#~ msgid "Create model helper"
+#~ msgstr ""
+
+#~ msgid "Delete model helper"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns a list of tuples with the"
+#~ " model field name and formatted field"
+#~ " name."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "List of columns to include in the"
+#~ " results. If not set, "
+#~ "`scaffold_list_columns` will generate the list"
+#~ " from the model."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "List of columns to exclude from "
+#~ "the results if `only_columns` is not "
+#~ "set."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses `get_column_names` to get a list"
+#~ " of tuples with the model field "
+#~ "name and formatted name for the "
+#~ "columns in `column_details_list` and not "
+#~ "in `column_details_exclude_list`. If "
+#~ "`column_details_list` is not set, it "
+#~ "will attempt to use the columns "
+#~ "from `column_list` or finally the "
+#~ "columns from `scaffold_list_columns` will be"
+#~ " used."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses `get_column_names` to get a list"
+#~ " of tuples with the model field "
+#~ "name and formatted name for the "
+#~ "columns in `column_export_list` and not "
+#~ "in `column_export_exclude_list`. If "
+#~ "`column_export_list` is not set, it will"
+#~ " attempt to use the columns from "
+#~ "`column_list` or finally the columns "
+#~ "from `scaffold_list_columns` will be used."
+#~ msgstr ""
+
+#~ msgid "The exported csv file name."
+#~ msgstr ""
+
+#~ msgid "Get list of objects from MongoEngine"
+#~ msgstr ""
+
+#~ msgid "Sort column"
+#~ msgstr ""
+
+#~ msgid "Sort descending"
+#~ msgstr ""
+
+#~ msgid "Search criteria"
+#~ msgstr ""
+
+#~ msgid "List of applied filters"
+#~ msgstr ""
+
+#~ msgid "Run query immediately or not"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Uses `get_column_names` to get a list"
+#~ " of tuples with the model field "
+#~ "name and formatted name for the "
+#~ "columns in `column_list` and not in "
+#~ "`column_exclude_list`. If `column_list` is not"
+#~ " set, the columns from "
+#~ "`scaffold_list_columns` will be used."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Return list of row action objects, "
+#~ "each is instance of "
+#~ ":class:`~flask_admin.model.template.BaseListRowAction`"
+#~ msgstr ""
+
+#~ msgid "Return a single model instance by its ID"
+#~ msgstr ""
+
+#~ msgid "Model ID"
+#~ msgstr ""
+
+#~ msgid "Return the primary key value from the model instance"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Returns the QuerySet for this view.  "
+#~ "By default, it returns all the "
+#~ "objects for the current model."
+#~ msgstr ""
+
+#~ msgid "Init search"
+#~ msgstr ""
+
+#~ msgid "Validate if the provided filter is a valid MongoEngine filter"
+#~ msgstr ""
+
+#~ msgid "Filter object"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mongodb ``_id`` value conversion function. "
+#~ "Default is `bson.ObjectId`. Use this if"
+#~ " you are using String, Binary and "
+#~ "etc."
+#~ msgstr ""
+
+#~ msgid "Return filter object(s) for the field"
+#~ msgstr ""
+
+#~ msgid "Either field name or field instance"
+#~ msgstr ""
+
+#~ msgid "Scaffold list columns"
+#~ msgstr ""
+
+#~ msgid "WTForms widget class. Defaults to `XEditableWidget`."
+#~ msgstr ""
+
+#~ msgid "Return a dictionary of sortable columns (name, field)"
+#~ msgstr ""
+
+#~ msgid "Update model helper"
+#~ msgstr ""
+
+#~ msgid "Model instance to update"
+#~ msgstr ""
+
+#~ msgid "Customized ModelFormField for MongoEngine EmbeddedDocuments."
+#~ msgstr ""
+
+#~ msgid "GridFS file field."
+#~ msgstr ""
+
+#~ msgid "GridFS image field."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can contain either field names or "
+#~ "instances of "
+#~ ":class:`flask_admin.contrib.peewee.filters.BasePeeweeFilter` "
+#~ "classes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If set to `False` and user deletes"
+#~ " more than one model using actions,"
+#~ " all models will be read from "
+#~ "the database and then deleted one "
+#~ "by one giving Peewee chance to "
+#~ "manually cleanup any dependencies (many-"
+#~ "to-many relationships, etc)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If set to True, will run DELETE"
+#~ " statement which is somewhat faster, "
+#~ "but might leave corrupted data if "
+#~ "you forget to configure DELETE CASCADE"
+#~ " for your model."
+#~ msgstr ""
+
+#~ msgid "Inline related-model editing for models with parent to child relation."
+#~ msgstr ""
+
+#~ msgid "Accept enumerable with one of the values:"
+#~ msgstr ""
+
+#~ msgid "You can customize generated field name by:"
+#~ msgstr ""
+
+#~ msgid "Using `form_name` property as option:"
+#~ msgstr ""
+
+#~ msgid "class MyModelView(ModelView):"
+#~ msgstr ""
+
+#~ msgid "inline_models = ((Post, dict(form_label='Hello')))"
+#~ msgstr ""
+
+#~ msgid "Using field's related_name:"
+#~ msgstr ""
+
+#~ msgid "class Model1(Base):"
+#~ msgstr ""
+
+#~ msgid "# ... pass"
+#~ msgstr ""
+
+#~ msgid "class Model2(Base):"
+#~ msgstr ""
+
+#~ msgid "# ... model1 = ForeignKeyField(related_name=\"model_twos\")"
+#~ msgstr ""
+
+#~ msgid "class MyModel1View(Base):"
+#~ msgstr ""
+
+#~ msgid "inline_models = (Model2,) column_labels = {'model_ones': 'Hello'}"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Should contain instances of "
+#~ ":class:`flask_admin.contrib.pymongo.filters.BasePyMongoFilter` "
+#~ "classes."
+#~ msgstr ""
+
+#~ msgid "Create edit form from the MongoDB document"
+#~ msgstr ""
+
+#~ msgid "List of applied fiters"
+#~ msgstr ""
+
+#~ msgid "Return single model instance by ID"
+#~ msgstr ""
+
+#~ msgid "Return primary key value from the model instance"
+#~ msgstr ""
+
+#~ msgid "Validate if it is valid MongoEngine filter"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`form_args` dict with only validators "
+#~ "{'name': {'validators': [DataRequired()]}}"
+#~ msgstr ""
+
+#~ msgid "Return sortable columns dictionary (name, field)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Can contain either field names or "
+#~ "instances of "
+#~ ":class:`flask_admin.contrib.sqla.filters.BaseSQLAFilter` "
+#~ "classes."
+#~ msgstr ""
+
+#~ msgid "Overridden to handle special columns like InstrumentedAttribute."
+#~ msgstr ""
+
+#~ msgid "List of columns to exclude from the results."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Thumbnail filename generation function. All"
+#~ " thumbnails will be saved as JPEG "
+#~ "files, so there's no need to keep"
+#~ " original file extension.  For example::"
+#~ "      import os.path as op      def "
+#~ "thumb_name(filename):         name, _ = "
+#~ "op.splitext(filename)         return "
+#~ "secure_filename('%s-thumb.jpg' % name)      class"
+#~ " MyForm(BaseForm):         upload = "
+#~ "ImageUploadField('File', thumbgen=thumb_name)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Added in 1.4.0) SQLAlchemy model "
+#~ "attributes can be used instead of "
+#~ "strings::"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When using SQLAlchemy models, you can"
+#~ " reference related columns like this::"
+#~ msgstr ""
+
+#~ msgid "column_list = ('<relationship>.<related column name>',)"
+#~ msgstr ""
+
+#~ msgid "Useful if you want to have custom constructor or override some fields."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "SQLA Note: Model attributes must be "
+#~ "on the same model as your "
+#~ "ModelView or you will need to use"
+#~ " `inline_models`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Controls the display of the row "
+#~ "actions (edit, delete, details, etc.) "
+#~ "column in the list view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Useful for preventing a blank column "
+#~ "from displaying if your view does "
+#~ "not use any build-in or custom "
+#~ "row actions."
+#~ msgstr ""
+
+#~ msgid "This column is not hidden automatically due to backwards compatibility."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: This only affects display and "
+#~ "does not control whether the row "
+#~ "actions endpoints are accessible."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "List of row actions (instances of "
+#~ ":class:`~flask_admin.model.template.BaseListRowAction`)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Flask-Admin will generate standard "
+#~ "per-row actions (edit, delete, etc) "
+#~ "and will append custom actions from "
+#~ "this list right after them."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A list of available export filetypes."
+#~ " `csv` only is default, but any "
+#~ "filetypes supported by tablib can be "
+#~ "used."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Check tablib for "
+#~ "https://github.com/kennethreitz/tablib/blob/master/README.rst "
+#~ "for supported types."
+#~ msgstr ""
+
+
+#: ../../changelog.rst:2
+msgid "Changelog"
+msgstr "变更日志"
+
+#: ../../changelog.rst:5
+msgid "1.4.2"
+msgstr "1.4.2"
+
+#: ../../changelog.rst:7
+msgid ""
+"Small bug fix release. Fixes regression that prevented usage of "
+"\"virtual\" columns with a custom formatter."
+msgstr ""
+"修复小错误。修复阻止使用自定义格式的 \"虚拟\" 列的用法。"
+
+#: ../../changelog.rst:10
+msgid "1.4.1"
+msgstr "1.4.1"
+
+#: ../../changelog.rst:12
+msgid "Official Python 3.5 support"
+msgstr "官方 Python 3.5 支持"
+
+#: ../../changelog.rst:13
+msgid "Customizable row actions"
+msgstr "可自定义的行操作"
+
+#: ../../changelog.rst:14
+msgid "Tablib support (exporting to XLS, XLSX, CSV, etc)"
+msgstr "Tablib 支持 (导出到 XLS, XLSX, CSV 等)"
+
+#: ../../changelog.rst:15
+msgid "Updated external dependencies (jQuery, x-editable, etc)"
+msgstr "更新外部依赖 (jQuery, x-editable 等)"
+
+#: ../../changelog.rst:16
+msgid "Added settings that allows exceptions to be raised on view errors"
+msgstr "添加了允许在视图错误时引发异常的设置"
+
+#: ../../changelog.rst:17 ../../changelog.rst:30 ../../changelog.rst:43
+msgid "Bug fixes"
+msgstr "Bug 修复"
+
+#: ../../changelog.rst:20
+msgid "1.4.0"
+msgstr "1.4.0"
+
+#: ../../changelog.rst:22
+msgid "Updated and reworked documentation"
+msgstr "更新和重做文档"
+
+#: ../../changelog.rst:23
+msgid ""
+"FileAdmin went through minor refactoring and now supports remote file "
+"systems. Comes with the new, optional, AWS S3 file management interface"
+msgstr ""
+"重构 FileAdmin，现在支持远程文件系统。提供新的，可选的 AWS S3 文件管理界面"
+
+#: ../../changelog.rst:24
+msgid "Configurable CSV export for model views"
+msgstr "可配置 CSV 导出模型视图"
+
+#: ../../changelog.rst:25
+msgid ""
+"Added overridable URL generation logic. Allows using custom URLs with "
+"parameters for administrative views"
+msgstr ""
+"添加了可覆盖的网址生成逻辑。允许使用包含管理视图参数的自定义网址"
+
+#: ../../changelog.rst:26
+msgid ""
+"Added column_display_actions to ModelView control visibility of the "
+"action column without overriding the template"
+msgstr ""
+"将 column_display_actions 添加到 ModelView 控制操作列的可见性，而不覆盖模板"
+
+#: ../../changelog.rst:27
+msgid "Added support for the latest MongoEngine"
+msgstr "增加了对最新 MongoEngine 的支持"
+
+#: ../../changelog.rst:28
+msgid "New SecureForm base class for easier CSRF validation"
+msgstr "新的 SecureForm 基类，更容易进行 CSRF 验证"
+
+#: ../../changelog.rst:29
+msgid "Lots of translation-related fixes and updated translations"
+msgstr "许多与翻译相关的修复，并更新翻译"
+
+#: ../../changelog.rst:33
+msgid "1.3.0"
+msgstr "1.3.0"
+
+#: ../../changelog.rst:35
+msgid "New feature: Edit models in the list view in a popup"
+msgstr "新功能：在弹出式窗口中的列表视图中编辑模型"
+
+#: ../../changelog.rst:36
+msgid "New feature: Read-only model details view"
+msgstr "新功能：只读模型详细信息视图"
+
+#: ../../changelog.rst:37
+msgid "Fixed XSS in column_editable_list values"
+msgstr "修正了 column_editable_list 值中的 XSS"
+
+#: ../../changelog.rst:38
+msgid "Improved navigation consistency in model create and edit views"
+msgstr "改进模型创建和编辑视图中的导航一致性"
+
+#: ../../changelog.rst:39
+msgid "Ability to choose page size in model list view"
+msgstr "能够在模型列表视图中选择页面大小"
+
+#: ../../changelog.rst:40
+msgid "Updated client-side dependencies (jQuery, Select2, etc)"
+msgstr "更新客户端依赖关系 (jQuery, Select2 等)"
+
+#: ../../changelog.rst:41
+msgid "Updated documentation and examples"
+msgstr "更新文档和示例"
+
+#: ../../changelog.rst:42
+msgid "Updated translations"
+msgstr "更新翻译"
+
+
+#: ../../index.rst:4
+msgid "Flask-Admin"
+msgstr "Flask-Admin"
+
+#: ../../index.rst:6
+msgid ""
+"**Why Flask?** As a micro-framework, `Flask <http://flask.pocoo.org/>`_ "
+"lets you build web services with very little overhead. It offers freedom "
+"for you, the designer, to implement your project in a way that suits your"
+" particular application."
+msgstr ""
+"**为什么选择 Flask？** 作为一个微框架，`Flask <http://flask.pocoo.org/>`_ "
+"允许您以非常少的开销构建 Web 服务。它为您的设计提供了自由，使您能够以适合特定应用程序"
+"的方式实现您的项目。"
+
+#: ../../index.rst:10
+msgid ""
+"**Why Flask-Admin?** In a world of micro-services and APIs, Flask-Admin "
+"solves the boring problem of building an admin interface on top of an "
+"existing data model. With little effort, it lets you manage your web "
+"service's data through a user-friendly interface."
+msgstr ""
+"**为什么选择 Flask-Admin？** 在微服务和 API 的世界中，Flask-Admin 解决了"
+"在现有数据模型之上构建管理界面的无聊问题。通过很少的努力，它允许您通过用户友好的"
+"界面管理您的 Web 服务的数据。"
+
+#: ../../index.rst:15
+msgid ""
+"**How does it work?** The basic concept behind Flask-Admin, is that it "
+"lets you build complicated interfaces by grouping individual views "
+"together in classes: Each web page you see on the frontend, represents a "
+"method on a class that has explicitly been added to the interface."
+msgstr ""
+"**它是如何工作的？** Flask-Admin 背后的基本概念是，它允许你通过将各个视图在类中组合"
+"来构建复杂的接口：你在前端看到的每个页面，都代表一个已明确添加到接口中的类方法。"
+
+#: ../../index.rst:20
+msgid ""
+"These view classes are especially helpful when they are tied to "
+"particular database models, because they let you group together all of "
+"the usual *Create, Read, Update, Delete* (CRUD) view logic into a single,"
+" self-contained class for each of your models."
+msgstr ""
+"这些视图类在绑定到特定数据库模型时特别有用，因为它们允许您将所有常用的 "
+"*Create, Read, Update, Delete* (CRUD) 视图逻辑分组到每个模型的单独类中。"
+
+#: ../../index.rst:26
+msgid ""
+"**What does it look like?** At http://examples.flask-admin.org/ you can "
+"see some examples of Flask-Admin in action, or browse through the "
+"`examples/` directory in the `GitHub repository <https://github.com"
+"/flask-admin/flask-admin>`_."
+msgstr ""
+"**它是什么样子的？** 在 http://examples.flask-admin.org/，你可以看到 "
+"Flask-Admin 的一些示例，也可以直接浏览 `GitHub 存储库 <https://github.com"
+"/flask-admin/flask-admin>`_ 中的 `examples/` 目录。"
+
+#: ../../index.rst:40
+msgid "Support"
+msgstr "支持"
+
+#: ../../index.rst:44
+msgid "Python 2.6 - 2.7 and 3.3 - 3.4."
+msgstr "Python 2.6 - 2.7 和 3.3 - 3.4。"
+
+#: ../../index.rst:47
+msgid "Indices And Tables"
+msgstr "索引和表格"
+
+#: ../../index.rst:51
+msgid ":ref:`genindex`"
+msgstr ":ref:`genindex`"
+
+#: ../../index.rst:52
+msgid ":ref:`modindex`"
+msgstr ":ref:`modindex`"
+
+#: ../../index.rst:53
+msgid ":ref:`search`"
+msgstr ":ref:`search`"
+
+
+#: ../../doc/introduction.rst:4
+msgid "Introduction To Flask-Admin"
+msgstr "介绍 Flask-Admin"
+
+#: ../../doc/introduction.rst:7
+msgid "Getting Started"
+msgstr "快速入门"
+
+#: ../../doc/introduction.rst:12
+msgid "Initialization"
+msgstr "初始化"
+
+#: ../../doc/introduction.rst:14
+msgid ""
+"The first step is to initialize an empty admin interface for your Flask "
+"app::"
+msgstr "首先为 Flask app 初始化空的 admin 接口::"
+
+#: ../../doc/introduction.rst:26
+msgid ""
+"Here, both the *name* and *template_mode* parameters are optional. "
+"Alternatively, you could use the :meth:`~flask_admin.base.Admin.init_app`"
+" method."
+msgstr ""
+"这里的 *name* 和 *template_mode* 参数可选。另外，可以用 "
+":meth:`~flask_admin.base.Admin.init_app` 方法初始化。"
+
+#: ../../doc/introduction.rst:29
+msgid ""
+"If you start this application and navigate to "
+"`http://localhost:5000/admin/ <http://localhost:5000/admin/>`_, you "
+"should see an empty page with a navigation bar on top."
+msgstr ""
+"如果启动应用并导航至 `http://localhost:5000/admin/ "
+"<http://localhost:5000/admin/>`_, 你会看到一个包含导航栏的空页面。"
+
+#: ../../doc/introduction.rst:33
+msgid "Adding Model Views"
+msgstr "添加模型视图"
+
+#: ../../doc/introduction.rst:35
+msgid ""
+"Model views allow you to add a dedicated set of admin pages for managing "
+"any model in your database. Do this by creating instances of the "
+"*ModelView* class, which you can import from one of Flask-Admin's built-"
+"in ORM backends. An example is the SQLAlchemy backend, which you can use "
+"as follows::"
+msgstr ""
+"模型视图允许您添加一组专用的管理页面来管理数据库中的任何模型。通过创建 *ModelView* 类的实例来执行此操作，您可以从 Flask-"
+"Admin 的内置 ORM 后端导入。SQLAlchemy 后端示例如下::"
+
+#: ../../doc/introduction.rst:47
+msgid ""
+"Straight out of the box, this gives you a set of fully featured *CRUD* "
+"views for your model:"
+msgstr "直接开箱即用，这为您的模型提供了一组全功能的 *CRUD* 视图:"
+
+#: ../../doc/introduction.rst:49
+msgid ""
+"A `list` view, with support for searching, sorting, filtering, and "
+"deleting records."
+msgstr "`list` view：支持搜索，排序，过滤，删除记录。"
+
+#: ../../doc/introduction.rst:50
+msgid "A `create` view for adding new records."
+msgstr "`create` view：添加新记录。"
+
+#: ../../doc/introduction.rst:51
+msgid "An `edit` view for updating existing records."
+msgstr "`edit` view：更新已存在的记录。"
+
+#: ../../doc/introduction.rst:52
+msgid "An optional, read-only `details` view."
+msgstr "可选的，只读 `details` view。"
+
+#: ../../doc/introduction.rst:54
+msgid ""
+"There are many options available for customizing the display and "
+"functionality of these built-in views. For more details on that, see :ref"
+":`customizing-builtin-views`. For more details on the other ORM backends "
+"that are available, see :ref:`database-backends`."
+msgstr ""
+"内置视图有许多选项可用于定制外观和功能。更多信息，请参考 :ref:`customizing-builtin-views`。更多其他 ORM "
+"后端的详细信息，请参考 :ref:`database-backends`。"
+
+#: ../../doc/introduction.rst:59
+msgid "Adding Content to the Index Page"
+msgstr "添加内容至索引页"
+
+#: ../../doc/introduction.rst:60
+msgid ""
+"The first thing you'll notice when you visit "
+"`http://localhost:5000/admin/ <http://localhost:5000/admin/>`_ is that "
+"it's just an empty page with a navigation menu. To add some content to "
+"this page, save the following text as `admin/index.html` in your "
+"project's `templates` directory::"
+msgstr ""
+"当您访问 `http://localhost:5000/admin/ <http://localhost:5000/admin/>`_ "
+"页面时，你会看到一个仅有导航条的空页面。添加内容至该页面，请将以下内容保存至您项目 `templates` 目录下的 "
+"`admin/index.html` 文件::"
+
+#: ../../doc/introduction.rst:69
+msgid ""
+"This will override the default index template, but still give you the "
+"built-in navigation menu. So, now you can add any content to the index "
+"page, while maintaining a consistent user experience."
+msgstr "这将覆盖默认 index 模板，但仍给您内置的导航菜单。因此，现在您可以向 index 页面添加任何内容，同时保持一致的用户体验。"
+
+#: ../../doc/introduction.rst:73
+msgid "Authorization & Permissions"
+msgstr "认证 & 权限"
+
+#: ../../doc/introduction.rst:77
+msgid ""
+"When setting up an admin interface for your application, one of the first"
+" problems you'll want to solve is how to keep unwanted users out. With "
+"Flask-Admin there are a few different ways of approaching this."
+msgstr "当为您的应用设置管理接口时，首先考虑的问题是，如何对用户进行访问控制。Flask-Admin 有以下几种方式对用户进行访问控制。"
+
+#: ../../doc/introduction.rst:82
+msgid "HTTP Basic Auth"
+msgstr "HTTP Basic Auth"
+
+#: ../../doc/introduction.rst:83
+msgid ""
+"The simplest form of authentication is HTTP Basic Auth. It doesn't "
+"interfere with your database models, and it doesn't require you to write "
+"any new view logic or template code. So it's great for when you're "
+"deploying something that's still under development, before you want the "
+"whole world to see it."
+msgstr ""
+"最简单的身份验证形式是 HTTP "
+"基本认证。它不干扰您的数据库模型，它不需要您写任何新的视图逻辑或模板代码。所以当你在部署一些仍在开发中的东西前，使用基本认证是很好的选择。"
+
+#: ../../doc/introduction.rst:88
+msgid ""
+"Have a look at `Flask-BasicAuth <https://flask-"
+"basicauth.readthedocs.io/>`_ to see just how easy it is to put your whole"
+" application behind HTTP Basic Auth."
+msgstr ""
+"`Flask-BasicAuth <https://flask-basicauth.readthedocs.io/>`_ 可以轻易的为应用添加 "
+"HTTP 基本验证。"
+
+#: ../../doc/introduction.rst:91
+msgid ""
+"Unfortunately, there is no easy way of applying HTTP Basic Auth just to "
+"your admin interface."
+msgstr "不幸的是，没有简单的方法将 HTTP 基本认证应用于您的管理界面。"
+
+#: ../../doc/introduction.rst:95
+msgid "Rolling Your Own"
+msgstr "自定义认证"
+
+#: ../../doc/introduction.rst:96
+msgid ""
+"For a more flexible solution, Flask-Admin lets you define access control "
+"rules on each of your admin view classes by simply overriding the "
+"`is_accessible` method. How you implement the logic is up to you, but if "
+"you were to use a low-level library like `Flask-Login <https://flask-"
+"login.readthedocs.io/>`_, then restricting access could be as simple as::"
+msgstr ""
+"对于更灵活的解决方案，Flask-Admin 允许您通过覆盖 `is_accessible` 方法来为每个 admin "
+"视图类定义访问控制规则。如何实现逻辑取决于你，如果你正在使用类似 `Flask-Login <https://flask-"
+"login.readthedocs.io/>`_ 的低级库，限制访问的规则如下::"
+
+#: ../../doc/introduction.rst:111
+msgid ""
+"In the navigation menu, components that are not accessible to a "
+"particular user will not be displayed for that user. For an example of "
+"using Flask-Login with Flask-Admin, have a look at https://github.com"
+"/flask-admin/Flask-Admin/tree/master/examples/auth-flask-login."
+msgstr ""
+"在导航菜单中，不会显示该用户无法访问的组件。有关使用 Flask-Login 与 Flask-Admin 的示例，请参考 "
+"https://github.com/flask-admin/Flask-Admin/tree/master/examples/auth-"
+"flask-login。"
+
+#: ../../doc/introduction.rst:115
+msgid ""
+"The main drawback is that you still need to implement all of the relevant"
+" login, registration, and account management views yourself."
+msgstr "主要缺点是你仍然需要自己实现所有的登录，注册和帐户管理视图。"
+
+#: ../../doc/introduction.rst:120
+msgid "Using Flask-Security"
+msgstr "使用 Flask-Security"
+
+#: ../../doc/introduction.rst:122
+msgid ""
+"If you want a more polished solution, you could use `Flask-Security "
+"<https://pythonhosted.org/Flask-Security/>`_, which is a higher-level "
+"library. It comes with lots of built-in views for doing common things "
+"like user registration, login, email address confirmation, password "
+"resets, etc."
+msgstr ""
+"如果你需要一个更优秀的解决方案，可以使用 `Flask-Security <https://pythonhosted.org/Flask-"
+"Security/>`_，这是一个更高级的库。它有很多内置视图，用于完成用户管理相关的常见操作，如用户注册，登录，电子邮件地址确认，密码重置等。"
+
+#: ../../doc/introduction.rst:127
+msgid ""
+"The only complicated bit is making the built-in Flask-Security views "
+"integrate smoothly with the Flask-Admin templates to create a consistent "
+"user experience. To do this, you will need to override the built-in "
+"Flask-Security templates and have them extend the Flask-Admin base "
+"template by adding the following to the top of each file::"
+msgstr ""
+"唯一复杂的是使内置的 Flask-Security 视图与 Flask-Admin 模板平滑地集成，以创建一致的用户体验。为此，您需要覆盖内置的 "
+"Flask-Security 模板，并通过在每个文件的顶部添加以下内容来扩展 Flask-Admin base 模板::"
+
+#: ../../doc/introduction.rst:135
+msgid ""
+"Now, you'll need to manually pass in some context variables for the "
+"Flask-Admin templates to render correctly when they're being called from "
+"the Flask-Security views. Defining a `security_context_processor` "
+"function will take care of this for you::"
+msgstr ""
+"现在，当需要从 Flask-Security 视图调用 Flask-Admin 模板时，您需要手动向 Flask-Admin "
+"模板传递一些上下文变量，以便正确显示它们。定义 `security_context_processor` 函数处理模板变量::"
+
+#: ../../doc/introduction.rst:146
+msgid ""
+"For a working example of using Flask-Security with Flask-Admin, have a "
+"look at https://github.com/flask-admin/Flask-"
+"Admin/tree/master/examples/auth."
+msgstr ""
+"有关使用 Flask-Security 和 Flask-Admin 集成的示例，请查看 https://github.com/flask-"
+"admin/Flask-Admin/tree/master/examples/auth。"
+
+#: ../../doc/introduction.rst:149
+msgid ""
+"The example only uses the built-in `register` and `login` views, but you "
+"could follow the same approach for including the other views, like "
+"`forgot_password`, `send_confirmation`, etc."
+msgstr ""
+"该示例仅使用内置的 `register` 和 `login` 视图，但您可以按照相同的方法来包括其他视图，如 `forgot_password`,"
+" `send_confirmation` 等。"
+
+#: ../../doc/introduction.rst:155
+msgid "Customizing Built-in Views"
+msgstr "自定义内置视图"
+
+#: ../../doc/introduction.rst:159
+msgid ""
+"The built-in `ModelView` class is great for getting started quickly. But,"
+" you'll want to configure its functionality to suit your particular "
+"models. This is done by setting values for the configuration attributes "
+"that are made available in the `ModelView` class."
+msgstr "内置的 `ModelView` 类非常适合快速入门。另外，您可以通过配置 `ModelView` 类的属性值，来满足您的模型的特殊需求。"
+
+#: ../../doc/introduction.rst:163
+msgid ""
+"To specify some global configuration parameters, you can subclass "
+"`ModelView` and use that subclass when adding your models to the "
+"interface::"
+msgstr "要指定全局配置参数，可以继承 `ModelView` 类，并在添加模型时使用子类::"
+
+#: ../../doc/introduction.rst:177
+msgid ""
+"Or, in much the same way, you can specify options for a single model at a"
+" time::"
+msgstr "或者，您也可以为单个模型指定选项::"
+
+#: ../../doc/introduction.rst:190
+msgid "`ModelView` Configuration Attributes"
+msgstr "`ModelView` 配置属性"
+
+#: ../../doc/introduction.rst:192
+msgid ""
+"For a complete list of the attributes that are defined, have a look at "
+"the API documentation for :meth:`~flask_admin.model.BaseModelView`. Here "
+"are some of the most commonly used attributes:"
+msgstr ""
+"有关定义属性的完整列表，请查看 :meth:`~flask_admin.model.BaseModelView` API "
+"文档。这里列出了一些最常用的属性:"
+
+#: ../../doc/introduction.rst:196
+msgid ""
+"To **disable some of the CRUD operations**, set any of these boolean "
+"parameters::"
+msgstr "要 **禁用某些 CRUD 操作**，请设置以下布尔参数::"
+
+#: ../../doc/introduction.rst:202
+msgid ""
+"If your model has too much data to display in the list view, you can "
+"**add a read-only details view** by setting::"
+msgstr "如果您的模型在列表视图中显示的数据过多，可以设置以下内容来 **添加只读的详细视图**::"
+
+#: ../../doc/introduction.rst:207
+msgid ""
+"**Removing columns** from the list view is easy, just pass a list of "
+"column names for the *column_excludes_list* parameter::"
+msgstr "从列表视图中 **删除列**，只需要向 *column_excludes_list* 参数传递列名列表即可::"
+
+#: ../../doc/introduction.rst:212
+msgid ""
+"To **make columns searchable**, or to use them for filtering, specify a "
+"list of column names::"
+msgstr "要 **使列可搜索** 或用于 **过滤**，请指定列名列表::"
+
+#: ../../doc/introduction.rst:217
+msgid ""
+"For a faster editing experience, enable **inline editing** in the list "
+"view::"
+msgstr "要获得更快的编辑体验，请在列表视图中启用 **行内编辑**::"
+
+#: ../../doc/introduction.rst:221
+msgid ""
+"Or, have the add & edit forms display inside a **modals window** on the "
+"list page, instead of the dedicated *create* & *edit* pages::"
+msgstr "或者，在列表页面上的 **模态窗口** 内显示 add & edit 表单，代替专门的 *create* & *edit* 页面::"
+
+#: ../../doc/introduction.rst:227
+msgid ""
+"You can restrict the possible values for a text-field by specifying a "
+"list of **select choices**::"
+msgstr "您可以通过指定 **选择选项** 的列表，来限制文本字段的可选值::"
+
+#: ../../doc/introduction.rst:239
+msgid "To **remove fields** from the create and edit forms::"
+msgstr "从创建和编辑表单 **删除字段**::"
+
+#: ../../doc/introduction.rst:243
+msgid "To specify **WTForms field arguments**::"
+msgstr "指定 **WTForms 字段参数**::"
+
+#: ../../doc/introduction.rst:252
+msgid ""
+"Or, to specify arguments to the **WTForms widgets** used to render those "
+"fields::"
+msgstr "或，指定用于渲染这些字段的 **WTForms widgets** 的参数::"
+
+#: ../../doc/introduction.rst:261
+msgid ""
+"When your forms contain foreign keys, have those **related models loaded "
+"via ajax**, using::"
+msgstr "当您的表单包含外键时，使用以下参数将 **相关模型通过 ajax 导入**::"
+
+#: ../../doc/introduction.rst:270
+msgid "To filter the results that are loaded via ajax, you can use::"
+msgstr ""
+
+#: ../../doc/introduction.rst:277
+msgid "To **manage related models inline**::"
+msgstr "**行内管理相关模型**::"
+
+#: ../../doc/introduction.rst:281
+msgid ""
+"These inline forms can be customized. Have a look at the API "
+"documentation for "
+":meth:`~flask_admin.contrib.sqla.ModelView.inline_models`."
+msgstr ""
+"行内表单可以自定义。详情参考 :meth:`~flask_admin.contrib.sqla.ModelView.inline_models` "
+"API 文档。"
+
+#: ../../doc/introduction.rst:284
+msgid "To **enable csv export** of the model view::"
+msgstr "启用模型视图的 **CSV 导出功能**::"
+
+#: ../../doc/introduction.rst:288
+msgid ""
+"This will add a button to the model view that exports records, truncating"
+" at :attr:`~flask_admin.model.BaseModelView.export_max_rows`."
+msgstr ""
+"这将向模型视图添加一个导出记录的按钮，使用 "
+":attr:`~flask_admin.model.BaseModelView.export_max_rows` 控制导出行数。"
+
+#: ../../doc/introduction.rst:291
+msgid "Adding Your Own Views"
+msgstr "添加你自己的视图"
+
+#: ../../doc/introduction.rst:295
+msgid ""
+"For situations where your requirements are really specific and you "
+"struggle to meet them with the built-in "
+":class:`~flask_admin.model.ModelView` class, Flask-Admin makes it easy "
+"for you to take full control and add your own views to the interface."
+msgstr ""
+"如果内置的 :class:`~flask_admin.model.ModelView` 类不能满足您的需求， Flask-Admin "
+"可以使您轻松地进行控制并向界面添加自己的视图。"
+
+#: ../../doc/introduction.rst:300
+msgid "Standalone Views"
+msgstr "独立视图"
+
+#: ../../doc/introduction.rst:301
+msgid ""
+"A set of standalone views (not tied to any particular model) can be added"
+" by extending the :class:`~flask_admin.base.BaseView` class and defining "
+"your own view methods. For example, to add a page that displays some "
+"analytics data from a 3rd-party API::"
+msgstr ""
+"可以通过扩展 :class:`~flask_admin.base.BaseView` "
+"类并定义自己的视图方法来添加一组独立视图（不与任何特定模型绑定）。例如，要添加来自第三方 API 的某些分析数据的页面::"
+
+#: ../../doc/introduction.rst:314
+msgid ""
+"This will add a link to the navbar for your view. Notice that it is "
+"served at '/', the root URL. This is a restriction on standalone views: "
+"at the very minimum, each view class needs at least one method to serve a"
+" view at its root."
+msgstr "这将为您的视图添加一个导航栏链接。注意，它在 '/' 根 URL。这是对独立视图的限制：每个视图类需要至少一个方法来在其根目录中提供视图。"
+
+#: ../../doc/introduction.rst:318
+msgid ""
+"The `analytics_index.html` template for the example above, could look "
+"something like::"
+msgstr "上述示例的 `analytics_index.html` 模板可能如下所示："
+
+#: ../../doc/introduction.rst:325
+msgid ""
+"By extending the *admin/master.html* template, you can maintain a "
+"consistent user experience, even while having tight control over your "
+"page's content."
+msgstr "通过扩展 *admin/master.html* 模板，即使在严格控制页面内容的情况下，您仍然可以保持一致的用户体验。"
+
+#: ../../doc/introduction.rst:329
+msgid "Overriding the Built-in Views"
+msgstr "覆盖内置视图"
+
+#: ../../doc/introduction.rst:330
+msgid ""
+"There may be some scenarios where you want most of the built-in ModelView"
+" functionality, but you want to replace one of the default `create`, "
+"`edit`, or `list` views. For this you could override only the view in "
+"question, and all the links to it will still function as you would "
+"expect::"
+msgstr ""
+"在某些情况下，您需要使用大多数内置的 ModelView 功能，但需要替换默认的 `create`, `edit` 或 `list` "
+"视图。为此，您只需要覆盖指定视图，视图的所有链接仍然会正常工作::"
+
+#: ../../doc/introduction.rst:348
+msgid "Working With the Built-in Templates"
+msgstr "使用内置模板"
+
+#: ../../doc/introduction.rst:352
+msgid ""
+"Flask-Admin uses the `Jinja2 <http://jinja.pocoo.org/docs/>`_ templating "
+"engine."
+msgstr "Flask-Admin 使用 `Jinja2 <http://jinja.pocoo.org/docs/>`_ 模板引擎。"
+
+#: ../../doc/introduction.rst:357
+msgid "Extending the Built-in Templates"
+msgstr "扩展内置模板"
+
+#: ../../doc/introduction.rst:359
+msgid ""
+"Rather than overriding the built-in templates completely, it's best to "
+"extend them. This will make it simpler for you to upgrade to new Flask-"
+"Admin versions in future."
+msgstr "扩展内置模板，而不是完全覆盖它们。使您可以更容易的升级到新版 Flake-Admin。"
+
+#: ../../doc/introduction.rst:362
+msgid ""
+"Internally, the Flask-Admin templates are derived from the "
+"`admin/master.html` template. The three most interesting templates for "
+"you to extend are probably:"
+msgstr "在内部，Flask-Admin 模板派生自 `admin/master.html` 模板。你需要扩展的三个有趣的模板可能是:"
+
+#: ../../doc/introduction.rst:365
+msgid "`admin/model/list.html`"
+msgstr "`admin/model/list.html`"
+
+#: ../../doc/introduction.rst:366
+msgid "`admin/model/create.html`"
+msgstr "`admin/model/create.html`"
+
+#: ../../doc/introduction.rst:367
+msgid "`admin/model/edit.html`"
+msgstr "`admin/model/edit.html`"
+
+#: ../../doc/introduction.rst:369
+msgid ""
+"To extend the default *edit* template with your own functionality, create"
+" a template in `templates/microblog_edit.html` to look something like::"
+msgstr "要使用自定义功能扩展默认 *edit* 模板，请在 `templates/microblog_edit.html` 中创建模板，如下所示::"
+
+#: ../../doc/introduction.rst:379
+msgid ""
+"Now, to make your view classes use this template, set the appropriate "
+"class property::"
+msgstr "现在，确保您的视图类使用该模板，设置相应的类属性::"
+
+#: ../../doc/introduction.rst:386
+msgid ""
+"If you want to use your own base template, then pass the name of the "
+"template to the admin constructor during initialization::"
+msgstr "如果要使用自己的 base 模板，则在初始化时将模板名传递给 admin 构造函数::"
+
+#: ../../doc/introduction.rst:392
+msgid "Overriding the Built-in Templates"
+msgstr "覆盖内置模板"
+
+#: ../../doc/introduction.rst:394
+msgid ""
+"To take full control over the style and layout of the admin interface, "
+"you can override all of the built-in templates. Just keep in mind that "
+"the templates will change slightly from one version of Flask-Admin to the"
+" next, so once you start overriding them, you need to take care when "
+"upgrading your package version."
+msgstr ""
+"要完全控制管理界面的样式和布局，您可以覆盖所有内置模板。请记住，新版本的 Flask-Admin "
+"模板会稍有变化，所以一旦开始覆盖内置模板，升级软件包时可能会出错。"
+
+#: ../../doc/introduction.rst:399
+msgid ""
+"To override any of the built-in templates, simply copy them from the "
+"Flask-Admin source into your project's `templates/admin/` directory. As "
+"long as the filenames stay the same, the templates in your project "
+"directory should automatically take precedence over the built-in ones."
+msgstr ""
+"要覆盖任何内置模板，只需将它们从 Flask-Admin 复制到项目的 `templates/admin/` "
+"目录。只要文件名保持不变，项目目录中的模板将自动优先于内置模板。"
+
+#: ../../doc/introduction.rst:405
+msgid "Available Template Blocks"
+msgstr "可用模板块"
+
+#: ../../doc/introduction.rst:407
+msgid ""
+"Flask-Admin defines one *base* template at `admin/master.html` that all "
+"other admin templates are derived from. This template is a proxy which "
+"points to `admin/base.html`, which defines the following blocks:"
+msgstr ""
+"Flask-Admin 在 `admin/master.html` 定义了一个 *base* "
+"模板，所有其他管理模板都派生自该模板。此模板是一个指向 `admin/base.html` 的代理，它定义了以下块:"
+
+#: ../../doc/introduction.rst:412 ../../doc/introduction.rst:432
+msgid "Block Name"
+msgstr "块名称"
+
+#: ../../doc/introduction.rst:412 ../../doc/introduction.rst:432
+#: ../../doc/introduction.rst:453
+msgid "Description"
+msgstr "描述"
+
+#: ../../doc/introduction.rst:414
+msgid "head_meta"
+msgstr "head_meta"
+
+#: ../../doc/introduction.rst:414
+msgid "Page metadata in the header"
+msgstr "header 中的页面元数据"
+
+#: ../../doc/introduction.rst:415
+msgid "title"
+msgstr "title"
+
+#: ../../doc/introduction.rst:415
+msgid "Page title"
+msgstr "页面标题"
+
+#: ../../doc/introduction.rst:416
+msgid "head_css"
+msgstr "head_css"
+
+#: ../../doc/introduction.rst:416
+msgid "Various CSS includes in the header"
+msgstr "header 中的各种 CSS"
+
+#: ../../doc/introduction.rst:417
+msgid "head"
+msgstr "head"
+
+#: ../../doc/introduction.rst:417
+msgid "Empty block in HTML head, in case you want to put something  there"
+msgstr "空的 HTML head 元素，可自定义信息"
+
+#: ../../doc/introduction.rst:418
+msgid "page_body"
+msgstr "page_body"
+
+#: ../../doc/introduction.rst:418
+msgid "Page layout"
+msgstr "页面布局"
+
+#: ../../doc/introduction.rst:419
+msgid "brand"
+msgstr "brand"
+
+#: ../../doc/introduction.rst:419
+msgid "Logo in the menu bar"
+msgstr "菜单栏 Logo"
+
+#: ../../doc/introduction.rst:420
+msgid "main_menu"
+msgstr "main_menu"
+
+#: ../../doc/introduction.rst:420
+msgid "Main menu"
+msgstr "主菜单"
+
+#: ../../doc/introduction.rst:421
+msgid "menu_links"
+msgstr "menu_links"
+
+#: ../../doc/introduction.rst:421
+msgid "Links menu"
+msgstr "菜单链接"
+
+#: ../../doc/introduction.rst:422
+msgid "access_control"
+msgstr "access_control"
+
+#: ../../doc/introduction.rst:422
+msgid "Section to the right of the menu (can be used to add login/logout buttons)"
+msgstr "菜单右侧部分 (可用于添加登录/注销按钮)"
+
+#: ../../doc/introduction.rst:423
+msgid "messages"
+msgstr "messages"
+
+#: ../../doc/introduction.rst:423
+msgid "Alerts and various messages"
+msgstr "警告和各种消息"
+
+#: ../../doc/introduction.rst:424
+msgid "body"
+msgstr "body"
+
+#: ../../doc/introduction.rst:424
+msgid "Content (that's where your view will be displayed)"
+msgstr "内容 (您的视图内容)"
+
+#: ../../doc/introduction.rst:425
+msgid "tail"
+msgstr "tail"
+
+#: ../../doc/introduction.rst:425
+msgid "Empty area below content"
+msgstr "空的底部内容"
+
+#: ../../doc/introduction.rst:428
+msgid ""
+"In addition to all of the blocks that are inherited from "
+"`admin/master.html`, the `admin/model/list.html` template also contains "
+"the following blocks:"
+msgstr "除了从 `admin/master.html` 继承的所有块之外，`admin/model/list.html` 模板还包含以下块:"
+
+#: ../../doc/introduction.rst:434
+msgid "model_menu_bar"
+msgstr "model_menu_bar"
+
+#: ../../doc/introduction.rst:434
+msgid "Menu bar"
+msgstr "菜单栏"
+
+#: ../../doc/introduction.rst:435
+msgid "model_list_table"
+msgstr "model_list_table"
+
+#: ../../doc/introduction.rst:435
+msgid "Table container"
+msgstr "表格容器"
+
+#: ../../doc/introduction.rst:436
+msgid "list_header"
+msgstr "list_header"
+
+#: ../../doc/introduction.rst:436
+msgid "Table header row"
+msgstr "表格头部"
+
+#: ../../doc/introduction.rst:437
+msgid "list_row_actions_header"
+msgstr "list_row_actions_header"
+
+#: ../../doc/introduction.rst:437
+msgid "Actions header"
+msgstr "操作表头"
+
+#: ../../doc/introduction.rst:438
+msgid "list_row"
+msgstr "list_row"
+
+#: ../../doc/introduction.rst:438
+msgid "Single row"
+msgstr "单行"
+
+#: ../../doc/introduction.rst:439
+msgid "list_row_actions"
+msgstr "list_row_actions"
+
+#: ../../doc/introduction.rst:439
+msgid "Row action cell with edit/remove/etc buttons"
+msgstr "单元格的编辑/删除等动作按钮"
+
+#: ../../doc/introduction.rst:440
+msgid "empty_list_message"
+msgstr "empty_list_message"
+
+#: ../../doc/introduction.rst:440
+msgid "Message that will be displayed if there are no models found"
+msgstr "如果未找到模型，将显示该消息"
+
+#: ../../doc/introduction.rst:443
+msgid ""
+"Have a look at the `layout` example at https://github.com/flask-admin"
+"/flask-admin/tree/master/examples/layout to see how you can take full "
+"stylistic control over the admin interface."
+msgstr ""
+"请查看 https://github.com/flask-admin/flask-"
+"admin/tree/master/examples/layout 上的 *布局* 示例，了解如何对管理界面进行全面的风格控制。"
+
+#: ../../doc/introduction.rst:447
+msgid "Environment Variables"
+msgstr "环境变量"
+
+#: ../../doc/introduction.rst:449
+msgid ""
+"While working in any of the templates that extend `admin/master.html`, "
+"you have access to a small number of environment variables:"
+msgstr "当在任何扩展 `admin/master.html` 的模板中工作时，您可以访问少量的环境变量:"
+
+#: ../../doc/introduction.rst:453
+msgid "Variable Name"
+msgstr "变量名"
+
+#: ../../doc/introduction.rst:455
+msgid "admin_view"
+msgstr "admin_view"
+
+#: ../../doc/introduction.rst:455
+msgid "Current administrative view"
+msgstr "当前管理视图"
+
+#: ../../doc/introduction.rst:456
+msgid "admin_base_template"
+msgstr "admin_base_template"
+
+#: ../../doc/introduction.rst:456
+msgid "Base template name"
+msgstr "Base 模板名"
+
+#: ../../doc/introduction.rst:457
+msgid "_gettext"
+msgstr "_gettext"
+
+#: ../../doc/introduction.rst:457
+msgid "Babel gettext"
+msgstr "Babel gettext"
+
+#: ../../doc/introduction.rst:458
+msgid "_ngettext"
+msgstr "_ngettext"
+
+#: ../../doc/introduction.rst:458
+msgid "Babel ngettext"
+msgstr "Babel ngettext"
+
+#: ../../doc/introduction.rst:459
+msgid "h"
+msgstr "h"
+
+#: ../../doc/introduction.rst:459
+msgid "Helpers from :mod:`~flask_admin.helpers` module"
+msgstr ":mod:`~flask_admin.helpers` 模块帮助类"
+
+#: ../../doc/introduction.rst:463
+msgid "Generating URLs"
+msgstr "生成 URL"
+
+#: ../../doc/introduction.rst:465
+msgid "To generate the URL for a specific view, use *url_for* with a dot prefix::"
+msgstr "生成指定视图的 URL，请使用带点前缀的 *url_for*::"
+
+#: ../../doc/introduction.rst:476
+msgid "A specific record can also be referenced with::"
+msgstr "一个指定记录的 URL 可以参考示例::"
+
+#: ../../doc/introduction.rst:481
+msgid ""
+"When referencing ModelView instances, use the lowercase name of the model"
+" as the prefix when calling *url_for*. Other views can be referenced by "
+"specifying a unique endpoint for each, and using that as the prefix. So, "
+"you could use::"
+msgstr ""
+"当引用 ModelView 实例时，在调用 *url_for* "
+"时使用模型的小写名称作为前缀。可以通过为每个视图指定唯一的端点，并将其用作前缀来引用其他视图。所以，可以这样引用::"
+
+#: ../../doc/introduction.rst:487
+msgid "If your view endpoint was defined like::"
+msgstr "您的视图端点定义如下::"
