@@ -8,5 +8,6 @@ Flask-Admin==1.5.7
 Flask-SQLAlchemy==2.4.4
 Flask-Script==2.0.6
 Flask-Babelex==0.9.4
+Flask-APScheduler==1.11.0
 apscheduler==3.7.0
 gunicorn

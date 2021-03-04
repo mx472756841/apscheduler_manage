@@ -12,7 +12,7 @@ APScheduler是一个非常好用的调度平台，不过目前所有Scheduler的
 # 部署
 ## virtualenv部署
 
-1. virtualenv -p python3.6 venv
+1. virtualenv -p python3.8 venv
 2. . venv/bin/activate
 3. pip install -r requirements.txt
 4. gunicorn -c etc/gunicorn.py manage:app
@@ -29,9 +29,5 @@ docker build -t apscheduler:latest .
 生成镜像之后启动镜像即可
 ```shell
 docker run -p 10050:5000 -i -t -d \
-    --env WX_CORPID=微信企业号ID \
-    --env DEFAULT_WX_AGENT_ID=发送消息应用ID \
-    --env WX_SECRET=发送消息应用secret \
-    --env ACCESS_TOKEN="mSnbqTHqfIG6fIq6,zFIxAxU4wtYKpMzd" \
-    --name wxqy_service wxqy_service
+    --name apscheduler apscheduler
 ```
