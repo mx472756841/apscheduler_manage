@@ -1,4 +1,3 @@
-import datetime
 import importlib
 import os
 
@@ -6,14 +5,10 @@ from flask import Flask
 from flask_admin import AdminIndexView, Admin
 from flask_babelex import Babel
 
-from app.common.flask_apscheduler import CustomAPScheduler, LOGGER
+from app.common.flask_apscheduler import CustomAPScheduler
 from config import config
 from .models import db
 
-
-# 此函数用于job生命周期监控测试，后续增加flask_apscheduler动态job变更
-def test_apscheduler_interval():
-    LOGGER.info(f"test_apscheduler_interval >>>>> {datetime.datetime.now()}")
 
 def init_view():
     """

@@ -1,0 +1,14 @@
+定义apscheduler可执行的任务
+
+通过api动态添加job时，将job统一放在此模块，使用时添加的函数
+请求接口：
+    http://127.0.0.1:5000/scheduler/jobs
+请求方法：
+    POST
+请求参数：
+    {
+        "id": "test_postman_add",
+        "name":"管理平台添加",
+        "func": "app:tasks:test:",
+        "trigger": "date"
+    }

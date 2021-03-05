@@ -3,25 +3,33 @@ APScheduler是一个非常好用的调度平台，不过目前所有Scheduler的
 
 但APScheduler扩展及预留非常多，其预留的event功能可以来实现job的生命周期跟踪。
 
-另外APScheduler的Scheduler也可以实现动态的增删查job等操作，可以提前定义一些job，在web上快速方便的添加一些调度任务等。
+另外APScheduler的Scheduler也可以实现动态的增删查job等操作，可以提前定义一些job，在web上快速方便的添加一些调度任务等，目前Flask-APScheduler库已经将apscheduler中的方法抽象成api接口，开启后直接可以使用
 
 # 目标
 - [x] 跟踪所有job状态及生命周期
-- [ ] web页动态增删job调度
+- [x] web页动态增删job调度
 
 # 部署
-## virtualenv部署
-```buildoutcfg
+## 环境
+
+- python3.8+
+```
 ubuntu 上要先安装python3.8
 具体可参考资料 https://www.jb51.net/article/182392.htm
-安装完成python3.8之后，配套安装python3.8需要的虚拟环境创建工具
+```
+
+- mysql
+
+## virtualenv部署
+```
+配套安装python3.8需要的虚拟环境创建工具
 sudo apt install python3.8-venv
 python3.8 -m venv <准备创建虚拟环境的路径>
 ```
-1. python3.8 venv venv
+1. python3.8 -m venv venv
 2. . venv/bin/activate
 3. pip install -r requirements.txt
-4. gunicorn -c etc/gunicorn.py manage:app [记得要配置好数据库]
+4. gunicorn -c etc/gunicorn.py manage:app [记得要配置数据库相关信息]
 
 ## docker部署
 这里没有提供docker镜像，可直接使用Dockerfile从本地生成镜像即可
@@ -37,3 +45,10 @@ docker build -t apscheduler:latest .
 docker run -p 10050:5000 -i -t -d \
     --name apscheduler apscheduler
 ```
+
+# 使用
+- 动态添加JOB执行
+
+- 监控JOB状态
+
+- 监控JOB执行事件
