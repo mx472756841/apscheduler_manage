@@ -81,7 +81,7 @@ def _load_api(self):
 {
     "id": "test_add_job",
     "name":"管理平台添加job测试",
-    "func": "app:jobs:test:test_job", # 这里就是模块:函数，本地定义的方法保证可以import
+    "func": "app:jobs.test.test_job", # 这里就是模块:函数，本地定义的方法保证可以import
     "trigger": "date" # 触发器为指定时间，这里时间没有指定，就是立马执行
 }
 返回结果:
